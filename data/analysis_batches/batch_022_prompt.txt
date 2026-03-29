@@ -1,0 +1,300 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 79990580**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I was 44 years old and waking up at 3am every single night.
+
+Not to use the bathroom.
+
+Not because of a noise.
+
+Just... awake.
+
+Heart going a little too fast.
+
+Mind already spinning before I even remembered what day it was.
+
+And I'd lie there in the dark thinking something is wrong with me.
+
+--
+
+It had been going on for almost three years.
+
+Three years of dragging myself out of bed already exhausted.
+
+Three years of that creaky stiff feeling in my knees every morning.
+
+Like my joints needed five...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 2 - ID: 83359721**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I Found My Husband Sitting in His Car in the Driveway at 11 PM. Engine Off. Just Sitting There. He Couldn't Bring Himself to Come Inside. That's When I Knew I Had to Stop Suggesting Things and Start Fixing This.
+
+He didn't see me at the window.
+
+Just sat there in the dark.
+
+Hands on the steering wheel.
+
+Staring at nothing.
+
+The garage door had gone up twenty minutes earlier. I'd heard it from the bedroom. Waited for him to come in.
+
+He never came in.
+
+So I went to the window.
+
+And there he was.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 3 - ID: 83359717**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I Found My Husband Sitting in His Car in the Driveway at 11 PM. Engine Off. Just Sitting There. He Couldn't Bring Himself to Come Inside. That's When I Knew I Had to Stop Suggesting Things and Start Fixing This.
+
+He didn't see me at the window.
+
+Just sat there in the dark.
+
+Hands on the steering wheel.
+
+Staring at nothing.
+
+The garage door had gone up twenty minutes earlier. I'd heard it from the bedroom. Waited for him to come in.
+
+He never came in.
+
+So I went to the window.
+
+And there he was.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 4 - ID: 83359705**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I Found My Husband Sitting in His Car in the Driveway at 11 PM. Engine Off. Just Sitting There. He Couldn't Bring Himself to Come Inside. That's When I Knew I Had to Stop Suggesting Things and Start Fixing This.
+
+He didn't see me at the window.
+
+Just sat there in the dark.
+
+Hands on the steering wheel.
+
+Staring at nothing.
+
+The garage door had gone up twenty minutes earlier. I'd heard it from the bedroom. Waited for him to come in.
+
+He never came in.
+
+So I went to the window.
+
+And there he was.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 5 - ID: 81554334**
+- Brand: Cortisol Reset Project
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Five signs high cortisol is aging you faster than it should.
+
+If you ignore them, you’ll keep buying creams and supplements that never touch the root cause.
+
+Skin losing glow and firmness.
+Hair thinning more than it used to.
+Stubborn belly fat building around your middle.
+Brain fog that won’t lift.
+Waking up exhausted even after a full night of sleep.
+
+Here’s what most people never connect.
+
+When cortisol stays elevated, nitric oxide drops.
+Blood vessels tighten.
+Circulation slows.
+Oxygen and nu...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/high-cortisol
+- Performance Score: None
+
+
+**Ad 6 - ID: 84594300**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I Found My Husband Sitting in His Car in the Driveway at 11 PM. Engine Off. Just Sitting There. He Couldn't Bring Himself to Come Inside. That's When I Knew I Had to Stop Suggesting Things and Start Fixing This.
+
+He didn't see me at the window.
+
+Just sat there in the dark.
+
+Hands on the steering wheel.
+
+Staring at nothing.
+
+The garage door had gone up twenty minutes earlier. I'd heard it from the bedroom. Waited for him to come in.
+
+He never came in.
+
+So I went to the window.
+
+And there he was.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 7 - ID: 83359725**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I Found My Husband Sitting in His Car in the Driveway at 11 PM. Engine Off. Just Sitting There. He Couldn't Bring Himself to Come Inside. That's When I Knew I Had to Stop Suggesting Things and Start Fixing This.
+
+He didn't see me at the window.
+
+Just sat there in the dark.
+
+Hands on the steering wheel.
+
+Staring at nothing.
+
+The garage door had gone up twenty minutes earlier. I'd heard it from the bedroom. Waited for him to come in.
+
+He never came in.
+
+So I went to the window.
+
+And there he was.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 8 - ID: 83359715**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I Found My Husband Sitting in His Car in the Driveway at 11 PM. Engine Off. Just Sitting There. He Couldn't Bring Himself to Come Inside. That's When I Knew I Had to Stop Suggesting Things and Start Fixing This.
+
+He didn't see me at the window.
+
+Just sat there in the dark.
+
+Hands on the steering wheel.
+
+Staring at nothing.
+
+The garage door had gone up twenty minutes earlier. I'd heard it from the bedroom. Waited for him to come in.
+
+He never came in.
+
+So I went to the window.
+
+And there he was.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 9 - ID: 82450578**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I Found My Husband Sitting in His Car in the Driveway at 11 PM. Engine Off. Just Sitting There. He Couldn't Bring Himself to Come Inside. That's When I Knew I Had to Stop Suggesting Things and Start Fixing This.
+
+He didn't see me at the window.
+
+Just sat there in the dark.
+
+Hands on the steering wheel.
+
+Staring at nothing.
+
+The garage door had gone up twenty minutes earlier. I'd heard it from the bedroom. Waited for him to come in.
+
+He never came in.
+
+So I went to the window.
+
+And there he was.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 10 - ID: 82016433**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I Found My Husband Sitting in His Car in the Driveway at 11 PM. Engine Off. Just Sitting There. He Couldn't Bring Himself to Come Inside. That's When I Knew I Had to Stop Suggesting Things and Start Fixing This.
+
+He didn't see me at the window.
+
+Just sat there in the dark.
+
+Hands on the steering wheel.
+
+Staring at nothing.
+
+The garage door had gone up twenty minutes earlier. I'd heard it from the bedroom. Waited for him to come in.
+
+He never came in.
+
+So I went to the window.
+
+And there he was.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

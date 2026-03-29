@@ -1,0 +1,203 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87063696**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: This is what happens when a person with chronic inflammation takes Moringa every single day on an empty stomach.
+
+In a study involving arthritis patients, Moringa extract significantly reduced key inflammatory markers including TNF-α and IL-6 - the same compounds that cause joint swelling and tissue destruction.
+
+This represents a fundamentally different approach than conventional NSAIDs and pain medications.
+
+Instead of temporarily masking pain while inflammation continues to damage your joints...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 2 - ID: 87063698**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My Doctor Prescribed Xanax 3 Weeks Ago. I Refused to Fill It. She Said I Was Making a Dangerous Mistake. Here's What Actually Happened.
+
+Three weeks ago, my doctor closed the exam room door. The click echoed. She sat down. Pulled up my chart without looking at me.
+
+"Sarah. We can't wait anymore. Your morning cortisol is at 28. Normal range is 10 to 20. You're dangerously elevated. I'm prescribing Xanax. 10 milligrams daily. You need to start today."
+
+My throat constricted. The walls tilted.
+
+Xan...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 3 - ID: 87063691**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Got prescribed Levothyroxine today. The same medication that took my mother's life before she was even gone.
+
+TSH is 4.8. Doctor says that's "high normal but symptomatic." Whatever that means. She's starting me on 50 micrograms. One pill. Every morning. For the rest of my life, probably.
+
+I took the prescription. Walked to my car. Sat there.
+
+Couldn't drive. Couldn't move. Just sat there holding this piece of paper.
+
+Levothyroxine 50mcg.
+
+My mother took this for twelve years.
+
+I don't know what ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 4 - ID: 87063689**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: This is what happens when a person with chronic inflammation takes Moringa every single day on an empty stomach.
+
+In a study involving arthritis patients, Moringa extract significantly reduced key inflammatory markers including TNF-α and IL-6 - the same compounds that cause joint swelling and tissue destruction.
+
+This represents a fundamentally different approach than conventional NSAIDs and pain medications.
+
+Instead of temporarily masking pain while inflammation continues to damage your joints...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 5 - ID: 87063687**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: After 15 Years as an ER Nurse, I've Watched Patients Get Addicted to Xanax While Their Cortisol Stayed High. Then I Got Diagnosed With Dangerous Cortisol Levels Myself.
+
+My sister died at 42.
+
+I'm 38.
+
+Three weeks ago, my doctor closed the exam room door. The click echoed. She sat down. Pulled up my chart without looking at me.
+
+"Sarah. We can't wait anymore. Your morning cortisol is at 28. Normal range is 10 to 20. You're dangerously elevated. I'm prescribing Xanax. 10 milligrams daily. You nee...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 6 - ID: 87063685**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: After 15 Years as an ER Nurse, I've Watched Patients Get Addicted to Xanax While Their Cortisol Stayed High. Then I Got Diagnosed With Dangerous Cortisol Levels Myself.
+
+My sister died at 42.
+
+I'm 38.
+
+Three weeks ago, my doctor closed the exam room door. The click echoed. She sat down. Pulled up my chart without looking at me.
+
+"Sarah. We can't wait anymore. Your morning cortisol is at 28. Normal range is 10 to 20. You're dangerously elevated. I'm prescribing Xanax. 10 milligrams daily. You nee...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 7 - ID: 87063683**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Ladies, if your farts smell really bad or you're tired all the time and you just have no motivation or you're struggling with hair loss or thinning or you're getting really puffy in this area or you're constipated all the time, these are all potential signs of having high cortisol, also known as your stress hormone.
+
+And too much cortisol, especially when it's due to a nutrient or vitamin deficiency, can cause a whole host of problems.
+
+Which is why whenever I start to feel like this, I recommen...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 8 - ID: 87063681**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My Pharmacist Told Me to Stop Taking All My Vitamins. I Thought She Was Crazy. She Wasn't.
+
+My name is Margaret, and I'm 68 years old.
+
+Every morning, I line up my pills on the kitchen counter. Blood pressure. Thyroid. Cholesterol. Arthritis. Metformin. Anxiety medication. Baby aspirin. Calcium supplement.
+
+Eight pills. The reality of being 68.
+
+My doctor always stressed the importance of proper nutrition. "Especially with your medications, Margaret. Your body needs vitamin B for energy, vitamin...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 9 - ID: 87063679**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Did you know that if you're constantly bloated, can't lose weight no matter what you do, and you have that stubborn belly pooch that won't budge - you might have parasites living inside your body?
+
+I know that sounds extreme. But hear me out.
+
+You wake up with a flat stomach, and by noon you look six months pregnant. You've stopped tucking in shirts. You angle yourself in photos. You've bought "bloat-friendly" clothes and told yourself this is just how your body is now.
+
+You're exhausted even af...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 10 - ID: 87063676**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Here is a list of all the supplements you don't need if you take Moringa.
+
+And you're welcome, because I just saved you three to four hundred dollars a month in supplements.
+
+If you want the highest quality Moringa, you want to make sure you get the Rosabella Moringa right here.
+
+They have a buy 2 get 2 free deal going on right now, so this would last you through the entire season.
+
+If you're going to keep anything in your cabinets, make sure that it is Moringa.
+
+I have patients from all over th...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

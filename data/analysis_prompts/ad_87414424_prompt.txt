@@ -1,0 +1,101 @@
+
+Analyze the following ad creative based on its provided data.
+
+**Ad Data:**
+- **Ad ID:** 87414424
+- **Brand:** Energy & Wellness Club
+- **Format:** VIDEO
+- **Title/Headline:** Support stamina and heart health every day
+- **Ad Body/Text:** Amlodipine. I don’t care how long you’ve been on it. It’s not fixing the problem.
+
+The swollen ankles.
+
+The dizziness.
+
+The flushing.
+
+The fatigue that makes you feel twenty years older than you are.
+
+That’s not random.
+
+Your blood vessels aren’t relaxing the way they should anymore.
+
+That happens when nitric oxide levels drop and circulation slows down.
+
+What it helps with
+
+✨ Supports natural nitric oxide production
+
+✨ Helps blood vessels relax naturally
+
+✨ Supports healthy blood flow
+
+✨ Helps reduce that heavy, swollen feeling
+
+✨ Supports steady daily energy
+
+✨ Helps circulation move more efficiently
+
+Why Rosabella
+
+✅ 1300 mg pure organic beetroot
+
+✅ Cold-processed to preserve nitrate content
+
+✅ Third-party tested in the US
+
+✅ No fillers or additives
+
+So if you want a natural way to support healthy blood flow and nitric oxide levels, grab it before they’re gone again.
+
+👉https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- **CTA:** LEARN_MORE
+- **Landing Page URL:** https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- **Performance Score:** 61
+- **Days Active:** 6
+
+**Analysis Categories:**
+
+Please categorize the ad across these 5 dimensions. Provide a brief "reasoning" for each choice.
+
+1.  **Unique Mechanism:** What proprietary angle, ingredient, or method do they claim makes their product special? (e.g., "Nitric Oxide boost from organic beets", "Third-party tested 1300mg dose", "Flushes inflammatory waste").
+
+2.  **Angle/Hook Type:** What is the primary emotional or logical driver of the ad? Choose one from the list: [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit].
+
+3.  **Proof Elements:** What types of proof are mentioned or implied in the ad copy? List all that apply from: [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, "Made in USA", "Third-Party Tested"].
+
+4.  **Ad Structure:** Describe the structure of the ad.
+    - **Hook Type:** How does the ad open? (e.g., "Bold statement", "Apology hook", "Question", "Statistic").
+    - **Body Structure:** How is the main message structured? (e.g., "Problem-Agitate-Solve (PAS)", "Story", "Listicle of Benefits", "Direct Offer").
+    - **CTA Type:** What kind of call to action is it? (e.g., "Direct 'Shop Now'", "Benefit-driven 'Learn More'", "Urgency-driven 'Get Offer'").
+
+5.  **Landing Page Funnel Type:** Based on the URL, what kind of funnel is this ad likely driving to? Choose one: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL].
+
+**Your Response:**
+
+Return your analysis as a valid JSON object. Do not include any text outside of the JSON block.
+
+Example JSON structure:
+{
+  "unique_mechanism": {
+    "value": "Nitric Oxide boost from organic beets",
+    "reasoning": "The ad copy focuses on how nitrates in beetroot convert to nitric oxide, which improves circulation."
+  },
+  "angle_hook_type": {
+    "value": "Health Benefit",
+    "reasoning": "The ad's primary focus is on improving energy, circulation, and heart health."
+  },
+  "proof_elements": {
+    "value": ["Scientific Mechanism", "Testimonials/Reviews", "Made in USA"],
+    "reasoning": "It explains the nitric oxide mechanism, mentions '75,000 five-star reviews', and states it's 'Made in the USA'."
+  },
+  "ad_structure": {
+    "hook_type": "Apology hook",
+    "body_structure": "Problem-Agitate-Solve (PAS)",
+    "cta_type": "Urgency-driven 'Get Offer'"
+  },
+  "landing_page_funnel": {
+    "value": "Direct to Sales Page",
+    "reasoning": "The URL slug '/npl' or similar usually indicates a direct-to-product sales page."
+  }
+}

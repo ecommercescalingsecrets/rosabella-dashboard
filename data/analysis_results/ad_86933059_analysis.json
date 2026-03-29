@@ -1,0 +1,30 @@
+{
+  "unique_mechanism": {
+    "value": "Heart-specific circulation formula",
+    "reasoning": "Based on Rosabella brand positioning and content focus"
+  },
+  "angle_hook_type": {
+    "value": "Health Benefit",
+    "reasoning": "Primary emotional/logical driver identified from ad copy"
+  },
+  "proof_elements": {
+    "value": [
+      "Scientific Mechanism",
+      "Testimonials/Reviews",
+      "Third-Party Tested"
+    ],
+    "reasoning": "Proof types mentioned or implied in the advertisement"
+  },
+  "ad_structure": {
+    "hook_type": "Statistic",
+    "body_structure": "Problem-Agitate-Solve (PAS)",
+    "cta_type": "Urgency-driven 'Get Offer'"
+  },
+  "landing_page_funnel": {
+    "value": "Advertorial/VSL",
+    "reasoning": "Based on URL structure and brand approach"
+  },
+  "performance_score": 81,
+  "days_active": 7,
+  "brand": "Rosabella"
+}

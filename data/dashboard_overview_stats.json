@@ -1,0 +1,24 @@
+
+{
+  "total_active_ads": 4625,
+  "total_historical_ads": 40929,
+  "page_breakdown": [
+    { "page": "Rosabella Beetroot", "active_ads": 961, "percentage": 20.8 },
+    { "page": "Rosabella", "active_ads": 843, "percentage": 18.2 },
+    { "page": "Essential Health Finds", "active_ads": 674, "percentage": 14.6 },
+    { "page": "Energy & Wellness Club", "active_ads": 598, "percentage": 12.9 },
+    { "page": "Dr. David Preston", "active_ads": 495, "percentage": 10.7 },
+    { "page": "The Heart Health Project", "active_ads": 294, "percentage": 6.4 },
+    { "page": "Circulation Science Daily", "active_ads": 224, "percentage": 4.8 },
+    { "page": "Primus Health", "active_ads": 137, "percentage": 3.0 },
+    { "page": "Paul from Rosabella", "active_ads": 110, "percentage": 2.4 },
+    { "page": "Eat Smart with Dr. Amanda Johnson", "active_ads": 109, "percentage": 2.4 },
+    { "page": "Cortisol Reset Project", "active_ads": 53, "percentage": 1.1 },
+    { "page": "Gut & Parasite Health Tips", "active_ads": 37, "percentage": 0.8 },
+    { "page": "Wendy Bolton", "active_ads": 29, "percentage": 0.6 },
+    { "page": "Rosabella Moringa", "active_ads": 25, "percentage": 0.5 },
+    { "page": "Dr. Julie Abboud", "active_ads": 21, "percentage": 0.5 },
+    { "page": "ClarityLabs", "active_ads": 14, "percentage": 0.3 },
+    { "page": "Paul N", "active_ads": 1, "percentage": 0.0 }
+  ]
+}

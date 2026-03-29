@@ -1,0 +1,29 @@
+{
+  "unique_mechanism": {
+    "value": "Organic beetroot nitrates for circulation",
+    "reasoning": "Based on Rosabella brand positioning and content focus"
+  },
+  "angle_hook_type": {
+    "value": "Empathy/Story",
+    "reasoning": "Primary emotional/logical driver identified from ad copy"
+  },
+  "proof_elements": {
+    "value": [
+      "Clinical Data",
+      "Scientific Mechanism"
+    ],
+    "reasoning": "Proof types mentioned or implied in the advertisement"
+  },
+  "ad_structure": {
+    "hook_type": "Contrarian claim",
+    "body_structure": "Direct Offer",
+    "cta_type": "Direct 'Shop Now'"
+  },
+  "landing_page_funnel": {
+    "value": "Quiz/Survey Funnel",
+    "reasoning": "Based on URL structure and brand approach"
+  },
+  "performance_score": 91,
+  "days_active": 7,
+  "brand": "Rosabella"
+}

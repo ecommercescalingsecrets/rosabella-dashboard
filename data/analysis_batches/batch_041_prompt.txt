@@ -1,0 +1,185 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 88180581**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: The "Collagen Switch" Most Skincare Misses (And Why) 🧬
+- Body: You apply it. It feels good. But is it actually working? 🤔
+
+The hard truth about skincare: application does not equal absorption.
+
+This is especially true for unstable active ingredients like Vitamin C. While it is essential for collagen production, it is notoriously difficult to deliver into the skin.
+
+According to clinical data (PMID: 11207686), your skin's natural barrier is designed to keep things out. Unless a formula is engineered with a specific acidic pH (below 3.5), the active ingredien...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 2 - ID: 88180591**
+- Brand: Nordic Wellness Secrets
+- Format: IMAGE
+- Title: Stop the damage and regrow your skin barrier now!
+- Body: I thought I was taking care of my skin. I used a moisturizer, washed my face every night—nothing fancy. But then one day, I noticed my skin looked tired and dry.
+
+So I went to a dermatologist.
+
+She took one look at me, gave a condescending smile, and said, “Your skin barrier is compromised. You need to get serious about skincare.”
+
+She handed me a prescription for an expensive 12-step routine.
+💰 Retinol to “boost collagen”
+💰 Hyaluronic acid to “hydrate”
+💰 A $200 night cream to “restore moisture”...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 3 - ID: 88180592**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Modern Labs Don’t Understand That Nature Always Wins 🌿
+- Body: THE SCIENCE BEHIND ARCTIC HERBS AND YOUNGER SKIN ❄️🌿
+
+Aging doesn’t start on the surface, it starts deep in your skin. By 30 you have already lost 2/3 of your collagen 📉, elastin weakens, and your skin barrier gets thinner. That means more dryness, wrinkles, and sagging over time.
+
+Arctic plants face the same problem, survival in extreme conditions to live through freezing winds 🌬️, long nights 🌑, and harsh climates ❄️, they fill themselves with vitamins, fatty acids, and antioxidants in super h...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 4 - ID: 88180580**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Side-effect: my skin is glowing
+- Body: These secret Norse witchcraft balms made from 100% natural arctic plants and beeswax will give you clear, dewy, and radiant skin in 60 days or you get your money back…
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 5 - ID: 88180597**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Stop treating the surface 🏗️
+- Body: Why your expensive moisturizer is ghosting your skin 😱
+
+Most women over 50 feel like they’re fighting a battle that’s already lost. 
+
+Not because of age, but because of outdated science🛑 
+
+You’ve been told that "hydration" is the holy grail, yet you wake up every morning with the same fine lines and that stubborn "parched" feeling.
+
+The truth? After 50, your skin undergoes a biological "flip" 🧬
+
+It’s not just losing water; it’s being attacked by Glycation (sugar destroying your collagen), a coll...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/10-reasons-why-wrinkles
+- Performance Score: None
+
+
+**Ad 6 - ID: 88180559**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Historians Just Unlocked Viking Anti Age Secrets ⚔️✨
+- Body: Scientists Just Confirmed These Rumors…
+
+When archaeologists examined a Viking age storage vessel earlier this year, they expected traces of food, oil, or everyday household materials. Instead, they found botanical residues containing a preserved orange plant based mixture that immediately caught researchers’ attention.
+
+Nearby artifacts and written accounts indicated this type of balm was used by northern women as a protective salve during harsh winters to keep their skin healthy, soothed, and ...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 7 - ID: 88180564**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Dermatologists Hide This From You 🤫
+- Body: Can we tell you what Botox is really doing? 💙
+
+It's paralyzing your facial muscles so you can't make the expressions that show your wrinkles.
+
+But here's the problem: while your face is frozen, your skin is still aging underneath.
+
+Still losing moisture. Still breaking down. Still getting thinner and more fragile.
+
+Botox makes your face smooth. It doesn't make your skin healthy.
+
+That's the difference.
+
+We created Frøya because you deserve both 🌿
+
+Arctic Sea Buckthorn strengthens your skin's bar...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 8 - ID: 88180574**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Made by Vikings, proven by science. 
+- Body: THE SCIENCE BEHIND ARCTIC HERBS AND YOUNGER SKIN ❄️🌿
+
+Aging doesn’t start on the surface, it starts deep in your skin. By 30 you have already lost 2/3 of your collagen 📉, elastin weakens, and your skin barrier gets thinner. That means more dryness, wrinkles, and sagging over time.
+
+Arctic plants face the same problem, survival in extreme conditions to live through freezing winds 🌬️, long nights 🌑, and harsh climates ❄️, they fill themselves with vitamins, fatty acids, and antioxidants in super h...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 9 - ID: 88180590**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Women Are Whispering About This 🤫
+- Body: Women have been whispering about this 🤫
+
+It’s not sitting on pharmacy shelves. It’s not sitting in department stores. This jar isn’t everywhere, and that’s the point. 🌌
+
+The women who find it don’t just add it to a skincare drawer… they protect it, like something too rare to share.
+
+Why? Because the Arctic herbs inside aren’t easy to get. These plants don’t grow in warm fields or under greenhouse lights, they survive freezing winds ❄️, six-month nights 🌑, and brutal climates.
+To live, they load ...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 10 - ID: 88180606**
+- Brand: Nordic Wellness Secrets
+- Format: CAROUSEL
+- Title: Skincare That Actually Works
+- Body: [Low Stock Alert]
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/eczema
+- Performance Score: None
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

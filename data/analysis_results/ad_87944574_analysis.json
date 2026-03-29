@@ -1,0 +1,29 @@
+{
+  "unique_mechanism": {
+    "value": "Organic beetroot nitrates for circulation",
+    "reasoning": "Based on Rosabella brand positioning and content focus"
+  },
+  "angle_hook_type": {
+    "value": "Fear",
+    "reasoning": "Primary emotional/logical driver identified from ad copy"
+  },
+  "proof_elements": {
+    "value": [
+      "Testimonials/Reviews",
+      "Made in USA"
+    ],
+    "reasoning": "Proof types mentioned or implied in the advertisement"
+  },
+  "ad_structure": {
+    "hook_type": "Bold statement",
+    "body_structure": "Comparison",
+    "cta_type": "Curiosity-driven 'Discover'"
+  },
+  "landing_page_funnel": {
+    "value": "Advertorial/VSL",
+    "reasoning": "Based on URL structure and brand approach"
+  },
+  "performance_score": 41,
+  "days_active": 3,
+  "brand": "Rosabella"
+}

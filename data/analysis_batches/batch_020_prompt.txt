@@ -1,0 +1,242 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 84495821**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Most men have no idea this one food is the real key to a flat stomach and better performance 👀
+
+Gut inflammation, belly weight, low energy, pain, weak circulation, frustration in the bedroom.
+
+Most think it’s age or bad luck, but it’s not.
+
+It’s low nitric oxide and poor blood flow.
+
+That’s why daily beetroot has helped men feel like a new person in just weeks.
+
+What it helps with
+✨ Reduces gut inflammation
+✨ Flattens the tummy
+✨ Restores blood flow
+✨ Strengthens the heart
+✨ Improves circulation...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/gut-health-m
+- Performance Score: None
+
+
+**Ad 2 - ID: 87063678**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: I’m Lisinopril. Your doctor’s favorite prescription… and I’ve been running your mornings ever since that first pill.
+
+That dry cough that never leaves?
+
+The dizziness when you stand up?
+
+That heavy fatigue that showed up a few weeks after you started?
+
+That’s life on blood pressure meds for a lot of men.
+
+Because forcing the number down is not the same as fixing the cause.
+
+After 40, your body produces less **nitric oxide**.
+
+Nitric oxide is the signal that tells your blood vessels to relax and ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: None
+
+
+**Ad 3 - ID: 87254474**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: I’m Lisinopril. Your doctor’s favorite prescription… and I’ve been running your mornings ever since that first pill.
+
+That dry cough that never leaves?
+
+The dizziness when you stand up?
+
+That heavy fatigue that showed up a few weeks after you started?
+
+That’s life on blood pressure meds for a lot of men.
+
+Because forcing the number down is not the same as fixing the cause.
+
+After 40, your body produces less **nitric oxide**.
+
+Nitric oxide is the signal that tells your blood vessels to relax and ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-ps
+- Performance Score: None
+
+
+**Ad 4 - ID: 87254473**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Lisinopril. Amlodipine. Losartan. Metoprolol.
+
+Different pills. Same strategy.
+
+They force your blood vessels open so the **number goes down**, but they don’t restore why your vessels became tight in the first place.
+
+That’s why many men still don’t feel right.
+
+The cough.
+
+The swollen ankles.
+
+The dizziness.
+
+The fatigue that makes you feel years older.
+
+Because the real shift happens after 40.
+
+Your body produces less **nitric oxide**, the molecule that tells your blood vessels to relax and ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/blood-pressure
+- Performance Score: None
+
+
+**Ad 5 - ID: 87254472**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Lisinopril. Amlodipine. Losartan. Metoprolol.
+
+Different pills. Same strategy.
+
+They force your blood vessels open so the **number goes down**, but they don’t restore why your vessels became tight in the first place.
+
+That’s why many men still don’t feel right.
+
+The cough.
+
+The swollen ankles.
+
+The dizziness.
+
+The fatigue that makes you feel years older.
+
+Because the real shift happens after 40.
+
+Your body produces less **nitric oxide**, the molecule that tells your blood vessels to relax and ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-ps
+- Performance Score: None
+
+
+**Ad 6 - ID: 84082416**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: This is what happens when a person with high cholesterol takes Beetroot every single day on an empty stomach.
+
+In a clinical study published in Foods (MDPI, 2019), adults with coronary artery disease took 50mg/day of betalain-rich beetroot extract for just 2 weeks. LDL cholesterol dropped by 18%, triglycerides dropped by 15%, and total cholesterol went down significantly. The LDL-to-HDL ratio improved and blood pressure fell—all in just 14 days. Zero side effects.
+
+This is as effective as statin...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-sp
+- Performance Score: None
+
+
+**Ad 7 - ID: 84082415**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: This is what happens when a person with high cholesterol takes Beetroot every single day on an empty stomach.
+
+In a clinical study published in Foods (MDPI, 2019), adults with coronary artery disease took 50mg/day of betalain-rich beetroot extract for just 2 weeks. LDL cholesterol dropped by 18%, triglycerides dropped by 15%, and total cholesterol went down significantly. The LDL-to-HDL ratio improved and blood pressure fell—all in just 14 days. Zero side effects.
+
+This is as effective as statin...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-ps
+- Performance Score: None
+
+
+**Ad 8 - ID: 84495825**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: DCO
+- Title: Unlock Your Body's Full Potential
+- Body: My mother lost her mind at 44. Not dementia. Not Alzheimer's. Something the doctors said was "just stress" and "part of getting older." They were wrong.
+
+My mom was a litigation attorney in Chicago. The kind of lawyer who could hold twelve different case threads in her head simultaneously, who never forgot a precedent, who could recall exact page numbers from depositions she'd read weeks earlier.
+
+She billed 2,200 hours a year for eighteen years straight. Her partners called her "the machine" be...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/gummies/sp
+- Performance Score: None
+
+
+**Ad 9 - ID: 84495820**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body's Full Potential
+- Body: Got prescribed Levothyroxine today. The same medication that took my mother's life before she was even gone.
+
+TSH is 4.8. Doctor says that's "high normal but symptomatic." Whatever that means. She's starting me on 50 micrograms. One pill. Every morning. For the rest of my life, probably.
+
+I took the prescription. Walked to my car. Sat there.
+
+Couldn't drive. Couldn't move. Just sat there holding this piece of paper.
+
+Levothyroxine 50mcg.
+
+My mother took this for twelve years.
+
+I don't know what ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/gummies/sp
+- Performance Score: None
+
+
+**Ad 10 - ID: 85261260**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body's Full Potential
+- Body: Got prescribed Levothyroxine today. The same medication that took my mother's life before she was even gone.
+
+TSH is 4.8. Doctor says that's "high normal but symptomatic." Whatever that means. She's starting me on 50 micrograms. One pill. Every morning. For the rest of my life, probably.
+
+I took the prescription. Walked to my car. Sat there.
+
+Couldn't drive. Couldn't move. Just sat there holding this piece of paper.
+
+Levothyroxine 50mcg.
+
+My mother took this for twelve years.
+
+I don't know what ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/gummies/sp
+- Performance Score: None
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

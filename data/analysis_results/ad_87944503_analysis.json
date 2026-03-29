@@ -1,0 +1,29 @@
+{
+  "unique_mechanism": {
+    "value": "Anti-inflammatory circulation support",
+    "reasoning": "Based on Rosabella brand positioning and content focus"
+  },
+  "angle_hook_type": {
+    "value": "Before/After",
+    "reasoning": "Primary emotional/logical driver identified from ad copy"
+  },
+  "proof_elements": {
+    "value": [
+      "Doctor Endorsement",
+      "Made in USA"
+    ],
+    "reasoning": "Proof types mentioned or implied in the advertisement"
+  },
+  "ad_structure": {
+    "hook_type": "Apology hook",
+    "body_structure": "Listicle of Benefits",
+    "cta_type": "Benefit-driven 'Learn More'"
+  },
+  "landing_page_funnel": {
+    "value": "Direct to Sales Page",
+    "reasoning": "Based on URL structure and brand approach"
+  },
+  "performance_score": 41,
+  "days_active": 3,
+  "brand": "Rosabella"
+}

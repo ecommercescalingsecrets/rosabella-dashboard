@@ -1,0 +1,179 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 88180589**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: The Hidden Secret Behind Age Reversal
+- Body: People Keep Asking If I Got Work Done… Nope, Just This!
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 2 - ID: 88180588**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Your Routine Is Aging You Faster
+- Body: Did you know that your drugstore anti-aging routines actually make mature skin worse? 😱
+
+Most routines are secretly damaging your mature skin:
+
+❌ Foaming cleansers weaken your barrier.
+❌ Harsh anti-aging formulas irritate
+❌ Serums don't get where they need to go
+❌ There's no real overnight repair
+
+This complete 4-step system finally works with your skin:
+
+1️⃣ Ultra Cleanse & Revive Face Scrub: cleanses without drying
+2️⃣ Anti-Age & Insane Glow Day Balm: all-day hydration + radiance ✨
+3️⃣ Hyper P...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 3 - ID: 88180585**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: The Hidden Secret Behind Age Reversal
+- Body: People Keep Asking If I Got Work Done… Nope, Just This!
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 4 - ID: 88180568**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Shocking Anti-Aging Discovery🤯
+- Body: If Viking women had a skincare secret… this was it
+
+Found only in high-altitude Nordic meadows, wild Arnica was prized by Arctic women for healing wounds, restoring circulation, and keeping skin resilient through frost and wind. 
+
+Today, we’ve blended it with organic beeswax, sea buckthorn, arctic plants and nothing else, no water, no fragrance, no preservatives. It smells like earth. Feels like silk. And makes tired, thinning skin feel like home again. 
+
+If it doesn’t change your skin? Return i...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 5 - ID: 88180570**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Estudio Dermatológico: “Llevamos 30 Años Aplicando Mal Las Cremas Antiedad.”
+- Body: Un estudio dermatológico reciente acaba de desmentir todo lo que creíamos saber sobre el cuidado de la piel.
+
+Durante 6 meses, siguieron a más de 1.000 mujeres que usaban cremas antiedad de alta gama. ¿El resultado? ninguna mejora estructural significativa.
+
+“Esperábamos ver al menos pequeños cambios”, explica el investigador principal, el Dr. Kohn. “No encontramos nada.”
+
+¿El culpable? Algo llamado tamaño molecular. Imagina tu piel como una red de tenis.
+
+Las moléculas de agua pasan fácilmente ...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/es?abtr=true&view=eab-fiKomIBvyi
+- Performance Score: None
+
+
+**Ad 6 - ID: 88180567**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: The Hidden Secret Behind Age Reversal
+- Body: People Keep Asking If I Got Work Done… Nope, Just This!
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 7 - ID: 88180565**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: The Hidden Secret Behind Age Reversal
+- Body: People Keep Asking If I Got Work Done… Nope, Just This!
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 8 - ID: 88180549**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Clinically Proven Glow 🌟
+- Body: 🧪 This skincare is clinically beautiful 😍
+
+Because everything inside it is built to work with your skin, not against it
+
+No water, no artificial fragrance, no unnecessary “actives” your skin has to fight.
+Just real ingredients backed by scientific proof that they rebuild collagen, protect elasticity, and support dermal structure
+Let’s break it down:
+
+🌿 Frankincense
+Backed by research showing it reduces matrix metalloproteinase activity, those are the enzymes that eat away at your collagen. Frank...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 9 - ID: 88180587**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: What?? Your biggest sale on Women’s Day?!?
+- Body: Stop scrolling. No seriously — STOP. You were about to miss the best deal your skin has ever seen 😤
+
+We just dropped the biggest promo of the weekend, and stock is moving FAST. We've packed a Women's Day Flash Sale, a Free Gift, and massive savings into one incredible event 👇🏼
+
+⏰ 3 Days Only — Friday 6th through Sunday 8th
+Use code WOMEN10 for an EXTRA 10% OFF site-wide (Up to 48% OFF)
+🎁 The Bonus: Spend $110+ and we'll instantly add a FREE Tote Bag to your cart
+
+Restoring mature skin doesn't ha...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 10 - ID: 88180586**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: What?? Your biggest sale on Women’s Day?!?
+- Body: Stop scrolling. No seriously — STOP. You were about to miss the best deal your skin has ever seen 😤
+
+We just dropped the biggest promo of the weekend, and stock is moving FAST. We've packed a Women's Day Flash Sale, a Free Gift, and massive savings into one incredible event 👇🏼
+
+⏰ 3 Days Only — Friday 6th through Sunday 8th
+Use code WOMEN10 for an EXTRA 10% OFF site-wide (Up to 48% OFF)
+🎁 The Bonus: Spend $110+ and we'll instantly add a FREE Tote Bag to your cart
+
+Restoring mature skin doesn't ha...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

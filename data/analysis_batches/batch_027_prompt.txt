@@ -1,0 +1,236 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87161795**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I was sitting in my doctor's waiting room last Thursday when I noticed something I'd never noticed before.
+
+Every woman in that room looked like me.
+
+Same tired eyes. Same puffy ankles spilling over the edges of slip-on shoes. Same heavy, foggy stare at nothing in particular.
+
+The woman across from me kept pressing her thumbs into her ankles, pushing the swelling down. I do that. Every afternoon. I didn't even realize it was a habit until I watched someone else do it.
+
+The woman by the window ha...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/blood-pressure
+- Performance Score: 81
+
+
+**Ad 2 - ID: 87161729**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: What Your Doctor Won't Tell You About ED
+- Body: In 1950, the average 70-year-old man reported having s*x 1-2 times daily. Today, 75% of men over 50 struggle to get it up consistently.
+
+Our grandfathers didn’t have Viagra. Didn’t have Cialis. No pharmaceutical intervention whatsoever.
+
+Fast forward to today.
+
+75% of men over 50 can't get it up consistently.
+
+We have "better medicine." Advanced treatments. Drugs our grandfathers never heard of.
+
+Yet somehow, modern men are failing in the bedroom two decades earlier than their grandfathers did.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 81
+
+
+**Ad 3 - ID: 87161704**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: What Your Doctor Won't Tell You About ED
+- Body: In 1950, the average 70-year-old man reported having s*x 1-2 times daily. Today, 75% of men over 50 struggle to get it up consistently.
+
+Our grandfathers didn’t have Viagra. Didn’t have Cialis. No pharmaceutical intervention whatsoever.
+
+Fast forward to today.
+
+75% of men over 50 can't get it up consistently.
+
+We have "better medicine." Advanced treatments. Drugs our grandfathers never heard of.
+
+Yet somehow, modern men are failing in the bedroom two decades earlier than their grandfathers did.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 81
+
+
+**Ad 4 - ID: 87161688**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: What Your Doctor Won't Tell You About ED
+- Body: In 1950, the average 70-year-old man reported having s*x 1-2 times daily. Today, 75% of men over 50 struggle to get it up consistently.
+
+Our grandfathers didn’t have Viagra. Didn’t have Cialis. No pharmaceutical intervention whatsoever.
+
+Fast forward to today.
+
+75% of men over 50 can't get it up consistently.
+
+We have "better medicine." Advanced treatments. Drugs our grandfathers never heard of.
+
+Yet somehow, modern men are failing in the bedroom two decades earlier than their grandfathers did.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 81
+
+
+**Ad 5 - ID: 87161669**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: If you feel an itchy anus at night, there's something alive inside you and it feeds off what you eat.
+
+If your gut always feels bloated, it's not just gas, it's an infestation.
+
+If you wake up tired even after eight hours of sleep, it's not laziness, it's a parasite draining your energy.
+
+If your tongue is white, your skin itches for no reason, or you can't shake off yeast infections,  you're slowly being taken over.
+
+No one's telling you this, it's called dysbiosis.
+
+Your body's become a breedi...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 81
+
+
+**Ad 6 - ID: 86723416**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I saw a statistic that made me sick. 90% of people on blood pressure medication for twenty-plus years die from the exact condition the medication was supposed to prevent.
+
+Not 50%. Not 70%.
+
+90%.
+
+The pills don't work. They just delay the inevitable while destroying your quality of life.
+
+My dad was part of that statistic. 22 years on Lisinopril. Stroke killed him at 68.
+
+I'm 61. Last month, my doctor told me I need to start the same medication.
+
+I refused. And what I found instead — in an Amish...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/bp/mm-hbp-sp
+- Performance Score: 61
+
+
+**Ad 7 - ID: 86723407**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I saw a statistic that made me sick. 90% of people on blood pressure medication for twenty-plus years die from the exact condition the medication was supposed to prevent.
+
+Not 50%. Not 70%.
+
+90%.
+
+The pills don't work. They just delay the inevitable while destroying your quality of life.
+
+My dad was part of that statistic. 22 years on Lisinopril. Stroke killed him at 68.
+
+I'm 61. Last month, my doctor told me I need to start the same medication.
+
+I refused. And what I found instead — in an Amish...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/bp/mm-hbp-sp
+- Performance Score: 61
+
+
+**Ad 8 - ID: 87161785**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: I need to publicly apologize to anyone who's ever bought Rosabella Beetroot before, because I lied.
+
+Yes, it's true that Rosabella uses 100% pure organic beetroot sourced from nutrient-rich soil in the USA.
+
+Yes, it's packed with natural nitrates that convert to nitric oxide, the same molecule your blood vessels need to relax, open up, and release the pressure that builds up inside them.
+
+Yes, it contains betaine and folate that lower homocysteine, the hidden risk factor that damages your arteri...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-ps
+- Performance Score: 61
+
+
+**Ad 9 - ID: 87161741**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Lisinopril. Amlodipine. Losartan. Metoprolol.
+
+Different pills. Same strategy.
+
+They force your blood vessels open so the **number goes down**, but they don’t restore why your vessels became tight in the first place.
+
+That’s why many men still don’t feel right.
+
+The cough.
+
+The swollen ankles.
+
+The dizziness.
+
+The fatigue that makes you feel years older.
+
+Because the real shift happens after 40.
+
+Your body produces less **nitric oxide**, the molecule that tells your blood vessels to relax and ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-ps
+- Performance Score: 61
+
+
+**Ad 10 - ID: 87161699**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: The number one nutrient to lower your cortisol is not magnesium, it's not ashwagandha, and it's definitely not vitamin B complex.
+
+You're also probably waking up at 3 a.m. to pee every single night.
+
+You randomly get shoulder pain that won't go away, or maybe your hair is thinning out of nowhere and you don't understand why.
+
+And that stubborn belly fat around your midsection that refuses to budge no matter how clean you eat or how much you work out?
+
+That's high cortisol too.
+
+But most people o...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 61
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

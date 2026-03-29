@@ -1,0 +1,227 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87705802**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 41
+
+
+**Ad 2 - ID: 87705775**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 41
+
+
+**Ad 3 - ID: 87705767**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 41
+
+
+**Ad 4 - ID: 87705765**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 41
+
+
+**Ad 5 - ID: 87705763**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 41
+
+
+**Ad 6 - ID: 87705731**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 41
+
+
+**Ad 7 - ID: 87359025**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 41
+
+
+**Ad 8 - ID: 87358999**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 41
+
+
+**Ad 9 - ID: 87358975**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 41
+
+
+**Ad 10 - ID: 87358962**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 41
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

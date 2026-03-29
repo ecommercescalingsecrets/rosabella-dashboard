@@ -1,0 +1,232 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87196946**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: I’m high blood pressure… and I’m the reason men drop without ever seeing it coming.
+
+That tightness across your chest you brush off as tension?
+
+The 3AM wake up with your heart pounding?
+
+That heavy feeling in your arm?
+
+The pressure behind your eyes?
+
+Getting winded walking to your car?
+
+Most men think they have time.
+
+After 40, blood vessels change.
+
+They stiffen.
+
+They narrow.
+
+Circulation slows.
+
+It’s not random.
+
+It’s low nitric oxide and restricted blood flow.
+
+When nitric oxide drops, you...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: 61
+
+
+**Ad 2 - ID: 87196853**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Seeing “beetroot” bottles that look exactly like the real thing?
+
+Be careful.
+Some of them copy the label, the colors, even the design.
+But what’s inside is not the same.
+
+You might think you’re getting premium beetroot…
+but many knock-offs use weak, diluted powder with barely any natural nitrates, the compound that actually supports healthy circulation.
+
+That’s the difference.
+
+With Rosabella, you’re getting pure, cold-extracted beetroot.
+No fillers. No junk.
+Third-party tested. Lab verified....
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-ps
+- Performance Score: 61
+
+
+**Ad 3 - ID: 88180556**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Modern Labs Don’t Understand That Nature Always Wins 🌿
+- Body: THE SCIENCE BEHIND ARCTIC HERBS AND YOUNGER SKIN ❄️🌿
+
+Aging doesn’t start on the surface, it starts deep in your skin. By 30 you have already lost 2/3 of your collagen 📉, elastin weakens, and your skin barrier gets thinner. That means more dryness, wrinkles, and sagging over time.
+
+Arctic plants face the same problem, survival in extreme conditions to live through freezing winds 🌬️, long nights 🌑, and harsh climates ❄️, they fill themselves with vitamins, fatty acids, and antioxidants in super h...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/age-quiz-v1
+- Performance Score: 91
+
+
+**Ad 4 - ID: 88180575**
+- Brand: Nordic Wellness Secrets
+- Format: IMAGE
+- Title: Side effect: Younger skin
+- Body: I CHOOSE… YOU!
+
+I choose you to stop believing the lies you’ve heard about your meno-skin. You don’t need to accept it!
+
+I choose you to feel confident looking in the mirror again - without hiding behind makeup, filters, or shame.
+
+I choose you to get arctic skincare ❄️🌸 at 40% off, so YOU can say goodbye to your meno-skin.
+
+What is arctic skincare? Good question. 
+
+These are plants that survive nine months of darkness, blizzards, and wind that could strip paint off a wall — yet still bloom brig...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: 81
+
+
+**Ad 5 - ID: 88180557**
+- Brand: Nordic Wellness Secrets
+- Format: IMAGE
+- Title: At 56, I Canceled My $22,500 Facelift After Using THIS For Just 14 Days
+- Body: Anti Big Pharma Dermatologist’s Top Choices to “Erase” Wrinkles & Fine-Lines (in 2025) – Hint: You’ll Never Guess the #1 Choice
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: 81
+
+
+**Ad 6 - ID: 88180569**
+- Brand: Nordic Wellness Secrets
+- Format: IMAGE
+- Title: This Ends The Botox Trap 🔓
+- Body: What if everything you believed about Botox was wrong? ⁉️
+
+Most people don't know this about Botox: It freezes facial muscles to hide wrinkles temporarily, but underneath? Your skin is still aging …
+
+That's why wrinkles return every few months, you're covering up the problem, not fixing it.
+
+After 10 years of Botox at around $475 per session every 3-4 months, most people have spent $19,000-$24,000 and still have the same skin issues they started with …
+
+Here's what has turned the botox industry ...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: 81
+
+
+**Ad 7 - ID: 88180558**
+- Brand: Nordic Wellness Secrets
+- Format: IMAGE
+- Title: Science Proves Arctic Herbs Work ❄️
+- Body: CLINICAL EVIDENCE: ARCTIC BOTANICALS SLOW SKIN AGING ❄️📊
+
+Aging skin is driven by three proven mechanisms:
+1. Collagen decline - 2/3 of your collagen is lost after your 30s.
+2. Barrier weakness - higher trans epidermal water loss (TEWL).
+3. Oxidative stress - free radicals accelerating damage.
+
+Peer-reviewed studies show Arctic herbs address all three.
+
+🧪 Clinical findings:
+• Sea Buckthorn increases moisture retention and delivers omega-7, essential for skin smoothness.
+• Calendula reduces skin ...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: 81
+
+
+**Ad 8 - ID: 88180561**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Something is speeding up skin aging.
+- Body: Do you feel like you're doing everything right, yet you still see your skin aging faster and faster? 😨
+
+Many people follow careful skincare routines: gentle cleansing, regular moisturizing, and daily sun protection. And yet, their skin continues to change faster than expected. 
+
+ This can be confusing and frustrating.
+
+Often, this can be caused by fluctuating blood sugar and glycation. This process causes sugar to bind to collagen and elastin, generating molecules called AGEs (Advanced Glycation...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: 61
+
+
+**Ad 9 - ID: 88180566**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Something is speeding up skin aging.
+- Body: What if aging weren't just about the passage of time…?
+
+When we talk about aging, we usually think about what the years bring, sun exposure, or genetics. And yes, these factors have a significant influence and are important, but there are other processes that often go unnoticed and that silently accelerate aging from within: glycation.
+
+Glycation is a process that occurs when excess sugar in the bloodstream binds to proteins, such as collagen and elastin, converting them into AGEs (Advanced Glyc...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: 61
+
+
+**Ad 10 - ID: 88180578**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: 88,429 Women Found This. You're Next.
+- Body: 88,429 women found what Nordic grandmothers knew all along.
+
+While you're buying $200 creams that are 80% water...
+
+Arctic women have been using something completely different.
+
+Wild herbs. Zero fillers. Pure potency.
+
+✅ 100% waterless = pure actives
+
+✅ Wild Arctic botanicals
+
+✅ Clinical proof: +91% glow in 60 days
+
+✅ 0 pesticides, 0 synthetics
+
+Three warnings:
+1️⃣ Your expensive creams will make you angry
+
+2️⃣ People will ask what you did
+
+3️⃣ You'll wish you found this sooner
+
+Try it risk-free...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/froya-organics-hyper-potent-arctic-balms-for-mature-skin-conv
+- Performance Score: 61
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

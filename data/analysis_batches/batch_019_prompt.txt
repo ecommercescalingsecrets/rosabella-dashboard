@@ -1,0 +1,217 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87834821**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: The number one nutrient to lower your cortisol is not magnesium, it's not ashwagandha, and it's definitely not vitamin B complex.
+
+You're also probably waking up at 3 a.m. to pee every single night.
+
+You randomly get shoulder pain that won't go away, or maybe your hair is thinning out of nowhere and you don't understand why.
+
+And that stubborn belly fat around your midsection that refuses to budge no matter how clean you eat or how much you work out?
+
+That's high cortisol too.
+
+But most people o...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 61
+
+
+**Ad 2 - ID: 83688911**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: This is what happens when a person with high cholesterol takes Beetroot every single day on an empty stomach.
+
+In a clinical study published in Foods (MDPI, 2019), adults with coronary artery disease took 50mg/day of betalain-rich beetroot extract for just 2 weeks. LDL cholesterol dropped by 18%, triglycerides dropped by 15%, and total cholesterol went down significantly. The LDL-to-HDL ratio improved and blood pressure fell—all in just 14 days. Zero side effects.
+
+This is as effective as statin...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 3 - ID: 83688896**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Most men have no idea this one food is the real key to a flat stomach and better performance 👀
+
+Gut inflammation, belly weight, low energy, pain, weak circulation, frustration in the bedroom.
+
+Most think it’s age or bad luck, but it’s not.
+
+It’s low nitric oxide and poor blood flow.
+
+That’s why daily beetroot has helped men feel like a new person in just weeks.
+
+What it helps with
+✨ Reduces gut inflammation
+✨ Flattens the tummy
+✨ Restores blood flow
+✨ Strengthens the heart
+✨ Improves circulation...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 4 - ID: 83841960**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Most men have no idea this one food is the real key to a flat stomach and better performance 👀
+
+Gut inflammation, belly weight, low energy, pain, weak circulation, frustration in the bedroom.
+
+Most think it’s age or bad luck, but it’s not.
+
+It’s low nitric oxide and poor blood flow.
+
+That’s why daily beetroot has helped men feel like a new person in just weeks.
+
+What it helps with
+✨ Reduces gut inflammation
+✨ Flattens the tummy
+✨ Restores blood flow
+✨ Strengthens the heart
+✨ Improves circulation...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 5 - ID: 84846726**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Most men have no idea this one food is the real key to a flat stomach and better performance 👀
+
+Gut inflammation, belly weight, low energy, pain, weak circulation, frustration in the bedroom.
+
+Most think it’s age or bad luck, but it’s not.
+
+It’s low nitric oxide and poor blood flow.
+
+That’s why daily beetroot has helped men feel like a new person in just weeks.
+
+What it helps with
+✨ Reduces gut inflammation
+✨ Flattens the tummy
+✨ Restores blood flow
+✨ Strengthens the heart
+✨ Improves circulation...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: None
+
+
+**Ad 6 - ID: 85068066**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: DCO
+- Title: Unlock Your Body's Full Potential
+- Body: My mother lost her mind at 44. Not dementia. Not Alzheimer's. Something the doctors said was "just stress" and "part of getting older." They were wrong.
+
+My mom was a litigation attorney in Chicago. The kind of lawyer who could hold twelve different case threads in her head simultaneously, who never forgot a precedent, who could recall exact page numbers from depositions she'd read weeks earlier.
+
+She billed 2,200 hours a year for eighteen years straight. Her partners called her "the machine" be...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/gummies/sp
+- Performance Score: None
+
+
+**Ad 7 - ID: 85068056**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: This is what happens when a person with high cholesterol takes Beetroot every single day on an empty stomach.
+
+In a clinical study published in Foods (MDPI, 2019), adults with coronary artery disease took 50mg/day of betalain-rich beetroot extract for just 2 weeks. LDL cholesterol dropped by 18%, triglycerides dropped by 15%, and total cholesterol went down significantly. The LDL-to-HDL ratio improved and blood pressure fell—all in just 14 days. Zero side effects.
+
+This is as effective as statin...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-ps
+- Performance Score: None
+
+
+**Ad 8 - ID: 85068051**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: This is what happens when a person with high cholesterol takes Beetroot every single day on an empty stomach.
+
+In a clinical study published in Foods (MDPI, 2019), adults with coronary artery disease took 50mg/day of betalain-rich beetroot extract for just 2 weeks. LDL cholesterol dropped by 18%, triglycerides dropped by 15%, and total cholesterol went down significantly. The LDL-to-HDL ratio improved and blood pressure fell—all in just 14 days. Zero side effects.
+
+This is as effective as statin...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-sp
+- Performance Score: None
+
+
+**Ad 9 - ID: 83688891**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: This is what happens when a person with high cholesterol takes Beetroot every single day on an empty stomach.
+
+In a clinical study published in Foods (MDPI, 2019), adults with coronary artery disease took 50mg/day of betalain-rich beetroot extract for just 2 weeks. LDL cholesterol dropped by 18%, triglycerides dropped by 15%, and total cholesterol went down significantly. The LDL-to-HDL ratio improved and blood pressure fell—all in just 14 days. Zero side effects.
+
+This is as effective as statin...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-sp
+- Performance Score: None
+
+
+**Ad 10 - ID: 84495822**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Most men have no idea this one food is the real key to a flat stomach and better performance 👀
+
+Gut inflammation, belly weight, low energy, pain, weak circulation, frustration in the bedroom.
+
+Most think it’s age or bad luck, but it’s not.
+
+It’s low nitric oxide and poor blood flow.
+
+That’s why daily beetroot has helped men feel like a new person in just weeks.
+
+What it helps with
+✨ Reduces gut inflammation
+✨ Flattens the tummy
+✨ Restores blood flow
+✨ Strengthens the heart
+✨ Improves circulation...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/gut-health-m
+- Performance Score: None
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

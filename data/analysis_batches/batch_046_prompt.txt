@@ -1,0 +1,199 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87574031**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: Every Garlic Supplement You've Tried Was Destroyed Before It Could Help You.
+- Body: You've tried garlic supplements before. They did nothing. That's not a coincidence — and it's not garlic's fault.
+
+Regular garlic supplements contain allicin. Stomach acid destroys it in under 60 seconds — less than 15% reaches your bloodstream. That's why nothing happened.
+
+S-allylcysteine is different. Acid-resistant. 90-98% bioavailability. Reaches your arterial walls intact. Supports endothelial function — the actual mechanism behind sustained blood pressure elevation that diet and exercise ...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-7-500mg-odorless-skep
+- Performance Score: 61
+
+
+**Ad 2 - ID: 87574030**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: Real Men. Real Numbers. No Medication.
+- Body: Robert was 61. Blood pressure 152/94. His doctor wanted him on Lisinopril. Six weeks later: 119/76. No medication. No prescription. No side effects.
+
+You've tried doing everything right. Cut the salt. Did the exercise. Maybe even tried other supplements.
+
+And your doctor is still reaching for the prescription pad.
+
+Here's what Robert, James, and Mark found instead:
+
+The reason lifestyle changes alone don't move the numbers isn't effort — it's endothelial dysfunction. Your arterial walls have los...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-7-500mg-odorless-skep
+- Performance Score: 61
+
+
+**Ad 3 - ID: 87574028**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: Medication Manages The Numbers. Primus Addresses The Cause.
+- Body: Lisinopril controls the number. It doesn't fix what's causing it. The moment you stop taking it — the number comes back. Because the actual problem was never addressed.
+
+Every blood pressure medication works the same way — it forces a chemical response to lower the reading.
+
+The number improves. Your doctor is satisfied. And underneath, the actual cause — endothelial dysfunction, arterial stiffening, declining nitric oxide production — keeps running.
+
+That's why the cough starts. The exhaustion ...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-7-500mg-odorless-skep
+- Performance Score: 61
+
+
+**Ad 4 - ID: 87574029**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: "Is Everything Okay at Home?"
+- Body: 162/108. High enough that my doctor leaned forward and asked: "Is everything okay at home? Are you under unusual stress?" I wanted to punch a wall. My marriage is fine. My job is fine. My life is fine. My blood pressure is the only thing that's not fine. Here's what I did about it.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — Your blood pressure is high and your doctor is treating you like you're mentally falling apart
+
+Two — You're...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 5 - ID: 87574027**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: 6 Months of Perfect Discipline. 3 Points.
+- Body: I showed my doctor 6 months of food journals. 14 pounds lost. Zero alcohol. Daily exercise. She looked at it, nodded, and reached for her prescription pad. That's when I knew the system wasn't designed to help me.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — You're doing everything your doctor told you to do, and it's not enough
+
+Two — Your doctor's only solution when lifestyle fails is medication — there's nothing else in her toolk...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 6 - ID: 87899561**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: My Father Wore Slippers To My Wedding. I Refuse To Miss Hers.
+- Body: My granddaughter was born on a Tuesday. Seven pounds, two ounces. Dark hair. Fingers so small I was afraid to hold her. I stood in that hospital room and felt something I had not felt in years. Like everything I had worked for had arrived in one moment and it was lying in a blanket looking up at me. On Friday of that same week, my doctor told me my blood pressure was 152 over 94. Stage 2 hypertension. She wanted to start Lisinopril immediately.
+
+I thought about my father.
+
+Seventeen years on blo...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 7 - ID: 87899559**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: My Best Friend Had The Same Blood Pressure Numbers As Me. He Ignored His.
+- Body: My best friend Gary and I had the same blood pressure readings. Same age. Same build. Same doctor telling us both it was time to start medication.
+
+Gary figured he'd deal with it after the holidays. After the project at work wrapped up. After things settled down.
+
+Eight months ago, Gary had a stroke.
+
+He survived. But last Saturday I sat with him in his rehabilitation facility and watched him try to wave at me when I walked in.
+
+His right hand didn't cooperate.
+
+We used to play golf together eve...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 8 - ID: 87899552**
+- Brand: Primus Health
+- Format: DCO
+- Title: My Best Friend Had The Same Blood Pressure Numbers As Me. He Ignored His.
+- Body: I know exactly what happens if I do nothing about my blood pressure. I visit him every Saturday. My best friend Gary. Sixty-three years old. Blood pressure was 151 over 96. His doctor had been telling him to start medication for two years. Gary always had a reason to wait — work, travel, the stress of this quarter, the stress of next quarter.
+
+Eight months ago he had a stroke in his kitchen making coffee.
+
+He can't drive anymore. Can't play golf. Struggles with words that used to come easily. Hi...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 9 - ID: 87899557**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: My Best Friend Had The Same Blood Pressure Numbers As Me. He Ignored His.
+- Body: My best friend Gary and I had the same blood pressure readings. Same age. Same build. Same doctor telling us both it was time to start medication.
+
+Gary figured he'd deal with it after the holidays. After the project at work wrapped up. After things settled down.
+
+Eight months ago, Gary had a stroke.
+
+He survived. But last Saturday I sat with him in his rehabilitation facility and watched him try to wave at me when I walked in.
+
+His right hand didn't cooperate.
+
+We used to play golf together eve...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 10 - ID: 87899555**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: My Best Friend Had The Same Blood Pressure Numbers As Me. He Ignored His.
+- Body: My best friend Gary and I had the same blood pressure readings. Same age. Same build. Same doctor telling us both it was time to start medication.
+
+Gary figured he'd deal with it after the holidays. After the project at work wrapped up. After things settled down.
+
+Eight months ago, Gary had a stroke.
+
+He survived. But last Saturday I sat with him in his rehabilitation facility and watched him try to wave at me when I walked in.
+
+His right hand didn't cooperate.
+
+We used to play golf together eve...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

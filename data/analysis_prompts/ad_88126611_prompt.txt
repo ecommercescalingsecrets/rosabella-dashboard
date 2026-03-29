@@ -1,0 +1,69 @@
+
+Analyze the following ad creative based on its provided data.
+
+**Ad Data:**
+- **Ad ID:** 88126611
+- **Brand:** Vital BP
+- **Format:** VIDEO
+- **Title/Headline:** 3 Common Mistakes Causing Heart Issues?
+- **Ad Body/Text:** Many folks with blood flow issues and artery plaques have never been told they're making these common mistakes.
+
+That's why I just released a new video that shows how to help:
+❤️ Detect attacks before it's too late
+❤️ Flush arteries
+❤️ Boost blood flow
+❤️ Support healthy cholesterol levels
+
+It's safe to say what you'll discover today could be called VITAL to a healthy heart.
+
+P.S. These 3 common heart health mistakes are putting folks at risk. So watch this video now before it's too late. Or share it with a loved one who needs to see it.
+- **CTA:** WATCH_MORE
+- **Landing Page URL:** https://bloodflowsecret.com/pages/vbp-vslfb
+- **Performance Score:** 41
+- **Days Active:** 1
+
+**Analysis Categories:**
+
+Please categorize the ad across these 5 dimensions. Provide a brief "reasoning" for each choice.
+
+1.  **Unique Mechanism:** What proprietary angle, ingredient, or method do they claim makes their product special? (e.g., "Nitric Oxide boost from organic beets", "Third-party tested 1300mg dose", "Flushes inflammatory waste").
+
+2.  **Angle/Hook Type:** What is the primary emotional or logical driver of the ad? Choose one from the list: [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit].
+
+3.  **Proof Elements:** What types of proof are mentioned or implied in the ad copy? List all that apply from: [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, "Made in USA", "Third-Party Tested"].
+
+4.  **Ad Structure:** Describe the structure of the ad.
+    - **Hook Type:** How does the ad open? (e.g., "Bold statement", "Apology hook", "Question", "Statistic").
+    - **Body Structure:** How is the main message structured? (e.g., "Problem-Agitate-Solve (PAS)", "Story", "Listicle of Benefits", "Direct Offer").
+    - **CTA Type:** What kind of call to action is it? (e.g., "Direct 'Shop Now'", "Benefit-driven 'Learn More'", "Urgency-driven 'Get Offer'").
+
+5.  **Landing Page Funnel Type:** Based on the URL, what kind of funnel is this ad likely driving to? Choose one: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL].
+
+**Your Response:**
+
+Return your analysis as a valid JSON object. Do not include any text outside of the JSON block.
+
+Example JSON structure:
+{
+  "unique_mechanism": {
+    "value": "Nitric Oxide boost from organic beets",
+    "reasoning": "The ad copy focuses on how nitrates in beetroot convert to nitric oxide, which improves circulation."
+  },
+  "angle_hook_type": {
+    "value": "Health Benefit",
+    "reasoning": "The ad's primary focus is on improving energy, circulation, and heart health."
+  },
+  "proof_elements": {
+    "value": ["Scientific Mechanism", "Testimonials/Reviews", "Made in USA"],
+    "reasoning": "It explains the nitric oxide mechanism, mentions '75,000 five-star reviews', and states it's 'Made in the USA'."
+  },
+  "ad_structure": {
+    "hook_type": "Apology hook",
+    "body_structure": "Problem-Agitate-Solve (PAS)",
+    "cta_type": "Urgency-driven 'Get Offer'"
+  },
+  "landing_page_funnel": {
+    "value": "Direct to Sales Page",
+    "reasoning": "The URL slug '/npl' or similar usually indicates a direct-to-product sales page."
+  }
+}

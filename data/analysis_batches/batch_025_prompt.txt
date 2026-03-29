@@ -1,0 +1,260 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 86381303**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Feel your heart pounding at night or that constant pressure in your head?
+
+That heavy feeling.
+
+The exhaustion that never really goes away.
+
+Many people don’t realize what’s actually behind it.
+
+Because the real issue often starts when your blood vessels lose the signal that tells them to relax.
+
+That signal is nitric oxide.
+
+When nitric oxide levels drop, blood vessels stay tight and circulation slows instead of flowing the way it should.
+
+What it helps with
+✨ Supports natural nitric oxide prod...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/bp/mm-hbp-sp-np-2
+- Performance Score: 91
+
+
+**Ad 2 - ID: 86922427**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: Are you not hungry for breakfast in the morning? That's parasites.
+
+Do you wake up at 3 a.m. having to pee? That's parasites.
+
+Experiencing strange shoulder pain? That's parasites.
+
+Hair thinning out of nowhere? That's parasites.
+
+Ringing in your ears? That's parasites.
+
+That stubborn pooch around your stomach that won't go away no matter how much you work out? That's parasites.
+
+And that creaky, stiff feeling in your joints when you wake up? That ache in your knees when you stand up? Yes, that'...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 91
+
+
+**Ad 3 - ID: 86922419**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: This is what happens when a person with parasites takes Moringa every single day on an empty stomach.
+
+In a controlled trial on Schistosoma mansoni infection, mice given Moringa leaf extract alone experienced a 62.9% total reduction in worm load. 
+
+Male worms fell by 72.5%, females by 64.2%, and worm couples by 42.8% compared to untreated controls.
+
+This is as effective as albendazole and mebendazole, the most common prescription parasite drugs. 
+
+But here’s the problem: those medications act li...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 91
+
+
+**Ad 4 - ID: 86922417**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: Are you not hungry for breakfast in the morning?
+That's high cortisol.
+
+Do you wake up at 3 a.m. having to pee?
+That's high cortisol.
+
+Experiencing strange shoulder pain?
+That's high cortisol.
+
+Hair thinning out of nowhere?
+That's high cortisol.
+
+Ringing in your ears?
+That's high cortisol.
+
+That stubborn pooch around your stomach that won’t go away no matter how much you work out?
+That's high cortisol.
+
+And that creaky, stiff feeling in your joints when you wake up? That ache in your knees when ...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 91
+
+
+**Ad 5 - ID: 86922413**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: Are you not hungry for breakfast in the morning?
+That's high cortisol.
+
+Do you wake up at 3 a.m. having to pee?
+That's high cortisol.
+
+Experiencing strange shoulder pain?
+That's high cortisol.
+
+Hair thinning out of nowhere?
+That's high cortisol.
+
+Ringing in your ears?
+That's high cortisol.
+
+That stubborn pooch around your stomach that won’t go away no matter how much you work out?
+That's high cortisol.
+
+And that creaky, stiff feeling in your joints when you wake up? That ache in your knees when ...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 91
+
+
+**Ad 6 - ID: 86922412**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: Are you not hungry for breakfast in the morning?
+That's high cortisol.
+
+Do you wake up at 3 a.m. having to pee?
+That's high cortisol.
+
+Experiencing strange shoulder pain?
+That's high cortisol.
+
+Hair thinning out of nowhere?
+That's high cortisol.
+
+Ringing in your ears?
+That's high cortisol.
+
+That stubborn pooch around your stomach that won’t go away no matter how much you work out?
+That's high cortisol.
+
+And that creaky, stiff feeling in your joints when you wake up? That ache in your knees when ...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 91
+
+
+**Ad 7 - ID: 86723426**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: If you took Rosabella every day for 30 days… the real change starts with your blood vessels.
+
+At first, it’s subtle.
+
+That tight, heavy feeling begins to ease.
+
+Your body starts getting the signal it’s been missing.
+
+Because the real issue often starts when your blood vessels lose the signal that tells them to relax.
+
+That signal is nitric oxide.
+
+When nitric oxide levels drop, blood vessels stay tight and circulation slows instead of flowing the way it should.
+
+What it helps with
+✨ Supports nat...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/bp/mm-hbp-sp-np-2
+- Performance Score: 91
+
+
+**Ad 8 - ID: 86723388**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I saw a statistic that made me sick. 90% of people on blood pressure medication for twenty-plus years die from the exact condition the medication was supposed to prevent.
+
+Not 50%. Not 70%.
+
+90%.
+
+The pills don't work. They just delay the inevitable while destroying your quality of life.
+
+My dad was part of that statistic. 22 years on Lisinopril. Stroke killed him at 68.
+
+I'm 61. Last month, my doctor told me I need to start the same medication.
+
+I refused. And what I found instead — in an Amish...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/bp/mm-hbp-sp
+- Performance Score: 91
+
+
+**Ad 9 - ID: 86922435**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: This is what happens when a person with parasites takes Moringa every single day on an empty stomach.
+
+In a controlled trial on Schistosoma mansoni infection, mice given Moringa leaf extract alone experienced a 62.9% total reduction in worm load. Male worms fell by 72.5%, females by 64.2%, and worm couples by 42.8% compared to untreated controls.
+
+This is as effective as albendazole and mebendazole, the most common prescription parasite drugs. 
+
+But here’s the problem: those medications act like...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 91
+
+
+**Ad 10 - ID: 87161683**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: What Your Doctor Won't Tell You About ED
+- Body: In 1950, the average 70-year-old man reported having s*x 1-2 times daily. Today, 75% of men over 50 struggle to get it up consistently.
+
+Our grandfathers didn’t have Viagra. Didn’t have Cialis. No pharmaceutical intervention whatsoever.
+
+Fast forward to today.
+
+75% of men over 50 can't get it up consistently.
+
+We have "better medicine." Advanced treatments. Drugs our grandfathers never heard of.
+
+Yet somehow, modern men are failing in the bedroom two decades earlier than their grandfathers did.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 91
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

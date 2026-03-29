@@ -1,0 +1,243 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 82016423**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I Found My Husband Sitting in His Car in the Driveway at 11 PM. Engine Off. Just Sitting There. He Couldn't Bring Himself to Come Inside. That's When I Knew I Had to Stop Suggesting Things and Start Fixing This.
+
+He didn't see me at the window.
+
+Just sat there in the dark.
+
+Hands on the steering wheel.
+
+Staring at nothing.
+
+The garage door had gone up twenty minutes earlier. I'd heard it from the bedroom. Waited for him to come in.
+
+He never came in.
+
+So I went to the window.
+
+And there he was.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 2 - ID: 82016411**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: My husband came out as gay after 26 years of marriage and it nearly killed me.
+
+Literally.
+
+Hello, my name is Susan. I'm a 54-year-old mother of three.
+
+And right here in this post, I'm going to share the most devastating conversation of my entire life... and what happened immediately after that almost ended my life.
+
+So let me start from the beginning.
+
+Throughout our 26 years together, my husband Liam and I always struggled with intimacy.
+
+I'm talking about going months without being close, wi...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 3 - ID: 80752029**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My friends all wore crop tops to brunch.
+
+Cute little matching sets. High-waisted jeans. Looking effortless and beautiful.
+
+I wore an oversized sweater in July.
+
+Because the thought of exposing my stomach made me want to cancel.
+
+I used to wear crop tops. I used to feel confident.
+
+But somewhere along the way, my midsection just... changed.
+
+I wasn't eating more. I was actually eating less.
+
+But I was bloated constantly. Puffy. Uncomfortable.
+
+I'd look at old photos and wonder what happened to t...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: None
+
+
+**Ad 4 - ID: 81554325**
+- Brand: Cortisol Reset Project
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Five signs high cortisol is aging you faster than it should.
+
+If you ignore them, you’ll keep buying creams and supplements that never touch the root cause.
+
+Skin losing glow and firmness.
+Hair thinning more than it used to.
+Stubborn belly fat building around your middle.
+Brain fog that won’t lift.
+Waking up exhausted even after a full night of sleep.
+
+Here’s what most people never connect.
+
+When cortisol stays elevated, nitric oxide drops.
+Blood vessels tighten.
+Circulation slows.
+Oxygen and nu...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 5 - ID: 81554285**
+- Brand: Cortisol Reset Project
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Five signs high cortisol is wrecking your body.
+
+If you ignore them, you’ll keep treating symptoms while the root problem gets worse.
+
+Waking up at 3am and staring at the ceiling.
+Hair thinning more than it used to.
+Stubborn belly fat that won’t budge.
+Brain fog even after a full night of sleep.
+Anxiety that never fully switches off.
+
+Here’s what most people miss.
+
+When cortisol stays high, nitric oxide drops.
+Blood vessels tighten.
+Circulation slows.
+Oxygen can’t properly reach your brain, gut,...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/high-cortisol
+- Performance Score: None
+
+
+**Ad 6 - ID: 80504934**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: The military doesn't advertise this.
+
+But if you dig into the performance data of Delta Force operators, you'll find something that doesn't make sense.
+
+Men in their late 30s and 40s — guys who've spent 15+ years getting shot at, sleeping 4 hours a night, and carrying 80-pound packs through mountains — should be physically destroyed.
+
+Cortisol through the roof.
+
+Blood pressure off the charts.
+
+Bodies stuck in permanent survival mode.
+
+That's what happens to normal men under that kind of stress.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 7 - ID: 80207701**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I want to tell you something I was honestly too embarrassed to admit for a long time.
+
+For almost three years I thought I was just falling apart.
+
+Not dramatically. Not all at once. Just slowly, quietly, in ways that were hard to explain to anyone who wasn't living inside my body.
+
+I was waking up at 3am every single night. Not because I had to use the bathroom. Not because I heard a noise. Just... awake. Heart beating a little too fast. Mind already racing before I even remembered what day it w...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 8 - ID: 80207647**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: You've been targeting the wrong system.
+
+Every supplement in your cabinet — ashwagandha, magnesium, melatonin — targets your brain.
+
+Every meditation app, every breathing exercise, every "stress management" technique your doctor recommended — targets your brain.
+
+The men who actually solved chronic stress? They didn't touch any of it.
+
+They targeted their blood vessels.
+
+Specifically, Delta Force operators. Men in their late 30s and 40s who've spent 15+ years under the most extreme stress on ear...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 9 - ID: 79990568**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: After 15 Years as an ER Nurse, I've Watched Patients Get Addicted to Xanax While Their Cortisol Stayed High. Then I Got Diagnosed With Dangerous Cortisol Levels Myself.
+
+My sister died at 42.
+
+I'm 38.
+
+Three weeks ago, my doctor closed the exam room door. The click echoed. She sat down. Pulled up my chart without looking at me.
+
+"Sarah. We can't wait anymore. Your morning cortisol is at 28. Normal range is 10 to 20. You're dangerously elevated. I'm prescribing Xanax. 10 milligrams daily. You nee...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 10 - ID: 79990572**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I woke up at 3am. Again. Went to the bathroom. Again. Lay there staring at the ceiling for an hour with my knees throbbing and my mind racing. Again. And I remember thinking, this cannot just be what getting older feels like. This cannot be it.
+
+But every morning it was the same thing.
+
+I'd finally fall back asleep around 5, wake up at 7 feeling like I hadn't slept at all, drag myself downstairs, make coffee that stopped doing anything weeks ago, and start another day feeling like I was already ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

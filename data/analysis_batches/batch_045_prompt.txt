@@ -1,0 +1,203 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87574056**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: 6 Months of Perfect Discipline. 3 Points.
+- Body: I showed my doctor 6 months of food journals. 14 pounds lost. Zero alcohol. Daily exercise. She looked at it, nodded, and reached for her prescription pad. That's when I knew the system wasn't designed to help me.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — You're doing everything your doctor told you to do, and it's not enough
+
+Two — Your doctor's only solution when lifestyle fails is medication — there's nothing else in her toolk...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 2 - ID: 87574054**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: 6 Months of Perfect Discipline. 3 Points.
+- Body: I showed my doctor 6 months of food journals. 14 pounds lost. Zero alcohol. Daily exercise. She looked at it, nodded, and reached for her prescription pad. That's when I knew the system wasn't designed to help me.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — You're doing everything your doctor told you to do, and it's not enough
+
+Two — Your doctor's only solution when lifestyle fails is medication — there's nothing else in her toolk...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 3 - ID: 87574048**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: 6 Months of Perfect Discipline. 3 Points.
+- Body: I showed my doctor 6 months of food journals. 14 pounds lost. Zero alcohol. Daily exercise. She looked at it, nodded, and reached for her prescription pad. That's when I knew the system wasn't designed to help me.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — You're doing everything your doctor told you to do, and it's not enough
+
+Two — Your doctor's only solution when lifestyle fails is medication — there's nothing else in her toolk...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 4 - ID: 87574047**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: "Is Everything Okay at Home?"
+- Body: 162/108. High enough that my doctor leaned forward and asked: "Is everything okay at home? Are you under unusual stress?" I wanted to punch a wall. My marriage is fine. My job is fine. My life is fine. My blood pressure is the only thing that's not fine. Here's what I did about it.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — Your blood pressure is high and your doctor is treating you like you're mentally falling apart
+
+Two — You're...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 5 - ID: 87574046**
+- Brand: Primus Health
+- Format: DCO
+- Title: 6 Months of Perfect Discipline. 3 Points.
+- Body: I showed my doctor 6 months of food journals. 14 pounds lost. Zero alcohol. Daily exercise. She looked at it, nodded, and reached for her prescription pad. That's when I knew the system wasn't designed to help me.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — You're doing everything your doctor told you to do, and it's not enough
+
+Two — Your doctor's only solution when lifestyle fails is medication — there's nothing else in her toolk...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 6 - ID: 87574037**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: Low Stock. You Already Know It Works. Don't Wait.
+- Body: You looked at Primus recently. Stock is lower than it was. Every time the UCLA research gets covered, we sell out. We can't always predict when we restock.
+
+You already did the research. You know what Primus does. You know the mechanism. You know the guarantee.
+
+The only question is why you haven't pulled the trigger yet.
+
+Here's what's true right now:
+
+Endothelial dysfunction doesn't pause while you decide. Every week at elevated pressure causes arterial stiffening that becomes progressively ha...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-7-500mg-odorless-skep
+- Performance Score: 61
+
+
+**Ad 7 - ID: 87574035**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: Medication Manages The Numbers. Primus Addresses The Cause.
+- Body: Lisinopril controls the number. It doesn't fix what's causing it. The moment you stop taking it — the number comes back. Because the actual problem was never addressed.
+
+Every blood pressure medication works the same way — it forces a chemical response to lower the reading.
+
+The number improves. Your doctor is satisfied. And underneath, the actual cause — endothelial dysfunction, arterial stiffening, declining nitric oxide production — keeps running.
+
+That's why the cough starts. The exhaustion ...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-7-500mg-odorless-skep
+- Performance Score: 61
+
+
+**Ad 8 - ID: 87574040**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: "Is Everything Okay at Home?"
+- Body: 162/108. High enough that my doctor leaned forward and asked: "Is everything okay at home? Are you under unusual stress?" I wanted to punch a wall. My marriage is fine. My job is fine. My life is fine. My blood pressure is the only thing that's not fine. Here's what I did about it.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — Your blood pressure is high and your doctor is treating you like you're mentally falling apart
+
+Two — You're...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 9 - ID: 87574033**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: Medication Manages The Numbers. Primus Addresses The Cause.
+- Body: Lisinopril controls the number. It doesn't fix what's causing it. The moment you stop taking it — the number comes back. Because the actual problem was never addressed.
+
+Every blood pressure medication works the same way — it forces a chemical response to lower the reading.
+
+The number improves. Your doctor is satisfied. And underneath, the actual cause — endothelial dysfunction, arterial stiffening, declining nitric oxide production — keeps running.
+
+That's why the cough starts. The exhaustion ...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-7-500mg-odorless-skep
+- Performance Score: 61
+
+
+**Ad 10 - ID: 87574034**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: "Is Everything Okay at Home?"
+- Body: 162/108. High enough that my doctor leaned forward and asked: "Is everything okay at home? Are you under unusual stress?" I wanted to punch a wall. My marriage is fine. My job is fine. My life is fine. My blood pressure is the only thing that's not fine. Here's what I did about it.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — Your blood pressure is high and your doctor is treating you like you're mentally falling apart
+
+Two — You're...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

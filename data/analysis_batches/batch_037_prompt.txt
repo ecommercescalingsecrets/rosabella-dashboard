@@ -1,0 +1,219 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87427813**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Try Vital Bull
+- Body: "I've tried EVERYTHING for energy and performance... nothing worked until THIS."
+Most supplements fall short because they're missing what men truly need. Vital Bull delivers nutrition the way nature intended with our freeze-dried organ complex:
+✓ Beef Testicles: Support healthy testosterone levels naturally
+✓ Beef Heart: Rich in CoQ10 for cardiovascular strength & endurance
+✓ Beef Liver: Packed with B12, iron & metabolic supporters
+Not just a supplement—a complete system that builds over time, w...
+- CTA: LEARN_MORE
+- Landing Page: https://lonvera.com/pages/vital-bull-lp-1
+- Performance Score: 81
+
+
+**Ad 2 - ID: 87427796**
+- Brand: Essential Health Finds
+- Format: DCO
+- Title: Try Vital Bull
+- Body: "I've tried EVERYTHING for energy and performance... nothing worked until THIS."
+Most supplements fall short because they're missing what men truly need. Vital Bull delivers nutrition the way nature intended with our freeze-dried organ complex:
+✓ Beef Testicles: Support healthy testosterone levels naturally
+✓ Beef Heart: Rich in CoQ10 for cardiovascular strength & endurance
+✓ Beef Liver: Packed with B12, iron & metabolic supporters
+Not just a supplement—a complete system that builds over time, w...
+- CTA: LEARN_MORE
+- Landing Page: https://lonvera.com/pages/vital-bull-lp-1
+- Performance Score: 81
+
+
+**Ad 3 - ID: 86603084**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: Introducing Rosabella Organic Beetroot Capsules – a natural formula with proven ingredients to help…
+
+✅ Boost Blood Flow – improve circulation and oxygen delivery.
+
+ ✅ Support Heart Health – maintain healthy blood pressure and heart function.
+
+ ✅ Enhance Stamina – increase endurance and energy levels naturally.
+
+https://get.tryrosabella.com/beetroot/subtxt/sp
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 4 - ID: 86753799**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Flip your beetroot bottle over.
+
+Look at the label.
+
+If it doesn’t show standardized nitrate content, you already have your answer.
+
+Because nitrates are the entire reason beetroot works.
+
+Your body converts nitrates into nitric oxide.
+Nitric oxide is the signal that tells your blood vessels to relax and open.
+
+Better circulation.
+More oxygen reaching your heart, brain, and muscles.
+
+No nitrates means no nitric oxide.
+No nitric oxide means no results.
+
+And that’s exactly why so many beetroot s...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: 61
+
+
+**Ad 5 - ID: 86753727**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Flip your beetroot bottle over.
+
+Look at the label.
+
+If it doesn’t show standardized nitrate content, you already have your answer.
+
+Because nitrates are the entire reason beetroot works.
+
+Your body converts nitrates into nitric oxide.
+Nitric oxide is the signal that tells your blood vessels to relax and open.
+
+Better circulation.
+More oxygen reaching your heart, brain, and muscles.
+
+No nitrates means no nitric oxide.
+No nitric oxide means no results.
+
+And that’s exactly why so many beetroot s...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/blood-pressure
+- Performance Score: 61
+
+
+**Ad 6 - ID: 87196907**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Energy drinks are stressing your heart from the inside out.
+
+Stiff blood vessels. Inflamed arteries. Spiked blood pressure. Racing heart rate. Arrhythmias. Oxidative stress. Forcing your cardiovascular system into overdrive.
+
+When your heart is damaged by synthetic sugars and stimulants, nothing feels safe.
+
+You feel far more at risk than you should.
+
+Most people try to fix heart damage with prescription medications or by cutting out obvious triggers, using quick fixes that only mask symptoms an...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 7 - ID: 87196768**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Here is a list of all the supplements you don't need if you take Moringa.
+
+And you're welcome, because I just saved you three to four hundred dollars a month in supplements.
+
+If you want the highest quality Moringa, you want to make sure you get the Rosabella Moringa right here.
+
+They have a buy 2 get 2 free deal going on right now, so this would last you through the entire season.
+
+If you're going to keep anything in your cabinets, make sure that it is Moringa.
+
+I have patients from all over th...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 61
+
+
+**Ad 8 - ID: 86976388**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Please DON'T start GLP-1 medications without protecting your hair first.
+
+That's what I did wrong, and watching my thick hair turn into a thin, lifeless ponytail destroyed every bit of confidence my weight loss gave me.
+
+I used to be so excited about starting GLP-1.
+
+My doctor had just prescribed it. I'd heard the success stories. Seen the before-and-after photos in the Facebook groups. Women losing 50, 60, 80 pounds. Finally getting their health back. Finally feeling good in their bodies again....
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/glp/sp
+- Performance Score: 61
+
+
+**Ad 9 - ID: 86976386**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Please stop eating more protein to fix your GLP-1 hair loss. I know that sounds backwards, but by the end of this, you're gonna be pissed at everyone who told you that was the answer.
+
+Because there are three things happening right now:
+
+One — Everyone's telling you to take biotin, eat more protein, track your macros — standard advice that's treating the wrong problem entirely.
+
+Two — Your doctor says your labs are "normal" and you're "doing great" — but standard blood tests don't measure what's...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 61
+
+
+**Ad 10 - ID: 86976384**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Here is a list of all the supplements you don't need if you take Moringa.
+
+And you're welcome, because I just saved you three to four hundred dollars a month in supplements.
+
+If you want the highest quality Moringa, you want to make sure you get the Rosabella Moringa right here.
+
+They have a buy 2 get 2 free deal going on right now, so this would last you through the entire season.
+
+If you're going to keep anything in your cabinets, make sure that it is Moringa.
+
+I have patients from all over th...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 61
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

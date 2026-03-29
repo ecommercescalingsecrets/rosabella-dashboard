@@ -1,0 +1,241 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87063675**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Lisinopril. Amlodipine. Losartan. Metoprolol.
+
+Different pills. Same strategy.
+
+They force your blood vessels open so the **number goes down**, but they don’t restore why your vessels became tight in the first place.
+
+That’s why many men still don’t feel right.
+
+The cough.
+
+The swollen ankles.
+
+The dizziness.
+
+The fatigue that makes you feel years older.
+
+Because the real shift happens after 40.
+
+Your body produces less **nitric oxide**, the molecule that tells your blood vessels to relax and ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 81
+
+
+**Ad 2 - ID: 87063671**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Here is a list of all the supplements you don't need if you take Moringa.
+
+And you're welcome, because I just saved you three to four hundred dollars a month in supplements.
+
+If you want the highest quality Moringa, you want to make sure you get the Rosabella Moringa right here.
+
+They have a buy 2 get 2 free deal going on right now, so this would last you through the entire season.
+
+If you're going to keep anything in your cabinets, make sure that it is Moringa.
+
+I have patients from all over th...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 3 - ID: 87063669**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: The number one way to get rid of parasites is not prescription dewormers, it's not those colon-flush gut cleanses, and it's definitely not those detox teas.
+
+You're also probably waking up at 3 a.m. to pee every single night.
+
+You randomly get brain fog that won't lift, or maybe your hair is thinning out of nowhere and you don't understand why.
+
+And that stubborn belly fat around your midsection that refuses to budge no matter how clean you eat or how much you work out?
+
+That's parasites too.
+
+B...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 4 - ID: 87063667**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My Pharmacist Told Me to Stop Taking All My Vitamins. I Thought She Was Crazy. She Wasn't.
+
+My name is Margaret, and I'm 68 years old.
+
+Every morning, I line up my pills on the kitchen counter. Blood pressure. Thyroid. Cholesterol. Arthritis. Metformin. Anxiety medication. Baby aspirin. Calcium supplement.
+
+Eight pills. The reality of being 68.
+
+My doctor always stressed the importance of proper nutrition. "Especially with your medications, Margaret. Your body needs vitamin B for energy, vitamin...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 5 - ID: 87063664**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My Pharmacist Told Me to Stop Taking All My Vitamins. I Thought She Was Crazy. She Wasn't.
+
+My name is Margaret, and I'm 68 years old.
+
+Every morning, I line up my pills on the kitchen counter. Blood pressure. Thyroid. Cholesterol. Arthritis. Metformin. Anxiety medication. Baby aspirin. Calcium supplement.
+
+Eight pills. The reality of being 68.
+
+My doctor always stressed the importance of proper nutrition. "Especially with your medications, Margaret. Your body needs vitamin B for energy, vitamin...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 6 - ID: 87063661**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My mother lost her mind at 44. Not dementia. Not Alzheimer's. Something the doctors said was "just stress" and "part of getting older." They were wrong.
+
+My mom was a litigation attorney in Chicago. The kind of lawyer who could hold twelve different case threads in her head simultaneously, who never forgot a precedent, who could recall exact page numbers from depositions she'd read weeks earlier.
+
+She billed 2,200 hours a year for eighteen years straight. Her partners called her "the machine" be...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 7 - ID: 87063650**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: "I've been on Metformin for years with no problems." That's what my father said too. For the first three years.
+
+Year 4: Dropped coffee cups. 
+
+Year 6: Couldn't walk without shuffling. 
+
+Year 8: Full-time wheelchair.
+
+The B12 depletion doesn't happen overnight. It's silent. Gradual. Irreversible once it's too late.
+
+My father died at 67.
+
+I'm 58.
+
+Two weeks ago, my doctor closed the exam room door. The click echoed. She sat down. Pulled up my chart without looking at me.
+
+"Michael. We can't wait...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 8 - ID: 87063657**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My Husband Has Been Sleeping On the Couch For Two Weeks. When I Finally Got Him To Tell Me Why, I Wished I'd Never Asked.
+
+We've been married for 5 years.
+
+Six months ago, we had sex on a Saturday afternoon.
+
+It was 2 PM. We'd already showered that morning. We weren't going anywhere.
+
+He got up immediately afterward and went to the bathroom.
+
+I heard the shower turn on.
+
+I walked to the door. "Everything okay?"
+
+"Yeah, just... wanted to rinse off."
+
+It struck me as unusual.
+
+"Is there something ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 9 - ID: 87254475**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Lisinopril. Amlodipine. Losartan. Metoprolol.
+
+Different pills. Same strategy.
+
+They force your blood vessels open so the **number goes down**, but they don’t restore why your vessels became tight in the first place.
+
+That’s why many men still don’t feel right.
+
+The cough.
+
+The swollen ankles.
+
+The dizziness.
+
+The fatigue that makes you feel years older.
+
+Because the real shift happens after 40.
+
+Your body produces less **nitric oxide**, the molecule that tells your blood vessels to relax and ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: 81
+
+
+**Ad 10 - ID: 87834822**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My mother lost her mind at 44. Not dementia. Not Alzheimer's. Something the doctors said was "just stress" and "part of getting older." They were wrong.
+
+My mom was a litigation attorney in Chicago. The kind of lawyer who could hold twelve different case threads in her head simultaneously, who never forgot a precedent, who could recall exact page numbers from depositions she'd read weeks earlier.
+
+She billed 2,200 hours a year for eighteen years straight. Her partners called her "the machine" be...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 61
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

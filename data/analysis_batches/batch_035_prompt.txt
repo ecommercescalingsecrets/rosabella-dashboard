@@ -1,0 +1,240 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 86220353**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Move Like Yourself Agian
+- Body: Most joint supplements give you one ingredient and hope for the best. Boneflex gives you six — working together.
+
+This isn't a single-ingredient gamble. It's a multi-angle formula targeting inflammation AND cartilage repair.
+
+Inside the formula:
+
+    Grass-Fed Beef Bone Marrow: Ancestral whole-food source of growth factors and trace minerals.
+
+    Bovine Collagen: The primary protein in cartilage for structure and elasticity.
+
+    Glucosamine & Chondroitin: The essential building blocks for join...
+- CTA: LEARN_MORE
+- Landing Page: https://lonvera.com/pages/boneflex-lp
+- Performance Score: 91
+
+
+**Ad 2 - ID: 86220352**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Move Like Yourself Agian
+- Body: Most joint supplements give you one ingredient and hope for the best. Boneflex gives you six — working together.
+
+This isn't a single-ingredient gamble. It's a multi-angle formula targeting inflammation AND cartilage repair.
+
+Inside the formula:
+
+    Grass-Fed Beef Bone Marrow: Ancestral whole-food source of growth factors and trace minerals.
+
+    Bovine Collagen: The primary protein in cartilage for structure and elasticity.
+
+    Glucosamine & Chondroitin: The essential building blocks for join...
+- CTA: LEARN_MORE
+- Landing Page: https://lonvera.com/pages/boneflex-lp
+- Performance Score: 91
+
+
+**Ad 3 - ID: 86220348**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Move Like Yourself Agian
+- Body: Most joint supplements give you one ingredient and hope for the best. Boneflex gives you six — working together.
+
+This isn't a single-ingredient gamble. It's a multi-angle formula targeting inflammation AND cartilage repair.
+
+Inside the formula:
+
+    Grass-Fed Beef Bone Marrow: Ancestral whole-food source of growth factors and trace minerals.
+
+    Bovine Collagen: The primary protein in cartilage for structure and elasticity.
+
+    Glucosamine & Chondroitin: The essential building blocks for join...
+- CTA: LEARN_MORE
+- Landing Page: https://lonvera.com/pages/boneflex-lp
+- Performance Score: 91
+
+
+**Ad 4 - ID: 86194292**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: If you're dealing with a bloated stomach, stubborn belly fat, tight waistband, or looking puffy - it's probably gut inflammation.
+
+Gut inflammation is your body's response to years of processed foods and poor circulation.
+
+Short-term, it's frustrating.
+
+Long-term, it destroys everything.
+
+Chronic gut inflammation swells your midsection, blocks nutrient absorption, slows your metabolism, kills your energy.
+
+It makes you feel bloated, heavy, and like nothing will flatten your stomach.
+
+And it does...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 91
+
+
+**Ad 5 - ID: 86419306**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: Introducing Rosabella Organic Beetroot Capsules – a natural formula with proven ingredients to help…
+
+✅ Boost Blood Flow – improve circulation and oxygen delivery.
+
+ ✅ Support Heart Health – maintain healthy blood pressure and heart function.
+
+ ✅ Enhance Stamina – increase endurance and energy levels naturally.
+
+https://get.tryrosabella.com/beetroot/subtxt/sp
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 91
+
+
+**Ad 6 - ID: 86419178**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: Introducing Rosabella Organic Beetroot Capsules – a natural formula with proven ingredients to help…
+
+✅ Boost Blood Flow – improve circulation and oxygen delivery.
+
+ ✅ Support Heart Health – maintain healthy blood pressure and heart function.
+
+ ✅ Enhance Stamina – increase endurance and energy levels naturally.
+
+https://get.tryrosabella.com/beetroot/subtxt/sp
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 91
+
+
+**Ad 7 - ID: 86194302**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Flip your beetroot bottle over.
+
+Look at the label.
+
+If it doesn’t show standardized nitrate content, you already have your answer.
+
+Because nitrates are the entire reason beetroot works.
+
+Your body converts nitrates into nitric oxide.
+Nitric oxide is the signal that tells your blood vessels to relax and open.
+
+Better circulation.
+More oxygen reaching your heart, brain, and muscles.
+
+No nitrates means no nitric oxide.
+No nitric oxide means no results.
+
+And that’s exactly why so many beetroot s...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: 91
+
+
+**Ad 8 - ID: 86753745**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Flip your beetroot bottle over.
+
+Look at the label.
+
+If it doesn’t show standardized nitrate content, you already have your answer.
+
+Because nitrates are the entire reason beetroot works.
+
+Your body converts nitrates into nitric oxide.
+Nitric oxide is the signal that tells your blood vessels to relax and open.
+
+Better circulation.
+More oxygen reaching your heart, brain, and muscles.
+
+No nitrates means no nitric oxide.
+No nitric oxide means no results.
+
+And that’s exactly why so many beetroot s...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/blood-pressure
+- Performance Score: 91
+
+
+**Ad 9 - ID: 86753617**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Flip your beetroot bottle over.
+
+Look at the label.
+
+If it doesn’t show standardized nitrate content, you already have your answer.
+
+Because nitrates are the entire reason beetroot works.
+
+Your body converts nitrates into nitric oxide.
+Nitric oxide is the signal that tells your blood vessels to relax and open.
+
+Better circulation.
+More oxygen reaching your heart, brain, and muscles.
+
+No nitrates means no nitric oxide.
+No nitric oxide means no results.
+
+And that’s exactly why so many beetroot s...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/blood-pressure
+- Performance Score: 91
+
+
+**Ad 10 - ID: 87427270**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Detox Your Liver
+- Body: Your liver is your body's hardworking control center, responsible for over 500 essential functions. 
+
+Give it the nourishment it craves with our 100% pure beef liver capsules. Beef liver is one of nature's most potent sources of the key nutrients your liver needs to thrive, including protein, vitamin A, iron, and CoQ10. 
+
+Fortify your liver's ability to metabolize nutrients, regulate blood sugar, and eliminate toxins. Experience the revitalizing effects of beef liver support.
+- CTA: LEARN_MORE
+- Landing Page: https://lonvera.com/pages/lonvera-grassfed-beef-liver-landing-liver-detox-fatty
+- Performance Score: 91
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

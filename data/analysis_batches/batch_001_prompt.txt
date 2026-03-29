@@ -1,0 +1,215 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 86580896**
+- Brand: Rosabella
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: Introducing Rosabella Organic Beetroot Capsules – a natural formula with proven ingredients to help…
+
+✅ Boost Blood Flow – improve circulation and oxygen delivery.
+
+✅ Support Heart Health – maintain healthy blood pressure and heart function.
+
+✅ Enhance Stamina – increase endurance and energy levels naturally.
+
+https://get.tryrosabella.com/beetroot/subtxt/sp
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 91
+
+
+**Ad 2 - ID: 86580898**
+- Brand: Rosabella
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: My daughter sat me down and told me she was putting me in a care home, and what happened next nearly killed me.
+
+Literally.
+
+Hello, my name is Margaret. I'm a 63-year-old grandmother of four.
+
+And right here in this post, I'm going to share the most devastating conversation of my entire life... and what happened immediately after that almost ended it.
+
+So let me start from the beginning.
+
+I wasn't always like this.
+
+In my forties and early fifties, I was active. I walked the dog every morning. I...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 91
+
+
+**Ad 3 - ID: 86933072**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: Introducing Rosabella Moringa Powder Capsules – an all-natural supplement with science-backed ingredients to help… 
+
+✅ Regulate cortisol – balance your hormones and feel more in control 
+✅ Reduce water retention and bloating – feel lighter and less puffy 
+✅ Flatten the pooch belly – support a slimmer, more comfortable midsection 
+✅ Alleviate joint pain – move freely and feel better in your body 
+✅ Enhance muscle function – ease cramps, reduce spasms, and support relaxation 
+
+✨ Feel calm, strong,...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 91
+
+
+**Ad 4 - ID: 86933076**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: Introducing Rosabella Moringa Powder Capsules – an all-natural supplement with science-backed ingredients to help…
+ 
+✅ Regulate cortisol – balance your hormones and feel more in control 
+✅ Reduce water retention and bloating – feel lighter and less puffy 
+✅ Flatten the pooch belly – support a slimmer, more comfortable midsection 
+✅ Alleviate joint pain – move freely and feel better in your body 
+✅ Enhance muscle function – ease cramps, reduce spasms, and support relaxation |
+
+✨ Feel calm, strong...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 81
+
+
+**Ad 5 - ID: 86933063**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: I need to publicly apologize to anyone who's ever bought Rosabella Moringa before... because I lied.
+
+Yes, it's true that Rosabella is sourced directly from small organic farms, where the Moringa is grown in nutrient-rich soil.
+
+Yes, we work with the same family-owned farms that have been growing Moringa sustainably for generations.
+
+Yes, this means every batch comes from soil that's been enriched naturally over decades—giving you Moringa with up to 10x the nutrient density.
+
+And yes, it actuall...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 81
+
+
+**Ad 6 - ID: 86933059**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: I owe every single Rosabella customer a huge apology because I lied. 
+
+Yes, it's true that Rosabella uses 100% pure moringa leaf sourced from the nutrient-rich soil in the Himalayas. 
+
+Yes, it's antifungal, antiviral, antiparasitic, and antibacterial.
+
+It flushes out parasites and heavy metals while delivering five times more nutrients than your daily serving of fruits and vegetables.
+
+ Yes, every batch is third-party tested in the USA for purity.
+
+No fillers, no stems, no roots, just pure morin...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 81
+
+
+**Ad 7 - ID: 86933055**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: Introducing Rosabella Moringa Powder Capsules – an all-natural supplement with science-backed ingredients to help… 
+
+✅ Regulate cortisol – balance your hormones and feel more in control 
+✅ Reduce water retention and bloating – feel lighter and less puffy 
+✅ Flatten the pooch belly – support a slimmer, more comfortable midsection 
+✅ Alleviate joint pain – move freely and feel better in your body 
+✅ Enhance muscle function – ease cramps, reduce spasms, and support relaxation 
+
+✨ Feel calm, strong,...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 81
+
+
+**Ad 8 - ID: 86933047**
+- Brand: Rosabella
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: If you feel an itchy anus at night, there's something alive inside you and it feeds off what you eat. 
+
+If your gut always feels bloated, it's not just gas, it's an infestation. 
+
+If you wake up tired even after eight hours of sleep, it's not laziness, it's a parasite draining your energy.
+
+If your tongue is white, your skin itches for no reason, or you can't shake off yeast infections, you're slowly being taken over. 
+
+No one's telling you this. It's called dysbiosis.
+
+Your body's become a bree...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 81
+
+
+**Ad 9 - ID: 86933042**
+- Brand: Rosabella
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: What do you mean Rosabella's sale ends today? Yes, the sale ends today.
+
+This is the last chance to get the best sale they have ever had on their website.
+
+Go take full advantage of the buy one get one right now because these are the last few hours.
+
+This is the last chance, you're not going to find a deal like this for a very long time.
+
+🚨 ONLY $11 A BOTTLE 🚨
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 10 - ID: 86933026**
+- Brand: Rosabella
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Introducing Rosabella Moringa Powder Capsules – an all-natural supplement with science-backed ingredients to help… 
+
+✅ Regulate cortisol – balance your hormones and feel more in control 
+✅ Reduce water retention and bloating – feel lighter and less puffy 
+✅ Flatten the pooch belly – support a slimmer, more comfortable midsection 
+✅ Alleviate joint pain – move freely and feel better in your body 
+✅ Enhance muscle function – ease cramps, reduce spasms, and support relaxation 
+
+✨ Feel calm, strong,...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 81
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

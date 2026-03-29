@@ -1,0 +1,71 @@
+
+Analyze the following ad creative based on its provided data.
+
+**Ad Data:**
+- **Ad ID:** 85068066
+- **Brand:** Eat Smart with Dr. Amanda Johnson
+- **Format:** DCO
+- **Title/Headline:** Unlock Your Body's Full Potential
+- **Ad Body/Text:** My mother lost her mind at 44. Not dementia. Not Alzheimer's. Something the doctors said was "just stress" and "part of getting older." They were wrong.
+
+My mom was a litigation attorney in Chicago. The kind of lawyer who could hold twelve different case threads in her head simultaneously, who never forgot a precedent, who could recall exact page numbers from depositions she'd read weeks earlier.
+
+She billed 2,200 hours a year for eighteen years straight. Her partners called her "the machine" because nothing rattled her, nothing slipped through.
+
+Six months after she turned 44, she stood up in a deposition and couldn't remember the witness's name.
+
+Not for a few seconds — like when a word is on the tip of your tongue.
+
+For two full minutes, she stood there, silent, while everyone waited.
+
+She had the notes right in front of her. The name was written at the top of every page. But her brain couldn't connect the letters to meaning. She told me later it felt like the words were in a foreig...
+- **CTA:** LEARN_MORE
+- **Landing Page URL:** https://get.tryrosabella.com/rosabella/gummies/sp
+- **Performance Score:** None
+- **Days Active:** 16
+
+**Analysis Categories:**
+
+Please categorize the ad across these 5 dimensions. Provide a brief "reasoning" for each choice.
+
+1.  **Unique Mechanism:** What proprietary angle, ingredient, or method do they claim makes their product special? (e.g., "Nitric Oxide boost from organic beets", "Third-party tested 1300mg dose", "Flushes inflammatory waste").
+
+2.  **Angle/Hook Type:** What is the primary emotional or logical driver of the ad? Choose one from the list: [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit].
+
+3.  **Proof Elements:** What types of proof are mentioned or implied in the ad copy? List all that apply from: [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, "Made in USA", "Third-Party Tested"].
+
+4.  **Ad Structure:** Describe the structure of the ad.
+    - **Hook Type:** How does the ad open? (e.g., "Bold statement", "Apology hook", "Question", "Statistic").
+    - **Body Structure:** How is the main message structured? (e.g., "Problem-Agitate-Solve (PAS)", "Story", "Listicle of Benefits", "Direct Offer").
+    - **CTA Type:** What kind of call to action is it? (e.g., "Direct 'Shop Now'", "Benefit-driven 'Learn More'", "Urgency-driven 'Get Offer'").
+
+5.  **Landing Page Funnel Type:** Based on the URL, what kind of funnel is this ad likely driving to? Choose one: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL].
+
+**Your Response:**
+
+Return your analysis as a valid JSON object. Do not include any text outside of the JSON block.
+
+Example JSON structure:
+{
+  "unique_mechanism": {
+    "value": "Nitric Oxide boost from organic beets",
+    "reasoning": "The ad copy focuses on how nitrates in beetroot convert to nitric oxide, which improves circulation."
+  },
+  "angle_hook_type": {
+    "value": "Health Benefit",
+    "reasoning": "The ad's primary focus is on improving energy, circulation, and heart health."
+  },
+  "proof_elements": {
+    "value": ["Scientific Mechanism", "Testimonials/Reviews", "Made in USA"],
+    "reasoning": "It explains the nitric oxide mechanism, mentions '75,000 five-star reviews', and states it's 'Made in the USA'."
+  },
+  "ad_structure": {
+    "hook_type": "Apology hook",
+    "body_structure": "Problem-Agitate-Solve (PAS)",
+    "cta_type": "Urgency-driven 'Get Offer'"
+  },
+  "landing_page_funnel": {
+    "value": "Direct to Sales Page",
+    "reasoning": "The URL slug '/npl' or similar usually indicates a direct-to-product sales page."
+  }
+}

@@ -1,0 +1,227 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87695053**
+- Brand: Vital BP
+- Format: VIDEO
+- Title: 3 Common Mistakes Causing Heart Issues?
+- Body: Many folks with blood flow issues and artery plaques have never been told they're making these common mistakes.
+
+That's why I just released a new video that shows how to help:
+❤️ Detect attacks before it's too late
+❤️ Flush arteries
+❤️ Boost blood flow
+❤️ Support healthy cholesterol levels
+
+It's safe to say what you'll discover today could be called VITAL to a healthy heart.
+
+P.S. These 3 common heart health mistakes are putting folks at risk. So watch this video now before it's too late. Or sha...
+- CTA: WATCH_MORE
+- Landing Page: https://bloodflowsecret.com/pages/vbp-vslfb
+- Performance Score: 61
+
+
+**Ad 2 - ID: 88126607**
+- Brand: Vital BP
+- Format: VIDEO
+- Title: 3 Common Mistakes Causing Heart Issues?
+- Body: Many folks with blood flow issues and artery plaques have never been told they're making these common mistakes.
+
+That's why I just released a new video that shows how to help:
+❤️ Detect attacks before it's too late
+❤️ Flush arteries
+❤️ Boost blood flow
+❤️ Support healthy cholesterol levels
+
+It's safe to say what you'll discover today could be called VITAL to a healthy heart.
+
+P.S. These 3 common heart health mistakes are putting folks at risk. So watch this video now before it's too late. Or sha...
+- CTA: WATCH_MORE
+- Landing Page: https://bloodflowsecret.com/pages/vbp-vslfb
+- Performance Score: 61
+
+
+**Ad 3 - ID: 88126602**
+- Brand: Vital BP
+- Format: VIDEO
+- Title: 3 Common Mistakes Causing Heart Issues?
+- Body: Many folks with blood flow issues and artery plaques have never been told they're making these common mistakes.
+
+That's why I just released a new video that shows how to help:
+❤️ Detect attacks before it's too late
+❤️ Flush arteries
+❤️ Boost blood flow
+❤️ Support healthy cholesterol levels
+
+It's safe to say what you'll discover today could be called VITAL to a healthy heart.
+
+P.S. These 3 common heart health mistakes are putting folks at risk. So watch this video now before it's too late. Or sha...
+- CTA: WATCH_MORE
+- Landing Page: https://bloodflowsecret.com/pages/vbp-vslfb
+- Performance Score: 61
+
+
+**Ad 4 - ID: 88126601**
+- Brand: Vital BP
+- Format: VIDEO
+- Title: 3 Common Mistakes Causing Heart Issues?
+- Body: Many folks with blood flow issues and artery plaques have never been told they're making these common mistakes.
+
+That's why I just released a new video that shows how to help:
+❤️ Detect attacks before it's too late
+❤️ Flush arteries
+❤️ Boost blood flow
+❤️ Support healthy cholesterol levels
+
+It's safe to say what you'll discover today could be called VITAL to a healthy heart.
+
+P.S. These 3 common heart health mistakes are putting folks at risk. So watch this video now before it's too late. Or sha...
+- CTA: WATCH_MORE
+- Landing Page: https://bloodflowsecret.com/pages/vbp-vslfb
+- Performance Score: 61
+
+
+**Ad 5 - ID: 87938596**
+- Brand: Vital BP
+- Format: VIDEO
+- Title: 3 Common Mistakes Causing Heart Issues?
+- Body: Many folks with blood flow issues and artery plaques have never been told they're making these common mistakes.
+
+That's why I just released a new video that shows how to help:
+❤️ Detect attacks before it's too late
+❤️ Flush arteries
+❤️ Boost blood flow
+❤️ Support healthy cholesterol levels
+
+It's safe to say what you'll discover today could be called VITAL to a healthy heart.
+
+P.S. These 3 common heart health mistakes are putting folks at risk. So watch this video now before it's too late. Or sha...
+- CTA: WATCH_MORE
+- Landing Page: https://bloodflowsecret.com/pages/vbp-vslfb
+- Performance Score: 61
+
+
+**Ad 6 - ID: 87938577**
+- Brand: Vital BP
+- Format: VIDEO
+- Title: 3 Common Mistakes Causing Heart Issues?
+- Body: Many folks with blood flow issues and artery plaques have never been told they're making these common mistakes.
+
+That's why I just released a new video that shows how to help:
+❤️ Detect attacks before it's too late
+❤️ Flush arteries
+❤️ Boost blood flow
+❤️ Support healthy cholesterol levels
+
+It's safe to say what you'll discover today could be called VITAL to a healthy heart.
+
+P.S. These 3 common heart health mistakes are putting folks at risk. So watch this video now before it's too late. Or sha...
+- CTA: WATCH_MORE
+- Landing Page: https://bloodflowsecret.com/pages/vbp-vslfb
+- Performance Score: 61
+
+
+**Ad 7 - ID: 87938569**
+- Brand: Vital BP
+- Format: VIDEO
+- Title: 3 Common Mistakes Causing Heart Issues?
+- Body: Many folks with blood flow issues and artery plaques have never been told they're making these common mistakes.
+
+That's why I just released a new video that shows how to help:
+❤️ Detect attacks before it's too late
+❤️ Flush arteries
+❤️ Boost blood flow
+❤️ Support healthy cholesterol levels
+
+It's safe to say what you'll discover today could be called VITAL to a healthy heart.
+
+P.S. These 3 common heart health mistakes are putting folks at risk. So watch this video now before it's too late. Or sha...
+- CTA: WATCH_MORE
+- Landing Page: https://bloodflowsecret.com/pages/vbp-vslfb
+- Performance Score: 61
+
+
+**Ad 8 - ID: 87938559**
+- Brand: Vital BP
+- Format: VIDEO
+- Title: 3 Common Mistakes Causing Heart Issues?
+- Body: Many folks with blood flow issues and artery plaques have never been told they're making these common mistakes.
+
+That's why I just released a new video that shows how to help:
+❤️ Detect attacks before it's too late
+❤️ Flush arteries
+❤️ Boost blood flow
+❤️ Support healthy cholesterol levels
+
+It's safe to say what you'll discover today could be called VITAL to a healthy heart.
+
+P.S. These 3 common heart health mistakes are putting folks at risk. So watch this video now before it's too late. Or sha...
+- CTA: WATCH_MORE
+- Landing Page: https://bloodflowsecret.com/pages/vbp-vslfb
+- Performance Score: 61
+
+
+**Ad 9 - ID: 88126588**
+- Brand: Vital BP
+- Format: VIDEO
+- Title: 3 Common Mistakes Causing Heart Issues?
+- Body: Many folks with blood flow issues and artery plaques have never been told they're making these common mistakes.
+
+That's why I just released a new video that shows how to help:
+❤️ Detect attacks before it's too late
+❤️ Flush arteries
+❤️ Boost blood flow
+❤️ Support healthy cholesterol levels
+
+It's safe to say what you'll discover today could be called VITAL to a healthy heart.
+
+P.S. These 3 common heart health mistakes are putting folks at risk. So watch this video now before it's too late. Or sha...
+- CTA: WATCH_MORE
+- Landing Page: https://bloodflowsecret.com/pages/vbp-vslfb
+- Performance Score: 61
+
+
+**Ad 10 - ID: 88126583**
+- Brand: Vital BP
+- Format: VIDEO
+- Title: 3 Common Mistakes Causing Heart Issues?
+- Body: Many folks with blood flow issues and artery plaques have never been told they're making these common mistakes.
+
+That's why I just released a new video that shows how to help:
+❤️ Detect attacks before it's too late
+❤️ Flush arteries
+❤️ Boost blood flow
+❤️ Support healthy cholesterol levels
+
+It's safe to say what you'll discover today could be called VITAL to a healthy heart.
+
+P.S. These 3 common heart health mistakes are putting folks at risk. So watch this video now before it's too late. Or sha...
+- CTA: WATCH_MORE
+- Landing Page: https://bloodflowsecret.com/pages/vbp-vslfb
+- Performance Score: 61
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

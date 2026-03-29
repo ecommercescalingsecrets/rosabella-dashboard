@@ -1,0 +1,181 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 88180595**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Ancient Viking Skincare
+- Body: It’s always been harder for us …
+
+✨ Doctors make us feel dismissed
+💔 We’ve always been criticized by men with words I still remember to this day
+💄 And the beauty industry has always favored white women over us
+
+I see white women my age looking 20 years younger…
+
+But when we, black women, get wrinkles, dryness, hyperpigmentation… no one listens.
+
+I thought maybe I wasn’t doing enough.
+
+So I tried everything: Retinol, serums, $200 creams…
+
+Some irritated my skin. Most did nothing. And a few made m...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 2 - ID: 88180594**
+- Brand: Nordic Wellness Secrets
+- Format: IMAGE
+- Title: Harvard Study: “We’ve Been Applying Anti-Aging Creams Wrong For 30 Years.”
+- Body: See why plastic surgeons call this "the death of Botox" 👇
+
+A Harvard dermatology study just shattered everything we thought about skincare.
+
+They tracked 1,200 women using premium anti-aging creams for 6 months. The result? Zero structural improvement in wrinkle depth.
+
+"We expected small changes," says lead researcher Dr. Kohn. "We found nothing."
+
+The culprit? Something called molecular size. Think of your skin like a tennis net. 
+
+Water molecules slip through easily—they're tiny at 18 Daltons...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 3 - ID: 88180553**
+- Brand: Nordic Wellness Secrets
+- Format: IMAGE
+- Title: This Ends The Botox Trap 🔓
+- Body: What if everything you believed about Botox was wrong? ⁉️
+
+Most people don't know this about Botox: It freezes facial muscles to hide wrinkles temporarily, but underneath? Your skin is still aging …
+
+That's why wrinkles return every few months, you're covering up the problem, not fixing it.
+
+After 10 years of Botox at around $475 per session every 3-4 months, most people have spent $19,000-$24,000 and still have the same skin issues they started with …
+
+Here's what has turned the botox industry ...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 4 - ID: 88180584**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: The Hidden Secret Behind Age Reversal
+- Body: People Keep Asking If I Got Work Done… Nope, Just This!
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 5 - ID: 88180582**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Modern Labs Don’t Understand That Nature Always Wins 🌿
+- Body: THE SCIENCE BEHIND ARCTIC HERBS AND YOUNGER SKIN ❄️🌿
+
+Aging doesn’t start on the surface, it starts deep in your skin. By 30 you have already lost 2/3 of your collagen 📉, elastin weakens, and your skin barrier gets thinner. That means more dryness, wrinkles, and sagging over time.
+
+Arctic plants face the same problem, survival in extreme conditions to live through freezing winds 🌬️, long nights 🌑, and harsh climates ❄️, they fill themselves with vitamins, fatty acids, and antioxidants in super h...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 6 - ID: 88180579**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: The Hidden Secret Behind Age Reversal
+- Body: People Keep Asking If I Got Work Done… Nope, Just This!
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 7 - ID: 88180577**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: A 'Facelift' With No Swelling, Surgery Or Downtime - Even Her Doctor Was Stunned!
+- Body: I'm 62 and I've found the secret to looking younger! 🤫 This balm fades my wrinkles, giving me that dewey look. People rave about my healthy skin and ask what my secret is... Frøya is my go-to!🌼 Join 1,000,000+ happy women like me and get 40% off now! 👉
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 8 - ID: 88180572**
+- Brand: Nordic Wellness Secrets
+- Format: IMAGE
+- Title: So effective people think it’s witchcraft
+- Body: My doctor said, “It’s just aging,” when my skin started collapsing after menopause. She was wrong.
+
+I still remember sitting there trying to explain how quickly everything had changed.
+
+My skin looked dull. Dry. Fragile.
+
+Like it aged 10 years in six months.
+
+She barely looked up from her clipboard.
+
+“It’s just part of getting older,” she said.
+
+“Try a heavier moisturizer. Maybe a little retinol.”
+
+I left feeling invisible.
+
+Hopeless.
+
+Was I really just supposed to accept sagging cheeks, deepeni...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 9 - ID: 88180598**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: A 'Facelift' With No Swelling, Surgery Or Downtime - Even Her Doctor Was Stunned!
+- Body: I'm 62 and I've found the secret to looking younger! 🤫 This balm fades my wrinkles, giving me that dewey look. People rave about my healthy skin and ask what my secret is... Frøya is my go-to!🌼 Join 1,000,000+ happy women like me and get 40% off now! 👉
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 10 - ID: 88180596**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: A 'Facelift' With No Swelling, Surgery Or Downtime - Even Her Doctor Was Stunned!
+- Body: I'm 62 and I've found the secret to looking younger! 🤫 This balm fades my wrinkles, giving me that dewey look. People rave about my healthy skin and ask what my secret is... Frøya is my go-to!🌼 Join 1,000,000+ happy women like me and get 40% off now! 👉
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

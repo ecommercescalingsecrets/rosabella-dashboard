@@ -1,0 +1,95 @@
+
+Analyze the following ad creative based on its provided data.
+
+**Ad Data:**
+- **Ad ID:** 87119397
+- **Brand:** Cortisol Reset Project
+- **Format:** IMAGE
+- **Title/Headline:** Unlock Your Body’s Full Potential
+- **Ad Body/Text:** "It's just stress."
+
+I heard that phrase so many times I wanted to scream.
+
+From my primary care doctor. From the specialist she referred me to. From the second specialist after that.
+
+I'd describe my symptoms.
+
+Waking up at 3 AM every night. Can't fall back asleep.
+
+Bloating after every meal. Look pregnant by dinner.
+
+Hair falling out in clumps.
+
+So exhausted I can barely function.
+
+Random body aches that never stop.
+
+Gas so bad I'm embarrassed to leave the house.
+
+They'd look at me with that face. That patronizing, dismissive face.
+
+"Have you been under a lot of stress lately?"
+
+Yes. I have. Because I feel like I'm falling apart and nobody will help me figure out why.
+
+"Try meditation. Get more sleep. Maybe see a therapist."
+
+I wasn't imagining this. I knew something was wrong.
+
+I wasn't stressed into bloating. I wasn't anxious into hair loss. I wasn't thinking my body aches into existence.
+
+Something was actually, physically wrong with me.
+
+And nobody would listen.
+
+After the third ...
+- **CTA:** LEARN_MORE
+- **Landing Page URL:** https://get.tryrosabella.com/rosabella/ny1/sp
+- **Performance Score:** 81
+- **Days Active:** 6
+
+**Analysis Categories:**
+
+Please categorize the ad across these 5 dimensions. Provide a brief "reasoning" for each choice.
+
+1.  **Unique Mechanism:** What proprietary angle, ingredient, or method do they claim makes their product special? (e.g., "Nitric Oxide boost from organic beets", "Third-party tested 1300mg dose", "Flushes inflammatory waste").
+
+2.  **Angle/Hook Type:** What is the primary emotional or logical driver of the ad? Choose one from the list: [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit].
+
+3.  **Proof Elements:** What types of proof are mentioned or implied in the ad copy? List all that apply from: [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, "Made in USA", "Third-Party Tested"].
+
+4.  **Ad Structure:** Describe the structure of the ad.
+    - **Hook Type:** How does the ad open? (e.g., "Bold statement", "Apology hook", "Question", "Statistic").
+    - **Body Structure:** How is the main message structured? (e.g., "Problem-Agitate-Solve (PAS)", "Story", "Listicle of Benefits", "Direct Offer").
+    - **CTA Type:** What kind of call to action is it? (e.g., "Direct 'Shop Now'", "Benefit-driven 'Learn More'", "Urgency-driven 'Get Offer'").
+
+5.  **Landing Page Funnel Type:** Based on the URL, what kind of funnel is this ad likely driving to? Choose one: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL].
+
+**Your Response:**
+
+Return your analysis as a valid JSON object. Do not include any text outside of the JSON block.
+
+Example JSON structure:
+{
+  "unique_mechanism": {
+    "value": "Nitric Oxide boost from organic beets",
+    "reasoning": "The ad copy focuses on how nitrates in beetroot convert to nitric oxide, which improves circulation."
+  },
+  "angle_hook_type": {
+    "value": "Health Benefit",
+    "reasoning": "The ad's primary focus is on improving energy, circulation, and heart health."
+  },
+  "proof_elements": {
+    "value": ["Scientific Mechanism", "Testimonials/Reviews", "Made in USA"],
+    "reasoning": "It explains the nitric oxide mechanism, mentions '75,000 five-star reviews', and states it's 'Made in the USA'."
+  },
+  "ad_structure": {
+    "hook_type": "Apology hook",
+    "body_structure": "Problem-Agitate-Solve (PAS)",
+    "cta_type": "Urgency-driven 'Get Offer'"
+  },
+  "landing_page_funnel": {
+    "value": "Direct to Sales Page",
+    "reasoning": "The URL slug '/npl' or similar usually indicates a direct-to-product sales page."
+  }
+}

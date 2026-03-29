@@ -1,0 +1,229 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87937037**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: If you took Rosabella every day for 30 days… the real change starts with your blood vessels.
+
+At first, it’s subtle.
+
+That tight, heavy feeling begins to ease.
+
+Your body starts getting the signal it’s been missing.
+
+Because the real issue often starts when your blood vessels lose the signal that tells them to relax.
+
+That signal is nitric oxide.
+
+When nitric oxide levels drop, blood vessels stay tight and circulation slows instead of flowing the way it should.
+
+What it helps with
+✨ Supports nat...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/bp/mm-hbp-sp-np-2
+- Performance Score: 61
+
+
+**Ad 2 - ID: 87937022**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: If you're on Lisinopril or Amlodipine and things have gone dead below the belt — there's a reason. And it's not your age.
+
+Because what I'm about to tell you is going to make you furious.
+
+Here's what's happening right now:
+
+One — The medication that's "protecting your heart" is quietly destroying another part of your life.
+
+Two — When you bring it up to your doctor, they're going to offer you ANOTHER pill on top of the first one.
+
+And three — There's a reason nobody told you this would happen. ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 3 - ID: 87937017**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: If you're on Lisinopril or Amlodipine and things have gone dead below the belt — there's a reason. And it's not your age.
+
+Because what I'm about to tell you is going to make you furious.
+
+Here's what's happening right now:
+
+One — The medication that's "protecting your heart" is quietly destroying another part of your life.
+
+Two — When you bring it up to your doctor, they're going to offer you ANOTHER pill on top of the first one.
+
+And three — There's a reason nobody told you this would happen. ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 4 - ID: 87691592**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: What Your Doctor Won't Tell You About ED
+- Body: In 1950, the average 70-year-old man reported having s*x 1-2 times daily. Today, 75% of men over 50 struggle to get it up consistently.
+
+Our grandfathers didn’t have Viagra. Didn’t have Cialis. No pharmaceutical intervention whatsoever.
+
+Fast forward to today.
+
+75% of men over 50 can't get it up consistently.
+
+We have "better medicine." Advanced treatments. Drugs our grandfathers never heard of.
+
+Yet somehow, modern men are failing in the bedroom two decades earlier than their grandfathers did.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 5 - ID: 87937086**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: If you're on Lisinopril or Amlodipine and things have gone dead below the belt — there's a reason. And it's not your age.
+
+Because what I'm about to tell you is going to make you furious.
+
+Here's what's happening right now:
+
+One — The medication that's "protecting your heart" is quietly destroying another part of your life.
+
+Two — When you bring it up to your doctor, they're going to offer you ANOTHER pill on top of the first one.
+
+And three — There's a reason nobody told you this would happen. ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 41
+
+
+**Ad 6 - ID: 87937004**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: I need to publicly apologize to anyone who's ever been prescribed Lisinopril.
+
+Because nobody told you what was actually happening inside your body.
+
+That dry cough that never goes away. The dizziness when you stand up too fast. The fatigue that never lifted. That's all Lisinopril.
+
+Here's what nobody explained. Your blood pressure is high because your body stopped making enough nitric oxide. That's the molecule that tells your blood vessels to relax and open up. After 40 it drops. Your vessels ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 41
+
+
+**Ad 7 - ID: 86456322**
+- Brand: Rosabella Beetroot
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 91
+
+
+**Ad 8 - ID: 86456426**
+- Brand: Rosabella Beetroot
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 91
+
+
+**Ad 9 - ID: 85986609**
+- Brand: Rosabella Beetroot
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 91
+
+
+**Ad 10 - ID: 85986601**
+- Brand: Rosabella Beetroot
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: This almost never happens.
+
+Rosabella Beetroot is running a limited-time promotion right now - and if you've been waiting to try it, this is your moment.
+
+Here's why this matters:
+
+Beetroot is one of nature's most powerful circulation boosters.
+
+It's loaded with nitrates that your body converts into nitric oxide - the molecule that opens blood vessels and improves blood flow throughout your entire body.
+
+Better circulation means more energy, less swelling, reduced joint pain, clearer thinking, a...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 91
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

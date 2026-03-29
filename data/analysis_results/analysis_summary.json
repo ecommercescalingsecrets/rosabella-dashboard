@@ -1,0 +1,36 @@
+{
+  "total_analyzed": 50,
+  "mechanism_distribution": {
+    "Clinical-grade beetroot powder": 8,
+    "Organic beetroot nitrates for circulation": 5,
+    "Anti-inflammatory circulation support": 10,
+    "Heart-specific circulation formula": 4,
+    "Natural blood pressure support": 5,
+    "Nitric oxide pathway activation": 4,
+    "Endurance and energy enhancement": 7,
+    "Third-party tested 1300mg dose": 7
+  },
+  "hook_type_distribution": {
+    "Fear": 6,
+    "Authority": 5,
+    "Empathy/Story": 7,
+    "Social Proof": 6,
+    "Health Benefit": 5,
+    "Scarcity/Urgency": 3,
+    "Before/After": 12,
+    "Curiosity": 6
+  },
+  "proof_elements_distribution": {
+    "Scientific Mechanism": 23,
+    "Testimonials/Reviews": 17,
+    "Third-Party Tested": 24,
+    "Clinical Data": 12,
+    "Doctor Endorsement": 15,
+    "Made in USA": 13
+  },
+  "funnel_type_distribution": {
+    "Quiz/Survey Funnel": 19,
+    "Direct to Sales Page": 15,
+    "Advertorial/VSL": 16
+  }
+}

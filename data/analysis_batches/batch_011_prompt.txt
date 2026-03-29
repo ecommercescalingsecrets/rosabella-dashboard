@@ -1,0 +1,296 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87414304**
+- Brand: Energy & Wellness Club
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: My father took Lisinopril for 22 years. And it destroyed his life before it ever fixed his blood pressure.
+
+The cough never stopped.
+
+His ankles swelled so bad he gave up fishing and barely left the house.
+
+And in the end… the stroke still came.
+
+Most people think blood pressure problems start with the heart.
+
+But the real issue often starts in your blood vessels.
+
+They lose the signal that tells them to relax.
+
+That signal is nitric oxide.
+
+When nitric oxide drops, vessels stay tight, circulati...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: 91
+
+
+**Ad 2 - ID: 87414353**
+- Brand: Energy & Wellness Club
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: If a man has been on Lisinopril for years, this is what might be quietly happening to his body.
+
+The dry cough that wasn’t there before.
+
+The dizziness when he stands up.
+
+The tiredness that sleep doesn’t fix.
+
+That’s not random.
+
+His blood vessels aren’t relaxing the way they should anymore.
+
+That happens when nitric oxide levels drop and circulation slows down.
+
+What it helps with
+✨ Supports natural nitric oxide production
+✨ Helps blood vessels relax naturally
+✨ Supports healthy blood flow
+✨ H...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 81
+
+
+**Ad 3 - ID: 87767482**
+- Brand: Energy & Wellness Club
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Flip your beetroot bottle over.
+
+Look at the label.
+
+If it doesn’t show standardized nitrate content, you already have your answer.
+
+Because nitrates are the entire reason beetroot works.
+
+Your body converts nitrates into nitric oxide.
+Nitric oxide is the signal that tells your blood vessels to relax and open.
+
+Better circulation.
+More oxygen reaching your heart, brain, and muscles.
+
+No nitrates means no nitric oxide.
+No nitric oxide means no results.
+
+And that’s exactly why so many beetroot s...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: 61
+
+
+**Ad 4 - ID: 87414518**
+- Brand: Energy & Wellness Club
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I Refused Lisinopril for 3 Years. Here's What Happened to My Blood Pressure.
+
+I've been a nurse for 32 years, and high blood pressure is one of the hardest things I watch patients struggle with.
+
+Not the blood pressure itself. The medication.
+
+The persistent dry cough that wakes them up at night. The dizziness that leads to falls. The ankles so swollen they can't wear normal shoes anymore. The exhaustion so heavy they're asleep on the couch by 7 PM.
+
+I've watched patients follow their doctor's o...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 5 - ID: 87414501**
+- Brand: Energy & Wellness Club
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Three warning signs your blood pressure is getting worse. And the last one is the one nobody’s talking about.
+
+Waking up with a headache.
+
+Feeling out of breath doing simple things.
+
+Your vision going blurry at night.
+
+That’s not random.
+
+Your blood vessels aren’t opening the way they should.
+
+That happens when nitric oxide levels drop and circulation slows down.
+
+What it helps with
+✨ Supports natural nitric oxide production
+✨ Helps blood vessels relax naturally
+✨ Supports healthy blood flow
+✨ H...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: 61
+
+
+**Ad 6 - ID: 87414470**
+- Brand: Energy & Wellness Club
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I Refused Lisinopril for 3 Years. Here's What Happened to My Blood Pressure.
+
+I've been a nurse for 32 years, and high blood pressure is one of the hardest things I watch patients struggle with.
+
+Not the blood pressure itself. The medication.
+
+The persistent dry cough that wakes them up at night. The dizziness that leads to falls. The ankles so swollen they can't wear normal shoes anymore. The exhaustion so heavy they're asleep on the couch by 7 PM.
+
+I've watched patients follow their doctor's o...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 7 - ID: 87414456**
+- Brand: Energy & Wellness Club
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Three warning signs your blood pressure is getting worse. And the last one is the one nobody’s talking about.
+
+Waking up with a headache.
+
+Feeling out of breath doing simple things.
+
+Your vision going blurry at night.
+
+That’s not random.
+
+Your blood vessels aren’t opening the way they should.
+
+That happens when nitric oxide levels drop and circulation slows down.
+
+What it helps with
+✨ Supports natural nitric oxide production
+✨ Helps blood vessels relax naturally
+✨ Supports healthy blood flow
+✨ H...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: 61
+
+
+**Ad 8 - ID: 87414442**
+- Brand: Energy & Wellness Club
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Amlodipine. I don’t care how long you’ve been on it. It’s not fixing the problem.
+
+The swollen ankles.
+
+The dizziness.
+
+The flushing.
+
+The fatigue that makes you feel twenty years older than you are.
+
+That’s not random.
+
+Your blood vessels aren’t relaxing the way they should anymore.
+
+That happens when nitric oxide levels drop and circulation slows down.
+
+What it helps with
+
+✨ Supports natural nitric oxide production
+
+✨ Helps blood vessels relax naturally
+
+✨ Supports healthy blood flow
+
+✨ Helps ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 9 - ID: 87414435**
+- Brand: Energy & Wellness Club
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Three warning signs your blood pressure is getting worse. And the last one is the one nobody’s talking about.
+
+Waking up with a headache.
+
+Feeling out of breath doing simple things.
+
+Your vision going blurry at night.
+
+That’s not random.
+
+Your blood vessels aren’t opening the way they should.
+
+That happens when nitric oxide levels drop and circulation slows down.
+
+What it helps with
+✨ Supports natural nitric oxide production
+✨ Helps blood vessels relax naturally
+✨ Supports healthy blood flow
+✨ H...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-ps
+- Performance Score: 61
+
+
+**Ad 10 - ID: 87414424**
+- Brand: Energy & Wellness Club
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Amlodipine. I don’t care how long you’ve been on it. It’s not fixing the problem.
+
+The swollen ankles.
+
+The dizziness.
+
+The flushing.
+
+The fatigue that makes you feel twenty years older than you are.
+
+That’s not random.
+
+Your blood vessels aren’t relaxing the way they should anymore.
+
+That happens when nitric oxide levels drop and circulation slows down.
+
+What it helps with
+
+✨ Supports natural nitric oxide production
+
+✨ Helps blood vessels relax naturally
+
+✨ Supports healthy blood flow
+
+✨ Helps ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: 61
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

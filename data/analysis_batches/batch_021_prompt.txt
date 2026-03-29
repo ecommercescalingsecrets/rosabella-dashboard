@@ -1,0 +1,258 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 80946060**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: My husband came out as gay after 26 years of marriage and it nearly killed me.
+
+Literally.
+
+Hello, my name is Susan. I'm a 54-year-old mother of three.
+
+And right here in this post, I'm going to share the most devastating conversation of my entire life... and what happened immediately after that almost ended my life.
+
+So let me start from the beginning.
+
+Throughout our 26 years together, my husband Liam and I always struggled with intimacy.
+
+I'm talking about going months without being close, wi...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 91
+
+
+**Ad 2 - ID: 87119400**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: For six years, I thought my body was breaking down in six different ways. Joint pain. Fatigue. Sleep problems. Belly fat that wouldn't budge. Shoulder pain. Ringing in my ears.
+
+Turns out, it was one thing. One thing nobody thought to check.
+
+Six years of ibuprofen every morning for joint pain.
+
+Six years of sleep aids that left me groggy but still waking up at 3am.
+
+Six years of diets and workouts that did nothing for the belly that wouldn't budge.
+
+Six years of being told to "reduce stress" an...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 91
+
+
+**Ad 3 - ID: 87119397**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: "It's just stress."
+
+I heard that phrase so many times I wanted to scream.
+
+From my primary care doctor. From the specialist she referred me to. From the second specialist after that.
+
+I'd describe my symptoms.
+
+Waking up at 3 AM every night. Can't fall back asleep.
+
+Bloating after every meal. Look pregnant by dinner.
+
+Hair falling out in clumps.
+
+So exhausted I can barely function.
+
+Random body aches that never stop.
+
+Gas so bad I'm embarrassed to leave the house.
+
+They'd look at me with that f...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 4 - ID: 87566214**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Unlock Your Body's Full Potential
+- Body: My husband is a doctor.
+
+He has practiced medicine for twenty-three years. He sees patients every day who come in exhausted, foggy, gaining weight they can't explain, waking at 3 in the morning for no reason, watching their hair thin in the shower.
+
+He knows exactly what to tell them.
+
+"Your bloodwork is normal. You're probably stressed. This is part of aging. Here's something for anxiety if you need it."
+
+I know this because I've sat across from him at dinner for twenty-six years listening to h...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/gummies/sp
+- Performance Score: 81
+
+
+**Ad 5 - ID: 83359710**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: My husband came out as gay after 26 years of marriage and it nearly killed me.
+
+Literally.
+
+Hello, my name is Susan. I'm a 54-year-old mother of three.
+
+And right here in this post, I'm going to share the most devastating conversation of my entire life... and what happened immediately after that almost ended my life.
+
+So let me start from the beginning.
+
+Throughout our 26 years together, my husband Liam and I always struggled with intimacy.
+
+I'm talking about going months without being close, wi...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 6 - ID: 83720495**
+- Brand: Cortisol Reset Project
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: Are you not hungry for breakfast in the morning?
+That's high cortisol.
+
+Do you wake up at 3 a.m. having to pee?
+That's high cortisol.
+
+Experiencing strange shoulder pain?
+That's high cortisol.
+
+Hair thinning out of nowhere?
+That's high cortisol.
+
+Ringing in your ears?
+That's high cortisol.
+
+That stubborn pooch around your stomach that won’t go away no matter how much you work out?
+That's high cortisol.
+
+And that creaky, stiff feeling in your joints when you wake up? That ache in your knees when ...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl-beet
+- Performance Score: None
+
+
+**Ad 7 - ID: 83892683**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: My husband came out as gay after 26 years of marriage and it nearly killed me.
+
+Literally.
+
+Hello, my name is Susan. I'm a 54-year-old mother of three.
+
+And right here in this post, I'm going to share the most devastating conversation of my entire life... and what happened immediately after that almost ended my life.
+
+So let me start from the beginning.
+
+Throughout our 26 years together, my husband Liam and I always struggled with intimacy.
+
+I'm talking about going months without being close, wi...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 8 - ID: 83892672**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: My husband came out as gay after 26 years of marriage and it nearly killed me.
+
+Literally.
+
+Hello, my name is Susan. I'm a 54-year-old mother of three.
+
+And right here in this post, I'm going to share the most devastating conversation of my entire life... and what happened immediately after that almost ended my life.
+
+So let me start from the beginning.
+
+Throughout our 26 years together, my husband Liam and I always struggled with intimacy.
+
+I'm talking about going months without being close, wi...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Ad 9 - ID: 83359895**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: For six years, I thought my body was breaking down in six different ways. Joint pain. Fatigue. Sleep problems. Belly fat that wouldn't budge. Shoulder pain. Ringing in my ears.
+
+Turns out, it was one thing. One thing nobody thought to check.
+
+Six years of ibuprofen every morning for joint pain.
+
+Six years of sleep aids that left me groggy but still waking up at 3am.
+
+Six years of diets and workouts that did nothing for the belly that wouldn't budge.
+
+Six years of being told to "reduce stress" an...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: None
+
+
+**Ad 10 - ID: 79990570**
+- Brand: Cortisol Reset Project
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: I Found My Husband Sitting in His Car in the Driveway at 11 PM. Engine Off. Just Sitting There. He Couldn't Bring Himself to Come Inside. That's When I Knew I Had to Stop Suggesting Things and Start Fixing This.
+
+He didn't see me at the window.
+
+Just sat there in the dark.
+
+Hands on the steering wheel.
+
+Staring at nothing.
+
+The garage door had gone up twenty minutes earlier. I'd heard it from the bedroom. Waited for him to come in.
+
+He never came in.
+
+So I went to the window.
+
+And there he was.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: None
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

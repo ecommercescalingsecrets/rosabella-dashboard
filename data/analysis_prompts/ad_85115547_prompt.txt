@@ -1,0 +1,87 @@
+
+Analyze the following ad creative based on its provided data.
+
+**Ad Data:**
+- **Ad ID:** 85115547
+- **Brand:** Cortisol Reset Project
+- **Format:** IMAGE
+- **Title/Headline:** LEAKED: Why Billionaires Never Get Hair Loss
+- **Ad Body/Text:** Elon Musk had a visibly receding hairline in his early PayPal days. Now? Thick and full. Your dermatologist will tell you he got a transplant. Maybe Propecia. Maybe Rogaine.
+
+But a wellness doctor who works exclusively with billionaires in Silicon Valley just revealed something else entirely.
+
+Something that has nothing to do with surgery, prescriptions, or expensive treatments.
+
+And once you understand what it is, you'll realize why your dermatologist never mentioned it.
+
+The Real Reason Billionaires Don't Go Bald Or Suffer From Hair Loss
+
+They're not smarter than you.
+
+They're not genetically superior.
+
+What they have is access.
+
+Access to doctors who don't just manage symptoms.
+
+Access to research that never makes it into your dermatologist's office.
+
+Access to solutions that can't be patented -- which means there's no billion-dollar incentive to promote them.
+
+And what they discovered is this:
+
+Hair loss isn't about genetics.
+
+It's about blood flow.
+
+Specifically, it's about a mole...
+- **CTA:** LEARN_MORE
+- **Landing Page URL:** https://get.tryrosabella.com/beetroot/subtxt/sp
+- **Performance Score:** None
+- **Days Active:** 5
+
+**Analysis Categories:**
+
+Please categorize the ad across these 5 dimensions. Provide a brief "reasoning" for each choice.
+
+1.  **Unique Mechanism:** What proprietary angle, ingredient, or method do they claim makes their product special? (e.g., "Nitric Oxide boost from organic beets", "Third-party tested 1300mg dose", "Flushes inflammatory waste").
+
+2.  **Angle/Hook Type:** What is the primary emotional or logical driver of the ad? Choose one from the list: [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit].
+
+3.  **Proof Elements:** What types of proof are mentioned or implied in the ad copy? List all that apply from: [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, "Made in USA", "Third-Party Tested"].
+
+4.  **Ad Structure:** Describe the structure of the ad.
+    - **Hook Type:** How does the ad open? (e.g., "Bold statement", "Apology hook", "Question", "Statistic").
+    - **Body Structure:** How is the main message structured? (e.g., "Problem-Agitate-Solve (PAS)", "Story", "Listicle of Benefits", "Direct Offer").
+    - **CTA Type:** What kind of call to action is it? (e.g., "Direct 'Shop Now'", "Benefit-driven 'Learn More'", "Urgency-driven 'Get Offer'").
+
+5.  **Landing Page Funnel Type:** Based on the URL, what kind of funnel is this ad likely driving to? Choose one: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL].
+
+**Your Response:**
+
+Return your analysis as a valid JSON object. Do not include any text outside of the JSON block.
+
+Example JSON structure:
+{
+  "unique_mechanism": {
+    "value": "Nitric Oxide boost from organic beets",
+    "reasoning": "The ad copy focuses on how nitrates in beetroot convert to nitric oxide, which improves circulation."
+  },
+  "angle_hook_type": {
+    "value": "Health Benefit",
+    "reasoning": "The ad's primary focus is on improving energy, circulation, and heart health."
+  },
+  "proof_elements": {
+    "value": ["Scientific Mechanism", "Testimonials/Reviews", "Made in USA"],
+    "reasoning": "It explains the nitric oxide mechanism, mentions '75,000 five-star reviews', and states it's 'Made in the USA'."
+  },
+  "ad_structure": {
+    "hook_type": "Apology hook",
+    "body_structure": "Problem-Agitate-Solve (PAS)",
+    "cta_type": "Urgency-driven 'Get Offer'"
+  },
+  "landing_page_funnel": {
+    "value": "Direct to Sales Page",
+    "reasoning": "The URL slug '/npl' or similar usually indicates a direct-to-product sales page."
+  }
+}

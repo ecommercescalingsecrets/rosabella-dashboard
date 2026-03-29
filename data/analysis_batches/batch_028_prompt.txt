@@ -1,0 +1,239 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87161685**
+- Brand: Dr. David Preston
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: Are you not hungry for breakfast in the morning? That's parasites.
+
+Do you wake up at 3 a.m. having to pee? That's parasites.
+
+Experiencing strange shoulder pain? That's parasites.
+
+Hair thinning out of nowhere? That's parasites.
+
+Ringing in your ears? That's parasites.
+
+That stubborn pooch around your stomach that won't go away no matter how much you work out? That's parasites.
+
+And that creaky, stiff feeling in your joints when you wake up? That ache in your knees when you stand up? Yes, that'...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 61
+
+
+**Ad 2 - ID: 86922429**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Did you know that if you're constantly fatigued, experience shortness of breath when climbing stairs, have persistently high blood pressure, and struggle with brain fog, you might have high cholesterol?
+
+But people don't believe me when I tell them this.
+
+The number one way to lower your cholesterol is not cutting fat, it's not exercising more, and it's definitely not statins.
+
+You're also probably waking up exhausted even after 8 hours of sleep, or maybe you notice your legs feel heavy and swol...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 61
+
+
+**Ad 3 - ID: 87352385**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: Your penis is the smallest blood vessel in your body. It's the first thing that fails when your heart is in trouble. And Viagra is making sure you never notice.
+
+I went in for a routine physical.
+
+My primary doctor said everything looked fine.
+
+Cholesterol a bit high.
+
+Blood pressure slightly elevated.
+
+Nothing to worry about.
+
+But my wife works in medical billing and she insisted I see a cardiologist for a full workup.
+
+"Just to be safe," she said.
+
+The cardiologist did an ultrasound of my arte...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 4 - ID: 87352383**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: Your penis is the smallest blood vessel in your body. It's the first thing that fails when your heart is in trouble. And Viagra is making sure you never notice.
+
+I went in for a routine physical.
+
+My primary doctor said everything looked fine.
+
+Cholesterol a bit high.
+
+Blood pressure slightly elevated.
+
+Nothing to worry about.
+
+But my wife works in medical billing and she insisted I see a cardiologist for a full workup.
+
+"Just to be safe," she said.
+
+The cardiologist did an ultrasound of my arte...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 5 - ID: 87161746**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: What Your Doctor Won't Tell You About ED
+- Body: In 1950, the average 70-year-old man reported having s*x 1-2 times daily. Today, 75% of men over 50 struggle to get it up consistently.
+
+Our grandfathers didn’t have Viagra. Didn’t have Cialis. No pharmaceutical intervention whatsoever.
+
+Fast forward to today.
+
+75% of men over 50 can't get it up consistently.
+
+We have "better medicine." Advanced treatments. Drugs our grandfathers never heard of.
+
+Yet somehow, modern men are failing in the bedroom two decades earlier than their grandfathers did.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 6 - ID: 87161722**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: What Your Doctor Won't Tell You About ED
+- Body: In 1950, the average 70-year-old man reported having s*x 1-2 times daily. Today, 75% of men over 50 struggle to get it up consistently.
+
+Our grandfathers didn’t have Viagra. Didn’t have Cialis. No pharmaceutical intervention whatsoever.
+
+Fast forward to today.
+
+75% of men over 50 can't get it up consistently.
+
+We have "better medicine." Advanced treatments. Drugs our grandfathers never heard of.
+
+Yet somehow, modern men are failing in the bedroom two decades earlier than their grandfathers did.
+...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 7 - ID: 87937090**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: If you're on Lisinopril or Amlodipine and things have gone dead below the belt — there's a reason. And it's not your age.
+
+Because what I'm about to tell you is going to make you furious.
+
+Here's what's happening right now:
+
+One — The medication that's "protecting your heart" is quietly destroying another part of your life.
+
+Two — When you bring it up to your doctor, they're going to offer you ANOTHER pill on top of the first one.
+
+And three — There's a reason nobody told you this would happen. ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 8 - ID: 87937088**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: If you're on Lisinopril or Amlodipine and things have gone dead below the belt — there's a reason. And it's not your age.
+
+Because what I'm about to tell you is going to make you furious.
+
+Here's what's happening right now:
+
+One — The medication that's "protecting your heart" is quietly destroying another part of your life.
+
+Two — When you bring it up to your doctor, they're going to offer you ANOTHER pill on top of the first one.
+
+And three — There's a reason nobody told you this would happen. ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 9 - ID: 87937063**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: If you're on Lisinopril or Amlodipine and things have gone dead below the belt — there's a reason. And it's not your age.
+
+Because what I'm about to tell you is going to make you furious.
+
+Here's what's happening right now:
+
+One — The medication that's "protecting your heart" is quietly destroying another part of your life.
+
+Two — When you bring it up to your doctor, they're going to offer you ANOTHER pill on top of the first one.
+
+And three — There's a reason nobody told you this would happen. ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Ad 10 - ID: 87937044**
+- Brand: Dr. David Preston
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: If you're on Lisinopril or Amlodipine and things have gone dead below the belt — there's a reason. And it's not your age.
+
+Because what I'm about to tell you is going to make you furious.
+
+Here's what's happening right now:
+
+One — The medication that's "protecting your heart" is quietly destroying another part of your life.
+
+Two — When you bring it up to your doctor, they're going to offer you ANOTHER pill on top of the first one.
+
+And three — There's a reason nobody told you this would happen. ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 61
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosabella Analysis Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .video-player {
+            max-width: 300px;
+            max-height: 200px;
+        }
+        .ad-card {
+            transition: all 0.3s ease;
+        }
+        .ad-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .gethookd-link {
+            color: #3B82F6;
+            text-decoration: none;
+        }
+        .gethookd-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-gray-900">Rosabella Analysis Dashboard</h1>
+                    <span class="ml-4 text-sm text-gray-500">Marketing Intelligence Platform</span>
+                </div>
+                <div class="text-sm text-gray-500">
+                    <span id="totalAds">500+</span> ads analyzed across <span id="totalPages">17</span> pages
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex space-x-8">
+                <button onclick="showTab('takeaways')" class="tab-btn py-4 px-2 border-b-2 border-blue-500 text-blue-600 font-medium">
+                    🎯 Key Takeaways
+                </button>
+                <button onclick="showTab('overview')" class="tab-btn py-4 px-2 border-b-2 border-transparent text-gray-500 hover:text-gray-700">
+                    📊 Overview
+                </button>
+                <button onclick="showTab('ads')" class="tab-btn py-4 px-2 border-b-2 border-transparent text-gray-500 hover:text-gray-700">
+                    📢 Top Ads (500+)
+                </button>
+                <button onclick="showTab('analysis')" class="tab-btn py-4 px-2 border-b-2 border-transparent text-gray-500 hover:text-gray-700">
+                    🧠 Angle Analysis
+                </button>
+                <button onclick="showTab('funnel')" class="tab-btn py-4 px-2 border-b-2 border-transparent text-gray-500 hover:text-gray-700">
+                    🔄 Funnel Map
+                </button>
+                <button onclick="showTab('videos')" class="tab-btn py-4 px-2 border-b-2 border-transparent text-gray-500 hover:text-gray-700">
+                    🎬 Video Transcripts
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        
+        <!-- Key Takeaways Tab -->
+        <div id="takeaways" class="tab-content active">
+            <div class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-3xl font-bold mb-6 text-gray-900">🎯 Top 10 Actionable Takeaways for TryBello</h2>
+                <p class="text-gray-600 mb-8">Based on analysis of 500+ Rosabella ads across 17 pages. Here's what TryBello (hair growth supplement) can steal:</p>
+                
+                <div class="grid gap-6">
+                    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border-l-4 border-blue-500">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-900">1. Multi-Brand Authority Strategy</h3>
+                        <p class="text-gray-700 mb-3">Rosabella runs 17 different "doctor" and "expert" brands (Dr. David Preston, The Heart Health Project, etc.) to appear everywhere.</p>
+                        <div class="bg-yellow-100 p-3 rounded border-l-4 border-yellow-400">
+                            <strong>TryBello Action:</strong> Create 3-5 hair expert personas: "Dr. Sarah's Hair Lab", "The Hair Growth Project", "Follicle Science Daily"
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 border-l-4 border-green-500">
+                        <h3 class="text-xl font-semibold mb-3 text-green-900">2. Story-Driven Video Hooks</h3>
+                        <p class="text-gray-700 mb-3">Personal transformation stories (grandmother avoiding care home, nurse's sister dying at 42) massively outperform product features.</p>
+                        <div class="bg-yellow-100 p-3 rounded border-l-4 border-yellow-400">
+                            <strong>TryBello Action:</strong> Film "My daughter stopped talking to me because of my hair loss" style story hooks
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-purple-50 to-violet-50 rounded-lg p-6 border-l-4 border-purple-500">
+                        <h3 class="text-xl font-semibold mb-3 text-purple-900">3. Scientific Mechanism + Emotional Proof</h3>
+                        <p class="text-gray-700 mb-3">Every ad combines scientific mechanism (nitric oxide pathway) with emotional testimonials for credibility + relatability.</p>
+                        <div class="bg-yellow-100 p-3 rounded border-l-4 border-yellow-400">
+                            <strong>TryBello Action:</strong> Lead with DHT-blocking science, follow with "got my confidence back" stories
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-red-50 to-pink-50 rounded-lg p-6 border-l-4 border-red-500">
+                        <h3 class="text-xl font-semibold mb-3 text-red-900">4. Enemy Creation (Big Pharma/Industry)</h3>
+                        <p class="text-gray-700 mb-3">"Doctors don't want you to know", "Industry hiding natural solutions" creates us-vs-them tribal loyalty.</p>
+                        <div class="bg-yellow-100 p-3 rounded border-l-4 border-yellow-400">
+                            <strong>TryBello Action:</strong> "Hair industry doesn't want you to know about this natural DHT blocker"
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-orange-50 to-amber-50 rounded-lg p-6 border-l-4 border-orange-500">
+                        <h3 class="text-xl font-semibold mb-3 text-orange-900">5. Urgency Through Scarcity</h3>
+                        <p class="text-gray-700 mb-3">Every ad has "sale ends tonight", "small company sells out constantly", "limited-time promotion" urgency.</p>
+                        <div class="bg-yellow-100 p-3 rounded border-l-4 border-yellow-400">
+                            <strong>TryBello Action:</strong> "Hair growth batch manufactured quarterly - next restock in 4 months if we sell out"
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg p-6 border-l-4 border-teal-500">
+                        <h3 class="text-xl font-semibold mb-3 text-teal-900">6. Triple Discount Stack</h3>
+                        <p class="text-gray-700 mb-3">Video hooks promise "triple discount" (flash sale + free shipping + checkout codes) to maximize conversion.</p>
+                        <div class="bg-yellow-100 p-3 rounded border-l-4 border-yellow-400">
+                            <strong>TryBello Action:</strong> "Flash sale + free shipping + hair growth guide = triple savings today only"
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-indigo-50 to-blue-50 rounded-lg p-6 border-l-4 border-indigo-500">
+                        <h3 class="text-xl font-semibold mb-3 text-indigo-900">7. Third-Party Validation Emphasis</h3>
+                        <p class="text-gray-700 mb-3">"Third-party tested", "Made in USA", "1300mg clinical dose" builds immediate trust and authority.</p>
+                        <div class="bg-yellow-100 p-3 rounded border-l-4 border-yellow-400">
+                            <strong>TryBello Action:</strong> Lead with "Third-party tested", "USA-made", "Clinical strength 5000mcg biotin"
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-pink-50 to-rose-50 rounded-lg p-6 border-l-4 border-pink-500">
+                        <h3 class="text-xl font-semibold mb-3 text-pink-900">8. Landing Page Funnel Progression</h3>
+                        <p class="text-gray-700 mb-3">Story ads → VSL/Advertorial → Quiz funnels for different audiences (awareness vs consideration vs decision).</p>
+                        <div class="bg-yellow-100 p-3 rounded border-l-4 border-yellow-400">
+                            <strong>TryBello Action:</strong> Build hair loss quiz ("What's your hair loss stage?") for warm traffic segmentation
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-emerald-50 to-green-50 rounded-lg p-6 border-l-4 border-emerald-500">
+                        <h3 class="text-xl font-semibold mb-3 text-emerald-900">9. Performance-Based Creative Iteration</h3>
+                        <p class="text-gray-700 mb-3">Top performing ads (90+ performance scores) focus on personal stories + scientific proof + urgency combination.</p>
+                        <div class="bg-yellow-100 p-3 rounded border-l-4 border-yellow-400">
+                            <strong>TryBello Action:</strong> Test story hook + science + urgency in every creative variation
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-violet-50 to-purple-50 rounded-lg p-6 border-l-4 border-violet-500">
+                        <h3 class="text-xl font-semibold mb-3 text-violet-900">10. Cross-Platform Omnipresence</h3>
+                        <p class="text-gray-700 mb-3">Rosabella runs 4,625+ active ads simultaneously across all platforms (FB, IG, Audience Network) for complete market capture.</p>
+                        <div class="bg-yellow-100 p-3 rounded border-l-4 border-yellow-400">
+                            <strong>TryBello Action:</strong> Scale to 500+ active creatives across multiple hair expert brands for market domination
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 bg-gray-900 text-white rounded-lg p-6">
+                    <h3 class="text-xl font-semibold mb-3">💡 The Rosabella Formula</h3>
+                    <p class="text-gray-300 text-lg">
+                        <strong>Emotional Hook</strong> (personal story) + 
+                        <strong>Scientific Mechanism</strong> (nitric oxide/DHT blocking) + 
+                        <strong>Social Proof</strong> (testimonials/reviews) + 
+                        <strong>Authority</strong> (doctor brands) + 
+                        <strong>Urgency</strong> (scarcity) = 
+                        <strong class="text-yellow-400">Market Domination</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Overview Tab -->
+        <div id="overview" class="tab-content">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+                <div class="bg-blue-600 text-white rounded-lg p-6">
+                    <h3 class="text-lg font-semibold mb-2">Total Active Ads</h3>
+                    <p class="text-3xl font-bold" id="overviewActiveAds">4,625</p>
+                    <p class="text-blue-200 text-sm">Across all platforms</p>
+                </div>
+                <div class="bg-green-600 text-white rounded-lg p-6">
+                    <h3 class="text-lg font-semibold mb-2">Total Historical</h3>
+                    <p class="text-3xl font-bold" id="overviewHistoricalAds">40,929</p>
+                    <p class="text-green-200 text-sm">All-time ads tracked</p>
+                </div>
+                <div class="bg-purple-600 text-white rounded-lg p-6">
+                    <h3 class="text-lg font-semibold mb-2">Active Pages</h3>
+                    <p class="text-3xl font-bold">17</p>
+                    <p class="text-purple-200 text-sm">Different brand identities</p>
+                </div>
+            </div>
+
+            <!-- Page Breakdown Chart -->
+            <div class="bg-white rounded-lg shadow p-6 mb-8">
+                <h3 class="text-xl font-bold mb-4">Page Performance Breakdown</h3>
+                <canvas id="pageBreakdownChart" height="100"></canvas>
+            </div>
+
+            <!-- Page Breakdown Table -->
+            <div class="bg-white rounded-lg shadow p-6">
+                <h3 class="text-xl font-bold mb-4">Detailed Page Statistics</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full table-auto">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-900">Page Name</th>
+                                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-900">Active Ads</th>
+                                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-900">% of Total</th>
+                                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-900">Strategy Type</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pageBreakdownTable" class="divide-y divide-gray-200">
+                            <!-- Table content will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ads Tab -->
+        <div id="ads" class="tab-content">
+            <!-- Search and Filters -->
+            <div class="bg-white rounded-lg shadow p-6 mb-6">
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <input type="text" id="searchInput" placeholder="Search ads by title or content..." 
+                           class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    <select id="brandFilter" class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">All Brands</option>
+                    </select>
+                    <button onclick="searchAds()" class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                        Search
+                    </button>
+                </div>
+            </div>
+
+            <!-- Ads Grid -->
+            <div id="adsGrid" class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mb-8">
+                <!-- Ad cards will be populated here -->
+            </div>
+
+            <!-- Pagination -->
+            <div id="pagination" class="flex justify-center space-x-2">
+                <!-- Pagination buttons will be populated here -->
+            </div>
+        </div>
+
+        <!-- Analysis Tab -->
+        <div id="analysis" class="tab-content">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- Hook Types Chart -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-xl font-bold mb-4">Hook Type Distribution</h3>
+                    <canvas id="hookTypesChart"></canvas>
+                </div>
+
+                <!-- Proof Elements Chart -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-xl font-bold mb-4">Proof Elements Used</h3>
+                    <canvas id="proofElementsChart"></canvas>
+                </div>
+
+                <!-- Mechanisms Chart -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-xl font-bold mb-4">Unique Mechanisms</h3>
+                    <canvas id="mechanismsChart"></canvas>
+                </div>
+
+                <!-- Funnel Types Chart -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-xl font-bold mb-4">Landing Page Funnel Types</h3>
+                    <canvas id="funnelTypesChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Funnel Map Tab -->
+        <div id="funnel" class="tab-content">
+            <div class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-2xl font-bold mb-6">🔄 Funnel Architecture Analysis</h2>
+                
+                <!-- Funnel Flow Diagram -->
+                <div class="mb-8">
+                    <h3 class="text-lg font-semibold mb-4">Ad → Landing Page → Conversion Flow</h3>
+                    <div class="flex items-center justify-center space-x-4 p-8 bg-gray-50 rounded-lg">
+                        <div class="text-center">
+                            <div class="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center text-white text-2xl font-bold mb-2">📢</div>
+                            <p class="font-semibold">Facebook/Instagram Ads</p>
+                            <p class="text-sm text-gray-600">4,625 active creatives</p>
+                        </div>
+                        <div class="text-3xl text-gray-400">→</div>
+                        <div class="text-center">
+                            <div class="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center text-white text-2xl font-bold mb-2">📄</div>
+                            <p class="font-semibold">Landing Pages</p>
+                            <p class="text-sm text-gray-600">Multiple funnel types</p>
+                        </div>
+                        <div class="text-3xl text-gray-400">→</div>
+                        <div class="text-center">
+                            <div class="w-20 h-20 bg-purple-500 rounded-full flex items-center justify-center text-white text-2xl font-bold mb-2">🛒</div>
+                            <p class="font-semibold">Conversion</p>
+                            <p class="text-sm text-gray-600">Purchase/subscription</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Landing Page Analysis -->
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-4">Top Landing Pages by Usage</h3>
+                    <div id="landingPagesList" class="space-y-4">
+                        <!-- Landing pages will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Videos Tab -->
+        <div id="videos" class="tab-content">
+            <div class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-2xl font-bold mb-6">🎬 Video Analysis & Transcripts</h2>
+                <p class="text-gray-600 mb-6">Top 20 performing video ads with full transcripts and analysis</p>
+                
+                <div id="videosList" class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <!-- Videos will be populated here -->
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 87063701**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: This is what happens when a person with parasites takes Moringa every single day on an empty stomach.
+
+In a controlled trial on Schistosoma mansoni infection, mice given Moringa leaf extract alone experienced a 62.9% total reduction in worm load. Male worms fell by 72.5%, females by 64.2%, and worm couples by 42.8% compared to untreated controls.
+
+This is as effective as albendazole and mebendazole, the most common prescription parasite drugs. But here’s the problem: those medications act like h...
+- CTA: LEARN_MORE
+- Landing Page: https://shop.tryrosabella.com/npl
+- Performance Score: 91
+
+
+**Ad 2 - ID: 87063707**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Got prescribed Levothyroxine today. The same medication that took my mother's life before she was even gone.
+
+TSH is 4.8. Doctor says that's "high normal but symptomatic." Whatever that means. She's starting me on 50 micrograms. One pill. Every morning. For the rest of my life, probably.
+
+I took the prescription. Walked to my car. Sat there.
+
+Couldn't drive. Couldn't move. Just sat there holding this piece of paper.
+
+Levothyroxine 50mcg.
+
+My mother took this for twelve years.
+
+I don't know what ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 91
+
+
+**Ad 3 - ID: 87063674**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My Doctor Prescribed Ativan 3 Weeks Ago. I Refused to Fill It. She Said I Was Making a Dangerous Mistake. Here's What Actually Happened.
+
+My sister died at 42.
+
+I'm 38.
+
+Three weeks ago, my doctor closed the exam room door. The click echoed. She sat down. Pulled up my chart without looking at me.
+
+"Sarah. We can't wait anymore. Your morning cortisol is at 28. Normal range is 10 to 20."
+
+"Wait. You tested cortisol? I've never had that tested before." 
+
+"Most doctors don't. But with your symptoms—...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 91
+
+
+**Ad 4 - ID: 87063658**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My Husband Has Been Sleeping On the Couch For Two Weeks. When I Finally Got Him To Tell Me Why, I Wished I'd Never Asked.
+
+We've been married for 5 years.
+
+Six months ago, we had sex on a Saturday afternoon.
+
+It was 2 PM. We'd already showered that morning. We weren't going anywhere.
+
+He got up immediately afterward and went to the bathroom.
+
+I heard the shower turn on.
+
+I walked to the door. "Everything okay?"
+
+"Yeah, just... wanted to rinse off."
+
+It struck me as unusual.
+
+"Is there something ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 91
+
+
+**Ad 5 - ID: 87063694**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: Got prescribed Levothyroxine today. The same medication that took my mother's life before she was even gone.
+
+TSH is 4.8. Doctor says that's "high normal but symptomatic." Whatever that means. She's starting me on 50 micrograms. One pill. Every morning. For the rest of my life, probably.
+
+I took the prescription. Walked to my car. Sat there.
+
+Couldn't drive. Couldn't move. Just sat there holding this piece of paper.
+
+Levothyroxine 50mcg.
+
+My mother took this for twelve years.
+
+I don't know what ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 91
+
+
+**Ad 6 - ID: 87063665**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My mother lost her mind at 44. Not dementia. Not Alzheimer's. Something the doctors said was "just stress" and "part of getting older." They were wrong.
+
+My mom was a litigation attorney in Chicago. The kind of lawyer who could hold twelve different case threads in her head simultaneously, who never forgot a precedent, who could recall exact page numbers from depositions she'd read weeks earlier.
+
+She billed 2,200 hours a year for eighteen years straight. Her partners called her "the machine" be...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 91
+
+
+**Ad 7 - ID: 87063672**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: At 2:47 AM I Lay in Bed Googling 'Vagina Smell Won’t Go Away' While My Husband Slept On the Couch For The Second Week In A Row.
+
+We've been married for 5 years.
+
+Six months ago, we had sex on a Saturday afternoon.
+
+It was 2 PM. We'd already showered that morning. We weren't going anywhere.
+
+He got up immediately afterward and went to the bathroom.
+
+I heard the shower turn on.
+
+I walked to the door. "Everything okay?"
+
+"Yeah, just... wanted to rinse off."
+
+It struck me as unusual.
+
+"Is there some...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 8 - ID: 87063703**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: After 15 Years as an ER Nurse, I've Watched Patients Get Addicted to Klonopin While Their Cortisol Stayed High. Then I Got Diagnosed With Dangerous Cortisol Levels Myself.
+
+My sister died at 42.
+
+I'm 38.
+
+Three weeks ago, my doctor closed the exam room door. The click echoed. She sat down. Pulled up my chart without looking at me.
+
+"Sarah. We can't wait anymore. Your morning cortisol is at 28. Normal range is 10 to 20."
+
+"Wait. You tested cortisol? I've never had that tested before." 
+
+"Most doc...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 9 - ID: 87063705**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My pharmacist's face went completely pale when she saw all the pill bottles I brought to my appointment.
+
+My name is Margaret, and I'm 68 years old.
+
+Every morning, I line up my pills on the kitchen counter. Blood pressure. Thyroid. Cholesterol. Arthritis. Metformin. Anxiety medication. Baby aspirin. Calcium supplement.
+
+Eight pills. The reality of being 68.
+
+My doctor always stressed the importance of proper nutrition. "Especially with your medications, Margaret. Your body needs vitamin B for e...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 10 - ID: 87063704**
+- Brand: Eat Smart with Dr. Amanda Johnson
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: My mother's career ended at 46. She Didn’t Choose to Retire. She Didn’t Get Laid Off. She just... couldn't do her job anymore.
+
+I'm 42.
+
+Three weeks ago, my gynecologist closed the exam room door. The click echoed. She sat down. Pulled up my labs without looking at me.
+
+"Sarah. Your cortisol is 29. That's significantly elevated. Combined with your symptoms—the brain fog, the anxiety, the sleep disruption—this is classic perimenopause presentation. I'm recommending HRT. We'll start with a low-dos...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

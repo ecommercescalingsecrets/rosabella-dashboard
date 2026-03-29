@@ -1,0 +1,1456 @@
+{
+  "86580896": {
+    "unique_mechanism": {
+      "value": "Clinical-grade beetroot powder",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Fear",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Testimonials/Reviews",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Dramatic opening",
+      "body_structure": "Problem-Agitate-Solve (PAS)",
+      "cta_type": "Urgency-driven 'Get Offer'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 91,
+    "days_active": 13,
+    "brand": "Rosabella"
+  },
+  "86580898": {
+    "unique_mechanism": {
+      "value": "Organic beetroot nitrates for circulation",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Authority",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Apology hook",
+      "body_structure": "Testimonial-driven",
+      "cta_type": "Urgency-driven 'Get Offer'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 91,
+    "days_active": 9,
+    "brand": "Rosabella"
+  },
+  "86933072": {
+    "unique_mechanism": {
+      "value": "Organic beetroot nitrates for circulation",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Empathy/Story",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Clinical Data",
+        "Scientific Mechanism"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Contrarian claim",
+      "body_structure": "Direct Offer",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 91,
+    "days_active": 7,
+    "brand": "Rosabella"
+  },
+  "86933076": {
+    "unique_mechanism": {
+      "value": "Anti-inflammatory circulation support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Social Proof",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Clinical Data"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Statistic",
+      "body_structure": "Comparison",
+      "cta_type": "Curiosity-driven 'Discover'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 81,
+    "days_active": 7,
+    "brand": "Rosabella"
+  },
+  "86933063": {
+    "unique_mechanism": {
+      "value": "Clinical-grade beetroot powder",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Health Benefit",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Apology hook",
+      "body_structure": "Problem-Agitate-Solve (PAS)",
+      "cta_type": "Urgency-driven 'Get Offer'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 81,
+    "days_active": 7,
+    "brand": "Rosabella"
+  },
+  "86933059": {
+    "unique_mechanism": {
+      "value": "Heart-specific circulation formula",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Health Benefit",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Testimonials/Reviews",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Statistic",
+      "body_structure": "Problem-Agitate-Solve (PAS)",
+      "cta_type": "Urgency-driven 'Get Offer'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 81,
+    "days_active": 7,
+    "brand": "Rosabella"
+  },
+  "86933055": {
+    "unique_mechanism": {
+      "value": "Clinical-grade beetroot powder",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Health Benefit",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Clinical Data"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Dramatic opening",
+      "body_structure": "Comparison",
+      "cta_type": "Urgency-driven 'Get Offer'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 81,
+    "days_active": 7,
+    "brand": "Rosabella"
+  },
+  "86933047": {
+    "unique_mechanism": {
+      "value": "Natural blood pressure support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Scarcity/Urgency",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Third-Party Tested",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Bold statement",
+      "body_structure": "Story",
+      "cta_type": "Curiosity-driven 'Discover'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 81,
+    "days_active": 7,
+    "brand": "Rosabella"
+  },
+  "86933042": {
+    "unique_mechanism": {
+      "value": "Natural blood pressure support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Health Benefit",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Third-Party Tested",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Bold statement",
+      "body_structure": "Testimonial-driven",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 81,
+    "days_active": 7,
+    "brand": "Rosabella"
+  },
+  "86933026": {
+    "unique_mechanism": {
+      "value": "Heart-specific circulation formula",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Before/After",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Third-Party Tested",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Apology hook",
+      "body_structure": "Comparison",
+      "cta_type": "Urgency-driven 'Get Offer'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 81,
+    "days_active": 7,
+    "brand": "Rosabella"
+  },
+  "86933009": {
+    "unique_mechanism": {
+      "value": "Nitric oxide pathway activation",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Curiosity",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Testimonials/Reviews",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Apology hook",
+      "body_structure": "Problem-Agitate-Solve (PAS)",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 81,
+    "days_active": 7,
+    "brand": "Rosabella"
+  },
+  "86933003": {
+    "unique_mechanism": {
+      "value": "Clinical-grade beetroot powder",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Before/After",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Clinical Data"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Contrarian claim",
+      "body_structure": "Problem-Agitate-Solve (PAS)",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 81,
+    "days_active": 7,
+    "brand": "Rosabella"
+  },
+  "86933066": {
+    "unique_mechanism": {
+      "value": "Natural blood pressure support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Curiosity",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Clinical Data",
+        "Scientific Mechanism"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Apology hook",
+      "body_structure": "Problem-Agitate-Solve (PAS)",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 61,
+    "days_active": 7,
+    "brand": "Rosabella"
+  },
+  "87168626": {
+    "unique_mechanism": {
+      "value": "Endurance and energy enhancement",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Empathy/Story",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Personal story",
+      "body_structure": "Listicle of Benefits",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 61,
+    "days_active": 6,
+    "brand": "Rosabella"
+  },
+  "86933039": {
+    "unique_mechanism": {
+      "value": "Third-party tested 1300mg dose",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Authority",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Testimonials/Reviews"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Bold statement",
+      "body_structure": "Problem-Agitate-Solve (PAS)",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 61,
+    "days_active": 6,
+    "brand": "Rosabella"
+  },
+  "87168766": {
+    "unique_mechanism": {
+      "value": "Anti-inflammatory circulation support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Before/After",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Testimonials/Reviews",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Bold statement",
+      "body_structure": "Direct Offer",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 61,
+    "days_active": 5,
+    "brand": "Rosabella"
+  },
+  "87168737": {
+    "unique_mechanism": {
+      "value": "Nitric oxide pathway activation",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Empathy/Story",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Testimonials/Reviews"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Personal story",
+      "body_structure": "Comparison",
+      "cta_type": "Urgency-driven 'Get Offer'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 61,
+    "days_active": 5,
+    "brand": "Rosabella"
+  },
+  "87168191": {
+    "unique_mechanism": {
+      "value": "Endurance and energy enhancement",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Fear",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Testimonials/Reviews",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Question",
+      "body_structure": "Listicle of Benefits",
+      "cta_type": "Curiosity-driven 'Discover'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 61,
+    "days_active": 5,
+    "brand": "Rosabella"
+  },
+  "87168156": {
+    "unique_mechanism": {
+      "value": "Endurance and energy enhancement",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Before/After",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Apology hook",
+      "body_structure": "Testimonial-driven",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 61,
+    "days_active": 5,
+    "brand": "Rosabella"
+  },
+  "87705808": {
+    "unique_mechanism": {
+      "value": "Heart-specific circulation formula",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Scarcity/Urgency",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Statistic",
+      "body_structure": "Testimonial-driven",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87705802": {
+    "unique_mechanism": {
+      "value": "Anti-inflammatory circulation support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Curiosity",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Bold statement",
+      "body_structure": "Story",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87705775": {
+    "unique_mechanism": {
+      "value": "Natural blood pressure support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Social Proof",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Clinical Data",
+        "Scientific Mechanism"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Personal story",
+      "body_structure": "Testimonial-driven",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87705767": {
+    "unique_mechanism": {
+      "value": "Third-party tested 1300mg dose",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Scarcity/Urgency",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Clinical Data"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Contrarian claim",
+      "body_structure": "Story",
+      "cta_type": "Urgency-driven 'Get Offer'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87705765": {
+    "unique_mechanism": {
+      "value": "Anti-inflammatory circulation support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Empathy/Story",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Testimonials/Reviews"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Apology hook",
+      "body_structure": "Testimonial-driven",
+      "cta_type": "Urgency-driven 'Get Offer'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87705763": {
+    "unique_mechanism": {
+      "value": "Third-party tested 1300mg dose",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Social Proof",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Testimonials/Reviews"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Bold statement",
+      "body_structure": "Story",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87705731": {
+    "unique_mechanism": {
+      "value": "Clinical-grade beetroot powder",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Before/After",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Testimonials/Reviews",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Personal story",
+      "body_structure": "Testimonial-driven",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87359025": {
+    "unique_mechanism": {
+      "value": "Clinical-grade beetroot powder",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Authority",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Testimonials/Reviews"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Dramatic opening",
+      "body_structure": "Problem-Agitate-Solve (PAS)",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87358999": {
+    "unique_mechanism": {
+      "value": "Anti-inflammatory circulation support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Empathy/Story",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Third-Party Tested",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Bold statement",
+      "body_structure": "Problem-Agitate-Solve (PAS)",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87358975": {
+    "unique_mechanism": {
+      "value": "Nitric oxide pathway activation",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Empathy/Story",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Bold statement",
+      "body_structure": "Listicle of Benefits",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87358962": {
+    "unique_mechanism": {
+      "value": "Clinical-grade beetroot powder",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Curiosity",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Testimonials/Reviews",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Question",
+      "body_structure": "Problem-Agitate-Solve (PAS)",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87358958": {
+    "unique_mechanism": {
+      "value": "Organic beetroot nitrates for circulation",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Social Proof",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Clinical Data"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Personal story",
+      "body_structure": "Listicle of Benefits",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87358952": {
+    "unique_mechanism": {
+      "value": "Anti-inflammatory circulation support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Curiosity",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Testimonials/Reviews"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Apology hook",
+      "body_structure": "Comparison",
+      "cta_type": "Curiosity-driven 'Discover'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87358934": {
+    "unique_mechanism": {
+      "value": "Nitric oxide pathway activation",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Authority",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Contrarian claim",
+      "body_structure": "Direct Offer",
+      "cta_type": "Urgency-driven 'Get Offer'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 4,
+    "brand": "Rosabella"
+  },
+  "87944574": {
+    "unique_mechanism": {
+      "value": "Organic beetroot nitrates for circulation",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Fear",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Testimonials/Reviews",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Bold statement",
+      "body_structure": "Comparison",
+      "cta_type": "Curiosity-driven 'Discover'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944546": {
+    "unique_mechanism": {
+      "value": "Third-party tested 1300mg dose",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Fear",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Dramatic opening",
+      "body_structure": "Testimonial-driven",
+      "cta_type": "Urgency-driven 'Get Offer'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944534": {
+    "unique_mechanism": {
+      "value": "Anti-inflammatory circulation support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Empathy/Story",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Testimonials/Reviews",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Statistic",
+      "body_structure": "Listicle of Benefits",
+      "cta_type": "Curiosity-driven 'Discover'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944528": {
+    "unique_mechanism": {
+      "value": "Anti-inflammatory circulation support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Before/After",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Personal story",
+      "body_structure": "Testimonial-driven",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944520": {
+    "unique_mechanism": {
+      "value": "Endurance and energy enhancement",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Curiosity",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Dramatic opening",
+      "body_structure": "Comparison",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944523": {
+    "unique_mechanism": {
+      "value": "Third-party tested 1300mg dose",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Before/After",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Clinical Data",
+        "Scientific Mechanism"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Contrarian claim",
+      "body_structure": "Story",
+      "cta_type": "Urgency-driven 'Get Offer'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944510": {
+    "unique_mechanism": {
+      "value": "Anti-inflammatory circulation support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Before/After",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Contrarian claim",
+      "body_structure": "Testimonial-driven",
+      "cta_type": "Curiosity-driven 'Discover'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944503": {
+    "unique_mechanism": {
+      "value": "Anti-inflammatory circulation support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Before/After",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Apology hook",
+      "body_structure": "Listicle of Benefits",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944500": {
+    "unique_mechanism": {
+      "value": "Natural blood pressure support",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Health Benefit",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Testimonials/Reviews",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Apology hook",
+      "body_structure": "Testimonial-driven",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944488": {
+    "unique_mechanism": {
+      "value": "Third-party tested 1300mg dose",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Before/After",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Third-Party Tested",
+        "Made in USA"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Bold statement",
+      "body_structure": "Listicle of Benefits",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944478": {
+    "unique_mechanism": {
+      "value": "Endurance and energy enhancement",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Social Proof",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Clinical Data"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Apology hook",
+      "body_structure": "Direct Offer",
+      "cta_type": "Direct 'Shop Now'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944474": {
+    "unique_mechanism": {
+      "value": "Organic beetroot nitrates for circulation",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Fear",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Statistic",
+      "body_structure": "Direct Offer",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944466": {
+    "unique_mechanism": {
+      "value": "Endurance and energy enhancement",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Before/After",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Clinical Data"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Question",
+      "body_structure": "Story",
+      "cta_type": "Curiosity-driven 'Discover'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944400": {
+    "unique_mechanism": {
+      "value": "Third-party tested 1300mg dose",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Before/After",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Testimonials/Reviews",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Dramatic opening",
+      "body_structure": "Listicle of Benefits",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Advertorial/VSL",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944399": {
+    "unique_mechanism": {
+      "value": "Heart-specific circulation formula",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Authority",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Doctor Endorsement",
+        "Clinical Data"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Bold statement",
+      "body_structure": "Direct Offer",
+      "cta_type": "Benefit-driven 'Learn More'"
+    },
+    "landing_page_funnel": {
+      "value": "Quiz/Survey Funnel",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944398": {
+    "unique_mechanism": {
+      "value": "Clinical-grade beetroot powder",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Social Proof",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Apology hook",
+      "body_structure": "Problem-Agitate-Solve (PAS)",
+      "cta_type": "Curiosity-driven 'Discover'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  },
+  "87944396": {
+    "unique_mechanism": {
+      "value": "Endurance and energy enhancement",
+      "reasoning": "Based on Rosabella brand positioning and content focus"
+    },
+    "angle_hook_type": {
+      "value": "Fear",
+      "reasoning": "Primary emotional/logical driver identified from ad copy"
+    },
+    "proof_elements": {
+      "value": [
+        "Scientific Mechanism",
+        "Third-Party Tested"
+      ],
+      "reasoning": "Proof types mentioned or implied in the advertisement"
+    },
+    "ad_structure": {
+      "hook_type": "Dramatic opening",
+      "body_structure": "Testimonial-driven",
+      "cta_type": "Curiosity-driven 'Discover'"
+    },
+    "landing_page_funnel": {
+      "value": "Direct to Sales Page",
+      "reasoning": "Based on URL structure and brand approach"
+    },
+    "performance_score": 41,
+    "days_active": 3,
+    "brand": "Rosabella"
+  }
+}

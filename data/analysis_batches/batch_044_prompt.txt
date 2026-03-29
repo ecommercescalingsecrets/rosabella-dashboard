@@ -1,0 +1,215 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 88180571**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: The Hidden Secret Behind Age Reversal
+- Body: People Keep Asking If I Got Work Done… Nope, Just This!
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/en-eu/pages/fr-ya-organics-hyper-potent-arctic-balms-for-mature-skin
+- Performance Score: None
+
+
+**Ad 2 - ID: 88180552**
+- Brand: Nordic Wellness Secrets
+- Format: DCO
+- Title: Her dermatologist brushed her off… big mistake 😠
+- Body: My dermatologist said it was just “mild dryness” 🧴
+
+He told me to drink more water 💧 and switch to a gentler cleanser 🫧
+
+But I knew something was off 😞
+
+The mirror didn’t lie.
+
+Crow’s feet that deepened every month 👁️
+
+A tired, sagging look that no concealer could hide 🪞
+
+So I bought a wrinkle-depth camera 📷
+
+Just to prove to myself I wasn’t imagining it.
+
+The results?
+
+The wrinkle depth was 3 times worse than it should be.
+
+That moment hit me hard 💔
+
+I didn’t want to age like this, not yet.
+
+No...
+- CTA: SHOP_NOW
+- Landing Page: https://froyaorganics.com/pages/i-got-fired-from-my-six-figure-dermatologist-job-for-telling-these-10-truths-about-aging-skin
+- Performance Score: None
+
+
+**Ad 3 - ID: 86871667**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: I Watched My Father Suffer for 16 Years
+- Body: My father was on blood pressure medication for 16 years. The cough that never stopped. The dizziness that made him fall twice. The exhaustion that turned him into a ghost of who he used to be. Last year, I saw the same numbers on my own monitor. I refused to follow his path.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — Your blood pressure is creeping toward the same numbers your father had before they put him on medication
+
+Two — Th...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 91
+
+
+**Ad 4 - ID: 86871666**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: I Watched My Father Suffer for 16 Years
+- Body: My father was on blood pressure medication for 16 years. The cough that never stopped. The dizziness that made him fall twice. The exhaustion that turned him into a ghost of who he used to be. Last year, I saw the same numbers on my own monitor. I refused to follow his path.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — Your blood pressure is creeping toward the same numbers your father had before they put him on medication
+
+Two — Th...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 91
+
+
+**Ad 5 - ID: 86871665**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: I Watched My Father Suffer for 16 Years
+- Body: My father was on blood pressure medication for 16 years. The cough that never stopped. The dizziness that made him fall twice. The exhaustion that turned him into a ghost of who he used to be. Last year, I saw the same numbers on my own monitor. I refused to follow his path.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — Your blood pressure is creeping toward the same numbers your father had before they put him on medication
+
+Two — Th...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 91
+
+
+**Ad 6 - ID: 87574063**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: "Is Everything Okay at Home?"
+- Body: 162/108. High enough that my doctor leaned forward and asked: "Is everything okay at home? Are you under unusual stress?" I wanted to punch a wall. My marriage is fine. My job is fine. My life is fine. My blood pressure is the only thing that's not fine. Here's what I did about it.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — Your blood pressure is high and your doctor is treating you like you're mentally falling apart
+
+Two — You're...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 7 - ID: 87574062**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: "Is Everything Okay at Home?"
+- Body: 162/108. High enough that my doctor leaned forward and asked: "Is everything okay at home? Are you under unusual stress?" I wanted to punch a wall. My marriage is fine. My job is fine. My life is fine. My blood pressure is the only thing that's not fine. Here's what I did about it.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — Your blood pressure is high and your doctor is treating you like you're mentally falling apart
+
+Two — You're...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 8 - ID: 87574061**
+- Brand: Primus Health
+- Format: IMAGE
+- Title: "Is Everything Okay at Home?"
+- Body: 162/108. High enough that my doctor leaned forward and asked: "Is everything okay at home? Are you under unusual stress?" I wanted to punch a wall. My marriage is fine. My job is fine. My life is fine. My blood pressure is the only thing that's not fine. Here's what I did about it.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — Your blood pressure is high and your doctor is treating you like you're mentally falling apart
+
+Two — You're...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 9 - ID: 87574059**
+- Brand: Primus Health
+- Format: DCO
+- Title: 6 Months of Perfect Discipline. 3 Points.
+- Body: I showed my doctor 6 months of food journals. 14 pounds lost. Zero alcohol. Daily exercise. She looked at it, nodded, and reached for her prescription pad. That's when I knew the system wasn't designed to help me.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — You're doing everything your doctor told you to do, and it's not enough
+
+Two — Your doctor's only solution when lifestyle fails is medication — there's nothing else in her toolk...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Ad 10 - ID: 87574057**
+- Brand: Primus Health
+- Format: DCO
+- Title: 6 Months of Perfect Discipline. 3 Points.
+- Body: I showed my doctor 6 months of food journals. 14 pounds lost. Zero alcohol. Daily exercise. She looked at it, nodded, and reached for her prescription pad. That's when I knew the system wasn't designed to help me.
+
+And by the end of this, you're gonna be pissed.
+
+Because there are three things happening right now:
+
+One — You're doing everything your doctor told you to do, and it's not enough
+
+Two — Your doctor's only solution when lifestyle fails is medication — there's nothing else in her toolk...
+- CTA: LEARN_MORE
+- Landing Page: https://primus-health.com/products/aged-garlic-extract-odorless-premed
+- Performance Score: 61
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

@@ -1,0 +1,216 @@
+Analyze the following ads and categorize each one across 5 dimensions. For each ad, provide your analysis in the exact JSON format specified.
+
+For each ad, categorize:
+1. **Unique Mechanism**: Proprietary angle/ingredient/method claimed
+2. **Angle/Hook Type**: Choose from [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit]
+3. **Proof Elements**: List all that apply from [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, Made in USA, Third-Party Tested]
+4. **Ad Structure**: Hook type, body structure, CTA type
+5. **Landing Page Funnel**: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL]
+
+Return a JSON object with ad IDs as keys and analysis as values.
+
+ADS TO ANALYZE:
+
+
+**Ad 1 - ID: 86419353**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: Introducing Rosabella Organic Beetroot Capsules – a natural formula with proven ingredients to help…
+
+✅ Boost Blood Flow – improve circulation and oxygen delivery.
+
+ ✅ Support Heart Health – maintain healthy blood pressure and heart function.
+
+ ✅ Enhance Stamina – increase endurance and energy levels naturally.
+
+https://get.tryrosabella.com/beetroot/subtxt/sp
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 81
+
+
+**Ad 2 - ID: 86419420**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: Introducing Rosabella Organic Beetroot Capsules – a natural formula with proven ingredients to help…
+
+✅ Boost Blood Flow – improve circulation and oxygen delivery.
+
+ ✅ Support Heart Health – maintain healthy blood pressure and heart function.
+
+ ✅ Enhance Stamina – increase endurance and energy levels naturally.
+
+https://get.tryrosabella.com/beetroot/subtxt/sp
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 81
+
+
+**Ad 3 - ID: 86753843**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: Introducing Rosabella Organic Beetroot Capsules – a natural formula with proven ingredients to help…
+
+✅ Boost Blood Flow – improve circulation and oxygen delivery.
+
+ ✅ Support Heart Health – maintain healthy blood pressure and heart function.
+
+ ✅ Enhance Stamina – increase endurance and energy levels naturally.
+
+https://get.tryrosabella.com/beetroot/subtxt/sp
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/sp
+- Performance Score: 81
+
+
+**Ad 4 - ID: 87196805**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Unlock Your Body’s Full Potential
+- Body: Introducing Rosabella Moringa Powder Capsules – an all-natural supplement with science-backed ingredients to help…
+
+✅ Regulate cortisol – balance your hormones and feel more in control 
+✅ Reduce water retention and bloating – feel lighter and less puffy 
+✅ Flatten the pooch belly – support a slimmer, more comfortable midsection 
+✅ Alleviate joint pain – move freely and feel better in your body 
+✅ Enhance muscle function – ease cramps, reduce spasms, and support relaxation |
+
+✨ Feel calm, strong,...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 5 - ID: 86976378**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Unlock Your Body’s Full Potential
+- Body: I lost 100 pounds on Ozempic. Started losing my hair at month 4. Doctor said "it's temporary." It wasn't. Here's what was actually happening.
+
+And by the end of this, you're gonna be pissed.
+Because there are three things happening right now:
+
+One — Everyone's telling you to take biotin, eat more protein, track your macros — standard advice that's treating the wrong problem entirely.
+
+Two — Your doctor says your labs are "normal" and you're "doing great" — but standard blood tests don't measure ...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/rosabella/ny1/sp
+- Performance Score: 81
+
+
+**Ad 6 - ID: 87196864**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Seeing “beetroot” bottles that look exactly like the real thing?
+
+Be careful.
+Some of them copy the label, the colors, even the design.
+But what’s inside is not the same.
+
+You might think you’re getting premium beetroot…
+but many knock-offs use weak, diluted powder with barely any natural nitrates, the compound that actually supports healthy circulation.
+
+That’s the difference.
+
+With Rosabella, you’re getting pure, cold-extracted beetroot.
+No fillers. No junk.
+Third-party tested. Lab verified....
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: 81
+
+
+**Ad 7 - ID: 86976374**
+- Brand: Essential Health Finds
+- Format: VIDEO
+- Title: Support stamina and heart health every day
+- Body: 🚨 Seeing “beetroot” bottles that look exactly like the real thing?
+
+Be careful.
+Some of them copy the label, the colors, even the design.
+But what’s inside is not the same.
+
+You might think you’re getting premium beetroot…
+but many knock-offs use weak, diluted powder with barely any natural nitrates, the compound that actually supports healthy circulation.
+
+That’s the difference.
+
+With Rosabella, you’re getting pure, cold-extracted beetroot.
+No fillers. No junk.
+Third-party tested. Lab verified....
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-hbp-sp
+- Performance Score: 81
+
+
+**Ad 8 - ID: 86976366**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: My husband took atorvastatin for 14 years. His numbers were perfect the entire time. LDL of 94. His doctor was thrilled.
+
+Then he had a massive stroke in our kitchen. Plaque rupture. The medication didn't prevent a thing.
+
+Now he can't button his own shirt. Can't drive. Struggles to say the word "water" without fighting for it.
+
+When MY doctor tried to put me on the same medication, I said no.
+
+And what I found instead — a clinical study buried in a journal almost nobody reads — brought my LDL f...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-ps
+- Performance Score: 81
+
+
+**Ad 9 - ID: 86976345**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: My husband took atorvastatin for 14 years. His numbers were perfect the entire time. LDL of 94. His doctor was thrilled.
+
+Then he had a massive stroke in our kitchen. Plaque rupture. The medication didn't prevent a thing.
+
+Now he can't button his own shirt. Can't drive. Struggles to say the word "water" without fighting for it.
+
+When MY doctor tried to put me on the same medication, I said no.
+
+And what I found instead — a clinical study buried in a journal almost nobody reads — brought my LDL f...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-ps
+- Performance Score: 81
+
+
+**Ad 10 - ID: 86976341**
+- Brand: Essential Health Finds
+- Format: IMAGE
+- Title: Support stamina and heart health every day
+- Body: My husband took atorvastatin for 14 years. His numbers were perfect the entire time. LDL of 94. His doctor was thrilled.
+
+Then he had a massive stroke in our kitchen. Plaque rupture. The medication didn't prevent a thing.
+
+Now he can't button his own shirt. Can't drive. Struggles to say the word "water" without fighting for it.
+
+When MY doctor tried to put me on the same medication, I said no.
+
+And what I found instead — a clinical study buried in a journal almost nobody reads — brought my LDL f...
+- CTA: LEARN_MORE
+- Landing Page: https://get.tryrosabella.com/beetroot/subtxt/mm-ps
+- Performance Score: 81
+
+
+**Response Format:**
+Return ONLY a JSON object in this exact format:
+
+{
+  "ad_id_1": {
+    "unique_mechanism": {"value": "...", "reasoning": "..."},
+    "angle_hook_type": {"value": "...", "reasoning": "..."},
+    "proof_elements": {"value": [...], "reasoning": "..."},
+    "ad_structure": {"hook_type": "...", "body_structure": "...", "cta_type": "..."},
+    "landing_page_funnel": {"value": "...", "reasoning": "..."}
+  },
+  "ad_id_2": { ... }
+}

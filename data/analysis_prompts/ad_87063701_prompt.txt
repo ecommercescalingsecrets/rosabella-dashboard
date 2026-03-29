@@ -1,0 +1,65 @@
+
+Analyze the following ad creative based on its provided data.
+
+**Ad Data:**
+- **Ad ID:** 87063701
+- **Brand:** Eat Smart with Dr. Amanda Johnson
+- **Format:** IMAGE
+- **Title/Headline:** Unlock Your Body’s Full Potential
+- **Ad Body/Text:** This is what happens when a person with parasites takes Moringa every single day on an empty stomach.
+
+In a controlled trial on Schistosoma mansoni infection, mice given Moringa leaf extract alone experienced a 62.9% total reduction in worm load. Male worms fell by 72.5%, females by 64.2%, and worm couples by 42.8% compared to untreated controls.
+
+This is as effective as albendazole and mebendazole, the most common prescription parasite drugs. But here’s the problem: those medications act like harsh cleanses. They kill worms, but they don’t repair the gut lining parasites have destroyed. They leave people dealing with nausea, stomach pain, diarrhea, dizziness, and liver stress, while doing nothing to restore the nutrient deficiencies parasites caused.
+
+Moringa doesn’t have that gap. Its antiparasitic compounds weaken and expel invaders, while its dense nutrition rebuilds your gut lining with vitamin A, replenishes iron to fight anemia, and restores immune strength with protein, zinc, a...
+- **CTA:** LEARN_MORE
+- **Landing Page URL:** https://shop.tryrosabella.com/npl
+- **Performance Score:** 91
+- **Days Active:** 7
+
+**Analysis Categories:**
+
+Please categorize the ad across these 5 dimensions. Provide a brief "reasoning" for each choice.
+
+1.  **Unique Mechanism:** What proprietary angle, ingredient, or method do they claim makes their product special? (e.g., "Nitric Oxide boost from organic beets", "Third-party tested 1300mg dose", "Flushes inflammatory waste").
+
+2.  **Angle/Hook Type:** What is the primary emotional or logical driver of the ad? Choose one from the list: [Authority, Fear, Contrarian, Social Proof, Empathy/Story, Curiosity, Enemy Creation, Before/After, Scarcity/Urgency, Health Benefit].
+
+3.  **Proof Elements:** What types of proof are mentioned or implied in the ad copy? List all that apply from: [Clinical Data, Doctor Endorsement, Testimonials/Reviews, Scientific Mechanism, Press Mentions, "Made in USA", "Third-Party Tested"].
+
+4.  **Ad Structure:** Describe the structure of the ad.
+    - **Hook Type:** How does the ad open? (e.g., "Bold statement", "Apology hook", "Question", "Statistic").
+    - **Body Structure:** How is the main message structured? (e.g., "Problem-Agitate-Solve (PAS)", "Story", "Listicle of Benefits", "Direct Offer").
+    - **CTA Type:** What kind of call to action is it? (e.g., "Direct 'Shop Now'", "Benefit-driven 'Learn More'", "Urgency-driven 'Get Offer'").
+
+5.  **Landing Page Funnel Type:** Based on the URL, what kind of funnel is this ad likely driving to? Choose one: [Direct to Sales Page, Quiz/Survey Funnel, Advertorial/VSL].
+
+**Your Response:**
+
+Return your analysis as a valid JSON object. Do not include any text outside of the JSON block.
+
+Example JSON structure:
+{
+  "unique_mechanism": {
+    "value": "Nitric Oxide boost from organic beets",
+    "reasoning": "The ad copy focuses on how nitrates in beetroot convert to nitric oxide, which improves circulation."
+  },
+  "angle_hook_type": {
+    "value": "Health Benefit",
+    "reasoning": "The ad's primary focus is on improving energy, circulation, and heart health."
+  },
+  "proof_elements": {
+    "value": ["Scientific Mechanism", "Testimonials/Reviews", "Made in USA"],
+    "reasoning": "It explains the nitric oxide mechanism, mentions '75,000 five-star reviews', and states it's 'Made in the USA'."
+  },
+  "ad_structure": {
+    "hook_type": "Apology hook",
+    "body_structure": "Problem-Agitate-Solve (PAS)",
+    "cta_type": "Urgency-driven 'Get Offer'"
+  },
+  "landing_page_funnel": {
+    "value": "Direct to Sales Page",
+    "reasoning": "The URL slug '/npl' or similar usually indicates a direct-to-product sales page."
+  }
+}
