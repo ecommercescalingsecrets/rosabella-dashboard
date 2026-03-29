@@ -10,11 +10,8 @@ COPY package*.json ./
 # Install dependencies
 RUN npm ci --only=production
 
-# Copy application code
+# Copy application code (includes ./data/ directory)
 COPY . .
-
-# Copy data files
-COPY ../data ./data
 
 # Expose port
 EXPOSE $PORT
