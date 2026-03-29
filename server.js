@@ -21,15 +21,74 @@ function loadJsonFile(filePath) {
 }
 
 // Load all data
-const dataPath = '../data';
+const dataPath = './data';
 const masterAds = loadJsonFile(path.join(__dirname, dataPath, 'top_ads_master_list.json'));
 const overviewStats = loadJsonFile(path.join(__dirname, dataPath, 'dashboard_overview_stats.json'));
 const analysisResults = loadJsonFile(path.join(__dirname, dataPath, 'analysis_results', 'sample_analysis_consolidated.json'));
 const analysisSummary = loadJsonFile(path.join(__dirname, dataPath, 'analysis_results', 'analysis_summary.json'));
 
+// Load and consolidate all individual analysis files
+function loadAllAnalysisData() {
+  const analysisDir = path.join(__dirname, dataPath, 'analysis_results');
+  const consolidatedAnalysis = { ...(analysisResults || {}) };
+  
+  try {
+    const files = fs.readdirSync(analysisDir);
+    const analysisFiles = files.filter(file => file.startsWith('ad_') && file.endsWith('_analysis.json'));
+    
+    for (const file of analysisFiles) {
+      try {
+        const adId = file.replace('ad_', '').replace('_analysis.json', '');
+        const analysis = loadJsonFile(path.join(analysisDir, file));
+        if (analysis && !consolidatedAnalysis[adId]) {
+          consolidatedAnalysis[adId] = analysis;
+        }
+      } catch (error) {
+        console.error(`Error loading ${file}:`, error);
+      }
+    }
+  } catch (error) {
+    console.error('Error reading analysis directory:', error);
+  }
+  
+  return consolidatedAnalysis;
+}
+
+const allAnalysisData = loadAllAnalysisData();
+
 // API Routes
 app.get('/api/overview', (req, res) => {
-  res.json(overviewStats);
+  const hardcodedPageStats = [
+    {"name": "Rosabella Beetroot", "active": 961, "total": 2301},
+    {"name": "Rosabella", "active": 843, "total": 16598},
+    {"name": "Essential Health Finds", "active": 674, "total": 5143},
+    {"name": "Energy & Wellness Club", "active": 598, "total": 2383},
+    {"name": "Dr. David Preston", "active": 495, "total": 4884},
+    {"name": "The Heart Health Project", "active": 294, "total": 1769},
+    {"name": "Circulation Science Daily", "active": 224, "total": 3367},
+    {"name": "Primus Health", "active": 137, "total": 470},
+    {"name": "Paul from Rosabella", "active": 110, "total": 610},
+    {"name": "Eat Smart with Dr. Amanda Johnson", "active": 109, "total": 2185},
+    {"name": "Cortisol Reset Project", "active": 53},
+    {"name": "Gut & Parasite Health Tips", "active": 37},
+    {"name": "Wendy Bolton", "active": 29, "total": 112},
+    {"name": "Rosabella Moringa", "active": 25, "total": 902},
+    {"name": "Dr. Julie Abboud", "active": 21},
+    {"name": "ClarityLabs", "active": 14, "total": 205},
+    {"name": "Paul N", "active": 1}
+  ];
+  
+  const totalActive = hardcodedPageStats.reduce((sum, page) => sum + page.active, 0);
+  const totalHistorical = hardcodedPageStats.reduce((sum, page) => sum + (page.total || 0), 0);
+  
+  const overview = {
+    ...overviewStats,
+    total_active_ads: totalActive,
+    total_historical_ads: totalHistorical,
+    page_breakdown: hardcodedPageStats
+  };
+  
+  res.json(overview);
 });
 
 app.get('/api/ads', (req, res) => {
@@ -62,7 +121,7 @@ app.get('/api/ads', (req, res) => {
 
   // Add analysis data to ads
   const adsWithAnalysis = paginatedAds.map(ad => {
-    const analysis = analysisResults?.[ad.id] || null;
+    const analysis = allAnalysisData?.[ad.id] || null;
     return { ...ad, analysis };
   });
 
@@ -75,11 +134,46 @@ app.get('/api/ads', (req, res) => {
 });
 
 app.get('/api/analysis-summary', (req, res) => {
-  res.json(analysisSummary);
+  // Generate summary from all analysis data
+  const hookTypes = {};
+  const proofElements = {};
+  const mechanisms = {};
+  const funnelTypes = {};
+  
+  Object.values(allAnalysisData).forEach(analysis => {
+    if (analysis.angle_hook_type?.value) {
+      hookTypes[analysis.angle_hook_type.value] = (hookTypes[analysis.angle_hook_type.value] || 0) + 1;
+    }
+    
+    if (analysis.proof_elements?.value && Array.isArray(analysis.proof_elements.value)) {
+      analysis.proof_elements.value.forEach(element => {
+        proofElements[element] = (proofElements[element] || 0) + 1;
+      });
+    }
+    
+    if (analysis.unique_mechanism?.value) {
+      mechanisms[analysis.unique_mechanism.value] = (mechanisms[analysis.unique_mechanism.value] || 0) + 1;
+    }
+    
+    if (analysis.landing_page_funnel?.value) {
+      funnelTypes[analysis.landing_page_funnel.value] = (funnelTypes[analysis.landing_page_funnel.value] || 0) + 1;
+    }
+  });
+  
+  const summary = {
+    hook_types: hookTypes,
+    proof_elements: proofElements,
+    mechanisms: mechanisms,
+    funnel_types: funnelTypes,
+    total_analyzed: Object.keys(allAnalysisData).length
+  };
+  
+  res.json(summary);
 });
 
 app.get('/api/video-transcripts', (req, res) => {
-  const transcriptsPath = path.join(__dirname, '../videos');
+  const transcriptsPath = path.join(__dirname, './data/transcripts');
+  const videoMetadata = loadJsonFile(path.join(__dirname, dataPath, 'top_20_videos_for_transcription.json'));
   const transcripts = [];
   
   try {
@@ -89,13 +183,38 @@ app.get('/api/video-transcripts', (req, res) => {
     for (const file of txtFiles) {
       const videoId = file.replace('.txt', '');
       const content = fs.readFileSync(path.join(transcriptsPath, file), 'utf8');
-      const videoPath = path.join(transcriptsPath, `${videoId}.mp4`);
-      const hasVideo = fs.existsSync(videoPath);
+      
+      // Find corresponding video ad data
+      let videoUrl = null;
+      let adData = null;
+      
+      if (videoMetadata && Array.isArray(videoMetadata)) {
+        adData = videoMetadata.find(video => video.id && video.id.toString() === videoId.replace('ad_', ''));
+      }
+      
+      // If not found in metadata, search master ads
+      if (!adData && masterAds) {
+        adData = masterAds.find(ad => ad.id && ad.id.toString() === videoId.replace('ad_', ''));
+      }
+      
+      // Extract video URL from ad media
+      if (adData && adData.media && Array.isArray(adData.media)) {
+        const videoMedia = adData.media.find(m => m.type === 'video' || m.url?.includes('.mp4'));
+        if (videoMedia) {
+          videoUrl = videoMedia.url;
+        }
+      }
       
       transcripts.push({
         id: videoId,
         transcript: content,
-        videoPath: hasVideo ? `../videos/${videoId}.mp4` : null
+        videoUrl: videoUrl,
+        adData: adData ? {
+          id: adData.id,
+          title: adData.title,
+          share_url: adData.share_url,
+          brand: typeof adData.brand === 'object' ? adData.brand?.name : adData.brand
+        } : null
       });
     }
   } catch (error) {

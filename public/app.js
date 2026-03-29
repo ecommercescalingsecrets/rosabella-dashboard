@@ -218,11 +218,14 @@ function populateBrandFilter(ads) {
 
 // Create page breakdown chart
 function createPageBreakdownChart() {
-    const ctx = document.getElementById('pageBreakdownChart').getContext('2d');
+    const chartElement = document.getElementById('pageBreakdownChart');
+    if (!chartElement) return;
+    
+    const ctx = chartElement.getContext('2d');
     
     const data = overviewData.page_breakdown || [];
-    const labels = data.map(item => item.page);
-    const values = data.map(item => item.active_ads);
+    const labels = data.map(item => item.name);
+    const values = data.map(item => item.active);
     
     new Chart(ctx, {
         type: 'bar',
@@ -261,17 +264,22 @@ function createPageBreakdownChart() {
 // Populate page breakdown table
 function populatePageBreakdownTable() {
     const tableBody = document.getElementById('pageBreakdownTable');
+    if (!tableBody) return;
+    
     const data = overviewData.page_breakdown || [];
+    const totalActive = data.reduce((sum, item) => sum + item.active, 0);
     
     tableBody.innerHTML = '';
     
     data.forEach(item => {
+        const percentage = totalActive > 0 ? ((item.active / totalActive) * 100).toFixed(1) : 0;
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td class="px-4 py-3 text-sm text-gray-900">${item.page}</td>
-            <td class="px-4 py-3 text-sm text-gray-900">${item.active_ads?.toLocaleString()}</td>
-            <td class="px-4 py-3 text-sm text-gray-900">${item.percentage}%</td>
-            <td class="px-4 py-3 text-sm text-gray-600">${getStrategyType(item.page)}</td>
+            <td class="px-4 py-3 text-sm text-gray-900">${item.name}</td>
+            <td class="px-4 py-3 text-sm text-gray-900">${item.active?.toLocaleString()}</td>
+            <td class="px-4 py-3 text-sm text-gray-900">${item.total?.toLocaleString() || 'N/A'}</td>
+            <td class="px-4 py-3 text-sm text-gray-600">${percentage}%</td>
+            <td class="px-4 py-3 text-sm text-gray-600">${getStrategyType(item.name)}</td>
         `;
         tableBody.appendChild(row);
     });
@@ -291,23 +299,23 @@ function createAnalysisCharts() {
     if (!analysisData) return;
     
     // Hook types chart
-    if (analysisData.hook_type_distribution) {
-        createChart('hookTypesChart', 'doughnut', analysisData.hook_type_distribution, 'Hook Types');
+    if (analysisData.hook_types) {
+        createChart('hookTypesChart', 'doughnut', analysisData.hook_types, 'Hook Types');
     }
     
     // Proof elements chart
-    if (analysisData.proof_elements_distribution) {
-        createChart('proofElementsChart', 'bar', analysisData.proof_elements_distribution, 'Proof Elements');
+    if (analysisData.proof_elements) {
+        createChart('proofElementsChart', 'bar', analysisData.proof_elements, 'Proof Elements');
     }
     
     // Mechanisms chart
-    if (analysisData.mechanism_distribution) {
-        createChart('mechanismsChart', 'pie', analysisData.mechanism_distribution, 'Mechanisms');
+    if (analysisData.mechanisms) {
+        createChart('mechanismsChart', 'pie', analysisData.mechanisms, 'Mechanisms');
     }
     
     // Funnel types chart
-    if (analysisData.funnel_type_distribution) {
-        createChart('funnelTypesChart', 'doughnut', analysisData.funnel_type_distribution, 'Funnel Types');
+    if (analysisData.funnel_types) {
+        createChart('funnelTypesChart', 'doughnut', analysisData.funnel_types, 'Funnel Types');
     }
 }
 
@@ -362,6 +370,8 @@ async function loadVideoTranscripts() {
 // Display video transcripts
 function displayVideoTranscripts(transcripts) {
     const videosList = document.getElementById('videosList');
+    if (!videosList) return;
+    
     videosList.innerHTML = '';
     
     transcripts.slice(0, 20).forEach(video => {
@@ -369,21 +379,31 @@ function displayVideoTranscripts(transcripts) {
         videoCard.className = 'bg-white rounded-lg shadow p-6';
         
         let videoSection = '';
-        if (video.videoPath) {
+        if (video.videoUrl) {
             videoSection = `
                 <video class="w-full h-40 object-cover rounded mb-4 video-player" controls>
-                    <source src="${video.videoPath}" type="video/mp4">
+                    <source src="${video.videoUrl}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             `;
         }
         
+        const adInfo = video.adData ? `
+            <div class="mb-3 p-3 bg-indigo-50 rounded">
+                <h4 class="font-semibold text-sm mb-2">📢 Ad Info</h4>
+                <p class="text-sm text-gray-700"><strong>Title:</strong> ${video.adData.title || 'N/A'}</p>
+                <p class="text-sm text-gray-700"><strong>Brand:</strong> ${video.adData.brand || 'N/A'}</p>
+                ${video.adData.share_url ? `<a href="${video.adData.share_url}" target="_blank" class="text-xs text-blue-600 hover:underline">🔗 View on Gethookd</a>` : ''}
+            </div>
+        ` : '';
+        
         videoCard.innerHTML = `
             ${videoSection}
             <h3 class="font-semibold text-gray-900 mb-3">${video.id}</h3>
+            ${adInfo}
             <div class="bg-gray-50 rounded p-3">
                 <h4 class="font-semibold text-sm mb-2">📝 Transcript</h4>
-                <p class="text-sm text-gray-700">${video.transcript}</p>
+                <div class="text-sm text-gray-700 max-h-32 overflow-y-auto">${video.transcript}</div>
             </div>
             <div class="mt-3 p-3 bg-blue-50 rounded">
                 <h4 class="font-semibold text-sm mb-2">💡 Key Insights</h4>
