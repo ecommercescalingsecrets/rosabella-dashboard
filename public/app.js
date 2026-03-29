@@ -112,16 +112,21 @@ function displayAds(ads) {
         let mediaSection = '';
         if (ad.media && ad.media.length > 0) {
             const media = ad.media[0];
+            const thumbUrl = media.thumbnail_url || media.url;
             if (media.type === 'video') {
                 mediaSection = `
-                    <video class="w-full h-48 object-cover video-player" controls>
-                        <source src="${media.url}" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <div class="relative cursor-pointer" onclick="this.innerHTML='<video class=\\'w-full h-48 object-cover\\' controls autoplay><source src=\\'${media.url}\\' type=\\'video/mp4\\'></video>'">
+                        <img src="${thumbUrl}" alt="Video thumbnail" class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="bg-black bg-opacity-50 rounded-full w-12 h-12 flex items-center justify-center">
+                                <span class="text-white text-xl">▶</span>
+                            </div>
+                        </div>
+                    </div>
                 `;
             } else if (media.type === 'image') {
                 mediaSection = `
-                    <img src="${media.url}" alt="Ad creative" class="w-full h-48 object-cover">
+                    <img src="${thumbUrl}" alt="Ad creative" class="w-full h-48 object-cover">
                 `;
             }
         }
@@ -139,16 +144,20 @@ function displayAds(ads) {
             `;
         }
         
+        // Sanitize body text - strip HTML tags
+        const sanitizedBody = (ad.body || '').replace(/<[^>]*>/g, '').substring(0, 150);
+        const bodyEllipsis = (ad.body || '').replace(/<[^>]*>/g, '').length > 150 ? '...' : '';
+        
         adCard.innerHTML = `
+            ${mediaSection}
             <div class="p-4">
-                ${mediaSection}
-                <div class="mt-4">
+                <div>
                     <div class="flex justify-between items-start mb-2">
                         <span class="text-sm font-semibold text-blue-600">${brandName}</span>
                         ${ad.performance_score ? `<span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">Score: ${ad.performance_score}</span>` : ''}
                     </div>
                     <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2">${ad.title || 'No title'}</h3>
-                    <p class="text-sm text-gray-600 mb-3 line-clamp-3">${(ad.body || '').substring(0, 150)}${(ad.body || '').length > 150 ? '...' : ''}</p>
+                    <p class="text-sm text-gray-600 mb-3 line-clamp-3">${sanitizedBody}${bodyEllipsis}</p>
                     
                     <div class="flex justify-between items-center text-xs text-gray-500 mb-3">
                         <span>📅 ${ad.days_active || 0} days active</span>
