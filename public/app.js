@@ -115,8 +115,8 @@ function displayAds(ads) {
             const thumbUrl = media.thumbnail_url || media.url;
             if (media.type === 'video') {
                 mediaSection = `
-                    <div class="relative cursor-pointer" onclick="this.innerHTML='<video class=\\'w-full h-48 object-cover\\' controls autoplay><source src=\\'${media.url}\\' type=\\'video/mp4\\'></video>'">
-                        <img src="${thumbUrl}" alt="Video thumbnail" class="w-full h-48 object-cover">
+                    <div class="relative cursor-pointer" onclick="this.innerHTML='<video class=\\'w-full\\' controls autoplay><source src=\\'${media.url}\\' type=\\'video/mp4\\'></video>'">
+                        <img src="${thumbUrl}" alt="Video thumbnail" class="w-full rounded-t-lg">
                         <div class="absolute inset-0 flex items-center justify-center">
                             <div class="bg-black bg-opacity-50 rounded-full w-12 h-12 flex items-center justify-center">
                                 <span class="text-white text-xl">▶</span>
@@ -126,7 +126,7 @@ function displayAds(ads) {
                 `;
             } else if (media.type === 'image') {
                 mediaSection = `
-                    <img src="${thumbUrl}" alt="Ad creative" class="w-full h-48 object-cover">
+                    <img src="${thumbUrl}" alt="Ad creative" class="w-full rounded-t-lg">
                 `;
             }
         }
