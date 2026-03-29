@@ -20,16 +20,20 @@ function loadJsonFile(filePath) {
   }
 }
 
-// Load all data
-const dataPath = './data';
-const masterAds = loadJsonFile(path.join(__dirname, dataPath, 'top_ads_master_list.json'));
-const overviewStats = loadJsonFile(path.join(__dirname, dataPath, 'dashboard_overview_stats.json'));
-const analysisResults = loadJsonFile(path.join(__dirname, dataPath, 'analysis_results', 'sample_analysis_consolidated.json'));
-const analysisSummary = loadJsonFile(path.join(__dirname, dataPath, 'analysis_results', 'analysis_summary.json'));
+// Load all data - use __dirname to ensure correct path resolution
+const dataPath = path.resolve(__dirname, 'data');
+console.log('Data path resolved to:', dataPath);
+console.log('__dirname:', __dirname);
+console.log('Data dir exists:', fs.existsSync(dataPath));
+try { console.log('Data dir contents:', fs.readdirSync(dataPath)); } catch(e) { console.log('Cannot read data dir:', e.message); }
+const masterAds = loadJsonFile(path.join(dataPath, 'top_ads_master_list.json'));
+const overviewStats = loadJsonFile(path.join(dataPath, 'dashboard_overview_stats.json'));
+const analysisResults = loadJsonFile(path.join(dataPath, 'analysis_results', 'sample_analysis_consolidated.json'));
+const analysisSummary = loadJsonFile(path.join(dataPath, 'analysis_results', 'analysis_summary.json'));
 
 // Load and consolidate all individual analysis files
 function loadAllAnalysisData() {
-  const analysisDir = path.join(__dirname, dataPath, 'analysis_results');
+  const analysisDir = path.join(dataPath, 'analysis_results');
   const consolidatedAnalysis = { ...(analysisResults || {}) };
   
   try {
@@ -172,8 +176,8 @@ app.get('/api/analysis-summary', (req, res) => {
 });
 
 app.get('/api/video-transcripts', (req, res) => {
-  const transcriptsPath = path.join(__dirname, './data/transcripts');
-  const videoMetadata = loadJsonFile(path.join(__dirname, dataPath, 'top_20_videos_for_transcription.json'));
+  const transcriptsPath = path.join(dataPath, 'transcripts');
+  const videoMetadata = loadJsonFile(path.join(dataPath, 'top_20_videos_for_transcription.json'));
   const transcripts = [];
   
   try {
