@@ -1,0 +1,256 @@
+{
+  "specific_hooks": [
+    {
+      "hook": "This almost never happens.",
+      "count": 74,
+      "percentage": 23.0
+    },
+    {
+      "hook": "My daughter sat me down and told me she was putting me in a care home, and what happened next nearly killed me.",
+      "count": 16,
+      "percentage": 5.0
+    },
+    {
+      "hook": "I Found My Husband Sitting in His Car in the Driveway at 11 PM. Engine Off. Just Sitting There. He Couldn't Bring Himsel",
+      "count": 13,
+      "percentage": 4.0
+    },
+    {
+      "hook": "I Refused Lisinopril for 3 Years. Here's What Happened to My Blood Pressure.",
+      "count": 12,
+      "percentage": 3.7
+    },
+    {
+      "hook": "Introducing Rosabella Organic Beetroot Capsules \u2013 a natural formula with proven ingredients to help\u2026",
+      "count": 11,
+      "percentage": 3.4
+    },
+    {
+      "hook": "\ud83d\udea8 Seeing \u201cbeetroot\u201d bottles that look exactly like the real thing?",
+      "count": 7,
+      "percentage": 2.2
+    },
+    {
+      "hook": "In 1950, the average 70-year-old man reported having s*x 1-2 times daily. Today, 75% of men over 50 struggle to get it u",
+      "count": 7,
+      "percentage": 2.2
+    },
+    {
+      "hook": "If you're on Lisinopril or Amlodipine and things have gone dead below the belt \u2014 there's a reason. And it's not your age",
+      "count": 7,
+      "percentage": 2.2
+    },
+    {
+      "hook": "If a man has been on Lisinopril for years, this is what might be quietly happening to his body.",
+      "count": 6,
+      "percentage": 1.9
+    },
+    {
+      "hook": "\ud83d\udea8 Flip your beetroot bottle over.",
+      "count": 6,
+      "percentage": 1.9
+    },
+    {
+      "hook": "\ud83d\udea8 Lisinopril. Amlodipine. Losartan. Metoprolol.",
+      "count": 6,
+      "percentage": 1.9
+    },
+    {
+      "hook": "This is what happens when a person with high cholesterol takes Beetroot every single day on an empty stomach.",
+      "count": 6,
+      "percentage": 1.9
+    },
+    {
+      "hook": "Introducing Rosabella Moringa Powder Capsules \u2013 an all-natural supplement with science-backed ingredients to help\u2026",
+      "count": 5,
+      "percentage": 1.6
+    },
+    {
+      "hook": "I saw a statistic that made me sick. 90% of people on blood pressure medication for twenty-plus years die from the exact",
+      "count": 5,
+      "percentage": 1.6
+    },
+    {
+      "hook": "Got prescribed Levothyroxine today. The same medication that took my mother's life before she was even gone.",
+      "count": 5,
+      "percentage": 1.6
+    },
+    {
+      "hook": "My mother lost her mind at 44. Not dementia. Not Alzheimer's. Something the doctors said was \"just stress\" and \"part of ",
+      "count": 5,
+      "percentage": 1.6
+    },
+    {
+      "hook": "Most men have no idea this one food is the real key to a flat stomach and better performance \ud83d\udc40",
+      "count": 5,
+      "percentage": 1.6
+    },
+    {
+      "hook": "My husband came out as gay after 26 years of marriage and it nearly killed me.",
+      "count": 5,
+      "percentage": 1.6
+    },
+    {
+      "hook": "If you took Rosabella every day for 30 days\u2026 the real change starts with your blood vessels.",
+      "count": 5,
+      "percentage": 1.6
+    },
+    {
+      "hook": "Three warning signs your blood pressure is getting worse. And the last one is the one nobody\u2019s talking about.",
+      "count": 4,
+      "percentage": 1.2
+    },
+    {
+      "hook": "If your doctor's talking about statins but you're desperate to avoid it... this is for you.",
+      "count": 4,
+      "percentage": 1.2
+    },
+    {
+      "hook": "Here is a list of all the supplements you don't need if you take Moringa.",
+      "count": 4,
+      "percentage": 1.2
+    },
+    {
+      "hook": "Are you not hungry for breakfast in the morning?",
+      "count": 4,
+      "percentage": 1.2
+    },
+    {
+      "hook": "I need to publicly apologize to anyone who's ever bought Rosabella Moringa before... because I lied.",
+      "count": 3,
+      "percentage": 0.9
+    },
+    {
+      "hook": "This is what happens when a person with parasites takes Moringa every single day on an empty stomach.",
+      "count": 3,
+      "percentage": 0.9
+    },
+    {
+      "hook": "After 15 Years as an ER Nurse, I've Watched Patients Get Addicted to Xanax While Their Cortisol Stayed High. Then I Got ",
+      "count": 3,
+      "percentage": 0.9
+    },
+    {
+      "hook": "My Pharmacist Told Me to Stop Taking All My Vitamins. I Thought She Was Crazy. She Wasn't.",
+      "count": 3,
+      "percentage": 0.9
+    },
+    {
+      "hook": "Feel your heart pounding at night or that constant pressure in your head?",
+      "count": 3,
+      "percentage": 0.9
+    },
+    {
+      "hook": "My husband took atorvastatin for 14 years. His numbers were perfect the entire time. LDL of 94. His doctor was thrilled.",
+      "count": 3,
+      "percentage": 0.9
+    },
+    {
+      "hook": "If you feel an itchy anus at night, there's something alive inside you and it feeds off what you eat.",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "I need to publicly apologize to anyone who's ever bought Rosabella Beetroot before, because I lied.",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "We need to publicly apologize to every person who has ever been prescribed Lisinopril.",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "Amlodipine. I don\u2019t care how long you\u2019ve been on it. It\u2019s not fixing the problem.",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "Losartan. I don\u2019t care how long you\u2019ve been on it. It\u2019s not fixing the problem.",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "My nephew been on me to post this for two months. I told him it wasn't nobody's business. He said it could save somebody",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "My nephew been on me to post this for months now. I told him mind his business. He said somebody out here need to hear w",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "Metoprolol. I don\u2019t care how long you\u2019ve been on it. It\u2019s not fixing the problem.",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "My Husband Has Been Sleeping On the Couch For Two Weeks. When I Finally Got Him To Tell Me Why, I Wished I'd Never Asked",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "This is what happens when a person with chronic inflammation takes Moringa every single day on an empty stomach.",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "The number one nutrient to lower your cortisol is not magnesium, it's not ashwagandha, and it's definitely not vitamin B",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "I\u2019m Lisinopril. Your doctor\u2019s favorite prescription\u2026 and I\u2019ve been running your mornings ever since that first pill.",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "For six years, I thought my body was breaking down in six different ways. Joint pain. Fatigue. Sleep problems. Belly fat",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "Five signs high cortisol is aging you faster than it should.",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "Elon Musk had a visibly receding hairline in his early PayPal days. Now? Thick and full. Your dermatologist will tell yo",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "Are you not hungry for breakfast in the morning? That's parasites.",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "I need to publicly apologize to anyone who's ever been prescribed Lisinopril.",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "If you take two moringa capsules daily for two weeks straight, this is what would happen to the parasites living inside ",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "Your penis is the smallest blood vessel in your body. It's the first thing that fails when your heart is in trouble. And",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "If you're dealing with beetroot that doesn't work, inconsistent results, zero benefits, or thinking it's ineffective - i",
+      "count": 2,
+      "percentage": 0.6
+    },
+    {
+      "hook": "I owe every single Rosabella customer a huge apology because I lied.",
+      "count": 1,
+      "percentage": 0.3
+    }
+  ],
+  "total_ads": 322,
+  "unique_hooks": 91
+}

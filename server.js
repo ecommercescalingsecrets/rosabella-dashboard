@@ -300,3 +300,9 @@ app.get('/api/debug', (req, res) => {
   } catch(e) {}
   res.json(debugInfo);
 });
+
+// Hooks analysis endpoint
+app.get('/api/hooks', (req, res) => {
+  const hooksData = loadJsonFile(path.join(dataPath, 'hooks_analysis.json'));
+  res.json(hooksData);
+});

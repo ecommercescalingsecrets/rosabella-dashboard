@@ -486,3 +486,48 @@ function determineFunnelType(url) {
     if (url.includes('/sp') || url.includes('/sales-page/')) return 'Direct Sales Page';
     return 'Direct to Product';
 }
+// Load and display specific hooks
+async function loadSpecificHooks() {
+    try {
+        const response = await fetch('/api/hooks');
+        const data = await response.json();
+        if (!data) return;
+        
+        const stats = document.getElementById('hooksStats');
+        if (stats) {
+            stats.textContent = `${data.unique_hooks} unique hooks across ${data.total_ads} ads`;
+        }
+        
+        const container = document.getElementById('specificHooksList');
+        if (!container) return;
+        container.innerHTML = '';
+        
+        const maxCount = data.specific_hooks[0]?.count || 1;
+        
+        data.specific_hooks.forEach((item, idx) => {
+            const barWidth = Math.max(5, (item.count / maxCount) * 100);
+            const div = document.createElement('div');
+            div.className = 'flex items-start gap-3 p-3 rounded hover:bg-gray-50 border border-gray-100';
+            div.innerHTML = `
+                <div class="flex-shrink-0 w-8 text-right">
+                    <span class="text-sm font-bold text-blue-600">#${idx + 1}</span>
+                </div>
+                <div class="flex-1 min-w-0">
+                    <p class="text-sm text-gray-900 font-medium">"${item.hook}"</p>
+                    <div class="mt-1 flex items-center gap-2">
+                        <div class="flex-1 bg-gray-100 rounded-full h-2">
+                            <div class="bg-blue-500 h-2 rounded-full" style="width: ${barWidth}%"></div>
+                        </div>
+                        <span class="text-xs text-gray-500 flex-shrink-0">${item.count}x (${item.percentage}%)</span>
+                    </div>
+                </div>
+            `;
+            container.appendChild(div);
+        });
+    } catch (error) {
+        console.error('Error loading hooks:', error);
+    }
+}
+
+// Call it on page load
+loadSpecificHooks();
