@@ -272,3 +272,27 @@ app.listen(PORT, () => {
   console.log(`Rosabella Analysis Dashboard running on port ${PORT}`);
   console.log(`Open http://localhost:${PORT} to view the dashboard`);
 });// Sun Mar 29 18:27:56 EDT 2026
+
+// Debug endpoint
+app.get('/api/debug', (req, res) => {
+  const fs = require('fs');
+  const debugInfo = {
+    dirname: __dirname,
+    cwd: process.cwd(),
+    dataPathResolved: require('path').join(__dirname, './data'),
+    dataExists: fs.existsSync(require('path').join(__dirname, './data')),
+    dataContents: [],
+    masterAdsLoaded: !!masterAds,
+    masterAdsCount: masterAds?.length || 0,
+    overviewLoaded: !!overviewStats
+  };
+  try {
+    debugInfo.dataContents = fs.readdirSync(require('path').join(__dirname, './data'));
+  } catch(e) {
+    debugInfo.dataError = e.message;
+  }
+  try {
+    debugInfo.appContents = fs.readdirSync(__dirname);
+  } catch(e) {}
+  res.json(debugInfo);
+});
